@@ -621,6 +621,14 @@
     [
       "0293db95-115d-42d2-990d-f9f4568d02e9",
       "MCU"
+    ],
+    [
+      "8bde1870-17fd-4277-9e11-3b03ad7c1e16",
+      "Sensors"
+    ],
+    [
+      "636c513f-d8b7-45ca-ba45-01de0ad6adcc",
+      "OSD"
     ]
   ],
   "text_variables": {}
