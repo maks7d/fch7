@@ -629,6 +629,14 @@
     [
       "636c513f-d8b7-45ca-ba45-01de0ad6adcc",
       "OSD"
+    ],
+    [
+      "fc7fa8bf-8ca0-46b3-82d5-3a5223b4ca6b",
+      "Blackbox_led"
+    ],
+    [
+      "c005db94-b190-4389-8874-35307c577c05",
+      "wifi"
     ]
   ],
   "text_variables": {}
