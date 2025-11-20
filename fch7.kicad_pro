@@ -636,7 +636,11 @@
     ],
     [
       "c005db94-b190-4389-8874-35307c577c05",
-      "wifi"
+      "rf_rx"
+    ],
+    [
+      "304e7e23-68f8-4a1f-930d-8ec3265ffbba",
+      "connectors"
     ]
   ],
   "text_variables": {}

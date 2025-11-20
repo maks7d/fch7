@@ -5939,26 +5939,6 @@
 		)
 		(uuid "0d16e643-bef2-431e-b8cf-25f7cd65b729")
 	)
-	(label "I2C1 CLK"
-		(at 162.56 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1729ba8b-2d19-47f0-befa-7f1be289c30d")
-	)
-	(label "UART4"
-		(at 161.29 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f3edf13-0944-4269-b7f5-7add74623edc")
-	)
 	(label "UART8"
 		(at 106.68 59.69 0)
 		(effects
@@ -5968,26 +5948,6 @@
 			(justify left bottom)
 		)
 		(uuid "6fac04c9-418e-42d5-bc05-a21d0fff96f1")
-	)
-	(label "UART4"
-		(at 161.29 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a77fcfdd-3cb1-43b8-8451-a9a079ff2bec")
-	)
-	(label "I2C1 SDA"
-		(at 162.56 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4c71acf-026a-410e-acc8-5f9050d7a933")
 	)
 	(global_label "SPI2_MOSI"
 		(shape input)
