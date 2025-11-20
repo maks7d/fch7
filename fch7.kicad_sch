@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 650.24 -109.22)
+		(size 248.92 86.36)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "304e7e23-68f8-4a1f-930d-8ec3265ffbba")
+		(property "Sheetname" "connectors"
+			(at 650.24 -109.9316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 650.24 -22.2754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fch7"
+				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at -8.89 222.25)
 		(size 398.78 271.78)
 		(exclude_from_sim no)
@@ -189,7 +231,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c005db94-b190-4389-8874-35307c577c05")
-		(property "Sheetname" "wifi"
+		(property "Sheetname" "rf_rx"
 			(at -242.57 -158.1916 0)
 			(effects
 				(font
@@ -198,7 +240,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "wifi.kicad_sch"
+		(property "Sheetfile" "rf_rx.kicad_sch"
 			(at -242.57 -32.4354 0)
 			(effects
 				(font
