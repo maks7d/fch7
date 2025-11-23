@@ -2684,7 +2684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 153.3652 69.85 0)
 			(effects
 				(font
@@ -2953,7 +2953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.1852 137.16 0)
 			(effects
 				(font
@@ -3021,7 +3021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 68.58 130.81 0)
 			(effects
 				(font
@@ -3290,7 +3290,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_Open"
+		(property "Value" "TS24CA"
 			(at 148.59 142.24 0)
 			(effects
 				(font
@@ -3481,7 +3481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c84dced-7f11-44d2-869f-3c990d9e7bbe")
-		(property "Reference" "U12"
+		(property "Reference" "U13"
 			(at 221.488 90.678 0)
 			(effects
 				(font
@@ -3489,7 +3489,7 @@
 				)
 			)
 		)
-		(property "Value" "wifi_rf"
+		(property "Value" "WIFI_RF_MODULE"
 			(at 221.742 92.964 0)
 			(effects
 				(font
@@ -3569,7 +3569,7 @@
 		(instances
 			(project "fch7"
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/c005db94-b190-4389-8874-35307c577c05"
-					(reference "U12")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -3651,7 +3651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7eb6dc2-c243-44d5-a067-76e75811e86a")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 94.615 43.18 0)
 			(effects
 				(font
@@ -3712,7 +3712,7 @@
 		(instances
 			(project "fch7"
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/c005db94-b190-4389-8874-35307c577c05"
-					(reference "U10")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -3746,7 +3746,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 166.37 63.5 0)
 			(effects
 				(font
@@ -3894,7 +3894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 134.3152 123.19 0)
 			(effects
 				(font
@@ -4167,7 +4167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 140.6652 69.85 0)
 			(effects
 				(font
@@ -4219,7 +4219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5a92edc-a080-44b0-ab22-c31c05ec325a")
-		(property "Reference" "U11"
+		(property "Reference" "U12"
 			(at 100.33 111.76 0)
 			(effects
 				(font
@@ -4319,7 +4319,7 @@
 		(instances
 			(project "fch7"
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/c005db94-b190-4389-8874-35307c577c05"
-					(reference "U11")
+					(reference "U12")
 					(unit 1)
 				)
 			)

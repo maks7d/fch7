@@ -3030,7 +3030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "211a708f-4890-4f09-b54a-a33abe7a7bcb")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 194.056 82.804 0)
 			(effects
 				(font
@@ -3100,7 +3100,7 @@
 		(instances
 			(project "fch7"
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/436f6237-706d-4072-be43-3abf579550aa"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3134,7 +3134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 75.8952 137.16 0)
 			(effects
 				(font
@@ -3204,7 +3204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 63.1952 137.16 0)
 			(effects
 				(font
@@ -3274,7 +3274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 120.3452 100.33 0)
 			(effects
 				(font
@@ -3344,7 +3344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.2152 55.88 0)
 			(effects
 				(font
@@ -3448,7 +3448,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07"
+		(property "MPN" ""
 			(at 201.93 76.2 90)
 			(effects
 				(font
@@ -3854,7 +3854,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 189.23 106.3752 0)
 			(effects
 				(font
@@ -4190,7 +4190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.1152 55.88 0)
 			(effects
 				(font
@@ -4592,7 +4592,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.37 87.9348 0)
 			(effects
 				(font
@@ -4662,7 +4662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 256.2352 99.06 0)
 			(effects
 				(font
@@ -4864,7 +4864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 70.8152 55.88 0)
 			(effects
 				(font
@@ -4934,7 +4934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 108.9152 55.88 0)
 			(effects
 				(font
@@ -5210,7 +5210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 45.4152 135.89 0)
 			(effects
 				(font
@@ -5261,7 +5261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a95044ee-7b22-496d-a3f0-dcd6c6d2adf1")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 78.994 33.02 0)
 			(effects
 				(font
@@ -5331,7 +5331,7 @@
 		(instances
 			(project ""
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/436f6237-706d-4072-be43-3abf579550aa"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5363,7 +5363,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 66.04 107.6452 0)
 			(effects
 				(font
@@ -5484,7 +5484,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0aa57fe-4fd9-451e-8ebb-19b84b60c946")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 70.866 84.328 0)
 			(effects
 				(font
@@ -5554,7 +5554,7 @@
 		(instances
 			(project ""
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/436f6237-706d-4072-be43-3abf579550aa"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5586,7 +5586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 109.22 92.71 0)
 			(effects
 				(font
@@ -5724,7 +5724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 133.0452 100.33 0)
 			(effects
 				(font
@@ -5932,7 +5932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 243.5352 99.06 0)
 			(effects
 				(font
@@ -6202,7 +6202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 43.18 89.2048 0)
 			(effects
 				(font
@@ -6404,7 +6404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 32.7152 135.89 0)
 			(effects
 				(font
@@ -6472,7 +6472,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 232.41 91.44 0)
 			(effects
 				(font
