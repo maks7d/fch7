@@ -580,20 +580,228 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "fclib:ME6217c33M5G"
+		(symbol "MP9943GQ-z_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U4"
+				(at 0 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "MP9943GQ-Z"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MP9943GQ-z_1_0_1"
+				(rectangle
+					(start -10.16 6.35)
+					(end 10.16 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MP9943GQ-z_1_1_1"
+				(pin bidirectional line
+					(at -15.24 3.81 0)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 1.27 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -1.27 0)
+					(length 5.08)
+					(name "EN/SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -3.81 0)
+					(length 5.08)
+					(name "BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 3.81 180)
+					(length 5.08)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 1.27 180)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -1.27 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -3.81 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "fclib:ME6217c33M5G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U2"
+				(at 0.254 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ME6217C33M5G"
+				(at 0.508 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -629,8 +837,8 @@
 			)
 			(symbol "ME6217c33M5G_0_1"
 				(rectangle
-					(start 3.81 -2.54)
-					(end 20.32 -10.16)
+					(start -7.62 3.81)
+					(end 8.89 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -642,7 +850,7 @@
 			)
 			(symbol "ME6217c33M5G_1_1"
 				(pin bidirectional line
-					(at -1.27 -3.81 0)
+					(at -12.7 2.54 0)
 					(length 5.08)
 					(name "VIN"
 						(effects
@@ -660,7 +868,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -1.27 -6.35 0)
+					(at -12.7 0 0)
 					(length 5.08)
 					(name "VSS"
 						(effects
@@ -678,7 +886,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -1.27 -8.89 0)
+					(at -12.7 -2.54 0)
 					(length 5.08)
 					(name "CE"
 						(effects
@@ -696,7 +904,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -5.08 180)
+					(at 8.89 1.27 180)
 					(length 5.08)
 					(name "VOUT"
 						(effects
@@ -714,7 +922,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -8.89 180)
+					(at 8.89 -2.54 180)
 					(length 5.08)
 					(name "NC"
 						(effects
@@ -738,16 +946,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U3"
+				(at 0 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "MP9943GQ-Z"
+				(at 0.254 7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -783,8 +991,8 @@
 			)
 			(symbol "MP9943GQ-z_0_1"
 				(rectangle
-					(start 2.54 -2.54)
-					(end 22.86 -15.24)
+					(start -10.16 6.35)
+					(end 10.16 -6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -796,7 +1004,7 @@
 			)
 			(symbol "MP9943GQ-z_1_1"
 				(pin bidirectional line
-					(at -2.54 -5.08 0)
+					(at -15.24 3.81 0)
 					(length 5.08)
 					(name "FB"
 						(effects
@@ -814,7 +1022,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -2.54 -7.62 0)
+					(at -15.24 1.27 0)
 					(length 5.08)
 					(name "VCC"
 						(effects
@@ -832,7 +1040,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -2.54 -10.16 0)
+					(at -15.24 -1.27 0)
 					(length 5.08)
 					(name "EN/SYNC"
 						(effects
@@ -850,7 +1058,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -2.54 -12.7 0)
+					(at -15.24 -3.81 0)
 					(length 5.08)
 					(name "BST"
 						(effects
@@ -868,7 +1076,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 -5.08 180)
+					(at 15.24 3.81 180)
 					(length 5.08)
 					(name "PG"
 						(effects
@@ -886,7 +1094,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 -7.62 180)
+					(at 15.24 1.27 180)
 					(length 5.08)
 					(name "IN"
 						(effects
@@ -904,7 +1112,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 -10.16 180)
+					(at 15.24 -1.27 180)
 					(length 5.08)
 					(name "SW"
 						(effects
@@ -922,7 +1130,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 -12.7 180)
+					(at 15.24 -3.81 180)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -2770,7 +2978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 168.402 149.86 90)
 			(effects
 				(font
@@ -2813,25 +3021,25 @@
 		)
 	)
 	(symbol
+		(lib_name "MP9943GQ-z_1")
 		(lib_id "fclib:MP9943GQ-z")
-		(at 189.23 81.28 0)
+		(at 201.93 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "211a708f-4890-4f09-b54a-a33abe7a7bcb")
-		(property "Reference" "U4"
-			(at 201.93 78.74 0)
+		(property "Reference" "U2"
+			(at 194.056 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 201.93 81.28 0)
+		(property "Value" "MP9943GQ-Z"
+			(at 209.042 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +3047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 81.28 0)
+			(at 201.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,7 +3056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 81.28 0)
+			(at 201.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +3065,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 81.28 0)
+			(at 201.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +3100,7 @@
 		(instances
 			(project "fch7"
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/436f6237-706d-4072-be43-3abf579550aa"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3204,7 +3412,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 201.93 77.978 90)
 			(effects
 				(font
@@ -3224,6 +3432,42 @@
 		)
 		(property "Description" "Resistor"
 			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 201.93 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07"
+			(at 201.93 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 201.93 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 201.93 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3516,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 204.47 103.632 90)
 			(effects
 				(font
@@ -3400,7 +3644,7 @@
 				)
 			)
 		)
-		(property "Value" "41,2k"
+		(property "Value" "41.2k"
 			(at 179.07 139.7 90)
 			(effects
 				(font
@@ -3408,7 +3652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 179.07 141.732 90)
 			(effects
 				(font
@@ -3476,7 +3720,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 81.28 104.902 90)
 			(effects
 				(font
@@ -3678,7 +3922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 78.74 79.248 90)
 			(effects
 				(font
@@ -4014,7 +4258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 161.29 141.732 90)
 			(effects
 				(font
@@ -4074,7 +4318,7 @@
 				)
 			)
 		)
-		(property "Value" "41,2k"
+		(property "Value" "41.2k"
 			(at 120.65 139.7 90)
 			(effects
 				(font
@@ -4082,7 +4326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 120.65 141.732 90)
 			(effects
 				(font
@@ -4760,7 +5004,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 53.848 99.06 90)
 			(effects
 				(font
@@ -4896,7 +5140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 109.982 149.86 90)
 			(effects
 				(font
@@ -5010,14 +5254,14 @@
 	)
 	(symbol
 		(lib_id "fclib:ME6217c33M5G")
-		(at 67.31 31.75 0)
+		(at 78.74 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a95044ee-7b22-496d-a3f0-dcd6c6d2adf1")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 78.994 33.02 0)
 			(effects
 				(font
@@ -5025,17 +5269,16 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 79.375 31.75 0)
+		(property "Value" "ME6217C33M5G"
+			(at 79.248 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 31.75 0)
+			(at 78.74 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +5287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 31.75 0)
+			(at 78.74 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +5296,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 31.75 0)
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 78.74 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +5331,7 @@
 		(instances
 			(project ""
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/436f6237-706d-4072-be43-3abf579550aa"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5181,7 +5433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 156.972 34.29 90)
 			(effects
 				(font
@@ -5225,24 +5477,23 @@
 	)
 	(symbol
 		(lib_id "fclib:MP9943GQ-z")
-		(at 66.04 82.55 0)
+		(at 78.74 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c0aa57fe-4fd9-451e-8ebb-19b84b60c946")
 		(property "Reference" "U3"
-			(at 78.74 80.01 0)
+			(at 70.866 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 78.74 82.55 0)
+		(property "Value" "MP9943GQ-Z"
+			(at 87.884 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 82.55 0)
+			(at 78.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +5510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 82.55 0)
+			(at 78.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +5519,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 82.55 0)
+			(at 78.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +5654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.87 141.732 90)
 			(effects
 				(font
@@ -5611,7 +5862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 156.972 50.8 90)
 			(effects
 				(font
@@ -5817,7 +6068,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.038 97.79 90)
 			(effects
 				(font

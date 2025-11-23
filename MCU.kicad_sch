@@ -4265,6 +4265,12 @@
 		(color 0 0 0 0)
 		(uuid "f9b26f7e-ffa0-4ea5-aea4-68da27c65fe4")
 	)
+	(junction
+		(at 204.47 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff8cb161-d67f-4f9d-94f9-b736721ec703")
+	)
 	(no_connect
 		(at 158.75 130.81)
 		(uuid "075c3dcd-376e-492d-9e65-40d0f9d30280")
@@ -5618,6 +5624,16 @@
 			(type default)
 		)
 		(uuid "cf03cc82-7b1d-470b-a54f-d14200d5edf0")
+	)
+	(wire
+		(pts
+			(xy 204.47 118.11) (xy 207.01 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14bb943-52de-4bca-b280-b3459f8b9d50")
 	)
 	(wire
 		(pts
@@ -7073,22 +7089,22 @@
 	)
 	(global_label "VDD_MCU"
 		(shape input)
-		(at 195.58 118.11 270)
+		(at 207.01 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "98ce349f-7aca-4fac-94db-64eb0708c176")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 129.7433 90)
+			(at 218.6433 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8352,7 +8368,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 199.898 90.17 90)
 			(effects
 				(font
@@ -8628,7 +8644,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 98.298 45.72 90)
 			(effects
 				(font
@@ -9039,7 +9055,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 206.248 111.76 90)
 			(effects
 				(font
@@ -9313,7 +9329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.278 90.17 90)
 			(effects
 				(font
@@ -9448,7 +9464,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 197.358 111.76 90)
 			(effects
 				(font
@@ -9517,7 +9533,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 240.03 140.462 90)
 			(effects
 				(font
@@ -9586,7 +9602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 240.03 143.002 90)
 			(effects
 				(font
@@ -9706,7 +9722,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d669040c-a308-4efc-b0a8-afee50be1679")
 		(property "Reference" "Y1"
 			(at 72.39 54.61 0)
@@ -9749,6 +9764,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Fréquence" "8M"
+			(at 68.58 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

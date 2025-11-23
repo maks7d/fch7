@@ -1935,18 +1935,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "05322b55-0b10-4d17-89d2-68f64b0e608d")
-		(property "Reference" "D13"
-			(at 39.6875 80.01 0)
+		(property "Reference" "D9"
+			(at 33.274 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 39.6875 82.55 0)
+		(property "Value" "NCD0603R3"
+			(at 48.006 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,7 +1997,7 @@
 		(instances
 			(project "fch7"
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/fc7fa8bf-8ca0-46b3-82d5-3a5223b4ca6b"
-					(reference "D13")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2014,7 +2013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "102fce9f-bd14-4de0-93d6-cc7ad4aeb0c0")
-		(property "Reference" "U10"
+		(property "Reference" "U9"
 			(at 167.005 52.07 0)
 			(effects
 				(font
@@ -2022,7 +2021,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "CSNP1GCR01-BOW"
 			(at 167.005 54.61 0)
 			(effects
 				(font
@@ -2084,7 +2083,7 @@
 		(instances
 			(project ""
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/fc7fa8bf-8ca0-46b3-82d5-3a5223b4ca6b"
-					(reference "U10")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2098,18 +2097,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "12b0c715-ad64-4c48-bfbf-a9c3bd1ab6fe")
 		(property "Reference" "D11"
-			(at 38.4175 105.41 0)
+			(at 33.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 38.4175 107.95 0)
+		(property "Value" "NCD0603R3"
+			(at 47.244 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 199.39 69.088 90)
 			(effects
 				(font
@@ -2308,18 +2306,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1ce08828-5989-442a-847d-36ae6b753d6d")
-		(property "Reference" "D6"
-			(at 39.6875 58.42 0)
+		(property "Reference" "D7"
+			(at 35.052 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 39.6875 60.96 0)
+		(property "Value" "NCD0603R3"
+			(at 47.244 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2368,7 @@
 		(instances
 			(project "fch7"
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/fc7fa8bf-8ca0-46b3-82d5-3a5223b4ca6b"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2402,7 +2399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 199.39 65.278 90)
 			(effects
 				(font
@@ -2470,7 +2467,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.88 104.648 90)
 			(effects
 				(font
@@ -2537,7 +2534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 146.05 61.468 90)
 			(effects
 				(font
@@ -2671,7 +2668,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.61 124.968 90)
 			(effects
 				(font
@@ -2739,7 +2736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.88 48.768 90)
 			(effects
 				(font
@@ -2789,18 +2786,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65eb1430-17df-4603-b7b1-5280ccf79663")
 		(property "Reference" "D3"
-			(at 39.6875 17.78 0)
+			(at 35.306 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 39.6875 20.32 0)
+		(property "Value" "NCD0603R3"
+			(at 48.006 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,18 +2862,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6728cd85-8311-440c-ad38-51b0394be308")
 		(property "Reference" "D5"
-			(at 39.6875 39.37 0)
+			(at 35.306 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 39.6875 41.91 0)
+		(property "Value" "NCD0603R3"
+			(at 48.006 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,7 +2956,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.88 27.178 90)
 			(effects
 				(font
@@ -3028,7 +3023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 146.05 65.278 90)
 			(effects
 				(font
@@ -3095,7 +3090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 199.39 72.898 90)
 			(effects
 				(font
@@ -3280,18 +3275,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "87b6bd2b-36c7-4dca-94f4-1d92ed5d1318")
-		(property "Reference" "D8"
-			(at 39.6875 48.26 0)
+		(property "Reference" "D6"
+			(at 34.798 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 39.6875 50.8 0)
+		(property "Value" "NCD0603R3"
+			(at 47.752 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3337,7 @@
 		(instances
 			(project "fch7"
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/fc7fa8bf-8ca0-46b3-82d5-3a5223b4ca6b"
-					(reference "D8")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3375,7 +3369,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.88 37.338 90)
 			(effects
 				(font
@@ -3425,18 +3419,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9d1fdf42-2437-4433-8158-465d8afe806b")
 		(property "Reference" "D4"
-			(at 39.6875 27.94 0)
+			(at 34.798 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 39.6875 30.48 0)
+		(property "Value" "NCD0603R3"
+			(at 47.498 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,18 +3495,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a70e6b33-8ea6-4196-aba3-e7679c9f5757")
-		(property "Reference" "D7"
-			(at 39.6875 69.85 0)
+		(property "Reference" "D8"
+			(at 33.782 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 39.6875 72.39 0)
+		(property "Value" "NCD0603R3"
+			(at 48.514 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3557,7 @@
 		(instances
 			(project "fch7"
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/fc7fa8bf-8ca0-46b3-82d5-3a5223b4ca6b"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3597,7 +3589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.88 89.408 90)
 			(effects
 				(font
@@ -3647,18 +3639,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ba358230-1ae2-4b83-b156-696ef7d61ced")
 		(property "Reference" "D10"
-			(at 39.6875 95.25 0)
+			(at 34.29 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 39.6875 97.79 0)
+		(property "Value" "NCD0603R3"
+			(at 48.26 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,18 +3715,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bd16cec8-48cd-4c59-9064-80c5a88582a3")
 		(property "Reference" "D12"
-			(at 38.4175 115.57 0)
+			(at 32.766 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 38.4175 118.11 0)
+		(property "Value" "NCD0603R3"
+			(at 44.704 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +3957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.88 67.818 90)
 			(effects
 				(font
