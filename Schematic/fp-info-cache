@@ -1,4 +1,4 @@
-26784960757822464
+26790252800436093
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106449,9 +106449,30 @@ SOT23-5
 5
 5
 fch7_fp
+SolderPad_1x01_SMD_2.2x1.6mm
+
+
+0
+1
+1
+fch7_fp
 TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL-EP-2
 
 
 0
 29
 29
+fch7_fp
+WIFIM-SMD_ESP-01F-2M
+
+
+0
+19
+19
+fch7_fp
+WIRELM-SMD_E28-2G4M27SX
+
+
+0
+16
+16

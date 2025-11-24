@@ -2801,7 +2801,7 @@
 		(dnp no)
 		(uuid "c98850a1-ef1c-451a-a29a-d7750ff82adf")
 		(property "Reference" "R26"
-			(at 119.38 75.438 90)
+			(at 122.428 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)

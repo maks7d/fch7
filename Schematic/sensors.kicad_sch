@@ -4154,7 +4154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IIM42352"
+		(property "Footprint" "fch7_fp:LGA-16_L3.0-W3.0-P0.50-BL_SQ"
 			(at 256.54 131.75 0)
 			(effects
 				(font
@@ -5128,7 +5128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN40P300X300X95-25M-D"
+		(property "Footprint" "fch7_fp:QFN40P300X300X95-25M-D"
 			(at 140.97 143.18 0)
 			(effects
 				(font
