@@ -1,0 +1,204 @@
+Rapport ERC (2025-11-25T23:18:04+0100, Encodage UTF8)
+
+***** Feuille /
+[footprint_link_issues]: La configuration actuelle n'inclut pas la librairie d'empreintes 'ME6217C33M5G'.
+    ; warning
+    @(1750 mils, 1450 mils): Symbole U1 [ME6217C33M5G]
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(2750 mils, 6000 mils): Symbole U12 [elrs_rx]
+[footprint_link_issues]: La configuration actuelle n'inclut pas la librairie d'empreintes 'ProLib_pcs_2025-11-24'.
+    ; warning
+    @(4150 mils, 6300 mils): Symbole SW2 [TS24CA]
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(9250 mils, 2250 mils): Symbole U13 [RF_2.4]
+[footprint_link_issues]: La configuration actuelle n'inclut pas la librairie d'empreintes 'ProLib_pcs_2025-11-25'.
+    ; warning
+    @(1950 mils, 2550 mils): Symbole X1 [XL7EL89COI-111YLC-27M]
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(3150 mils, 1850 mils): Symbole U9 [AT7456E]
+[footprint_link_issues]: La configuration actuelle n'inclut pas la librairie d'empreintes 'ME6217C33M5G'.
+    ; warning
+    @(3100 mils, 1500 mils): Symbole U2 [ME6217C33M5G]
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(6000 mils, 2200 mils): Symbole U10 [CSNP1GCR01-BOW]
+[footprint_link_issues]: La configuration actuelle n'inclut pas la librairie d'empreintes 'ProLib_pcs_2025-11-24'.
+    ; warning
+    @(1950 mils, 1350 mils): Symbole SW1 [TS24CA]
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(2450 mils, 2700 mils): Label Global 'EXTi_CS2'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(2450 mils, 2900 mils): Label Global 'LED_1'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(2450 mils, 3000 mils): Label Global 'PWM_11'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(2450 mils, 3100 mils): Label Global 'PWM_12'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(2450 mils, 3500 mils): Label Global 'SPI1_IMU_CS'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(4300 mils, 1950 mils): Label Global 'EXTI_CS1'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(4500 mils, 1950 mils): Label Global 'SDIO_CMD'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(4600 mils, 1950 mils): Label Global 'CAN_RX'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(4700 mils, 1950 mils): Label Global 'CAN_TX'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(4900 mils, 1950 mils): Label Global 'SDIO_D3'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(5000 mils, 1950 mils): Label Global 'SDIO_D2'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(3500 mils, 5850 mils): Label Global 'RSSI'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(4000 mils, 5850 mils): Label Global 'UART7_TX'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(4100 mils, 5850 mils): Label Global 'UART7_RTS'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(4200 mils, 5850 mils): Label Global 'UART7_CTS'
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(2250 mils, 1450 mils): Symbole U5 [SPL06-001]
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(2150 mils, 1800 mils): Label Global 'I2C2_SDA'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(2150 mils, 1900 mils): Label Global 'I2C2_SCL'
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(2000 mils, 2800 mils): Symbole U7 [QMC5883L]
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(5100 mils, 1550 mils): Label Global 'SPI1_IMU1_CS'
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(850 mils, 1100 mils): Symbole U14 [HDGC1002WR-S-4P]
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(850 mils, 2400 mils): Symbole U15 [HDGC1002WR-S-4P]
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(850 mils, 3650 mils): Symbole U16 [HDGC1002WR-S-4P]
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(1700 mils, 3950 mils): Label Global 'UART4_TX'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(1700 mils, 4100 mils): Label Global 'UART4_RX'
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(4850 mils, 1150 mils): Symbole U18 [HDGC1002WR-S-4P]
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(850 mils, 4950 mils): Symbole U17 [HDGC1002WR-S-4P]
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(4950 mils, 2400 mils): Symbole U19 [HDGC1002WR-S-4P]
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(4850 mils, 3650 mils): Symbole U20 [HDGC1002WR-S-4P]
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(5750 mils, 3950 mils): Label Global 'VIDIN'
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(7550 mils, 1150 mils): Symbole U24 [HDGC1002WR-S-4P]
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(7650 mils, 1600 mils): Symbole U23 [HDGC1002WR-S-6P]
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(5900 mils, 5850 mils): Symbole U21 [HDGC1002WR-S-8P]
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(8400 mils, 1450 mils): Label Global 'UART8_TX'
+[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    ; warning
+    @(8400 mils, 1600 mils): Label Global 'UART8_RX'
+[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    ; warning
+    @(7650 mils, 4550 mils): Symbole U22 [HDGC1002WR-S-8P]
+[footprint_link_issues]: La configuration actuelle n'inclut pas la librairie d'empreintes 'ProLib_pcs_2025-11-25 (1)'.
+    ; warning
+    @(6900 mils, 6050 mils): Symbole RN2 [4D03WGJ0101T5E]
+[footprint_link_issues]: La configuration actuelle n'inclut pas la librairie d'empreintes 'ProLib_pcs_2025-11-25 (1)'.
+    ; warning
+    @(8550 mils, 4750 mils): Symbole RN1 [4D03WGJ0101T5E]
+
+***** Feuille /Power/
+[pin_to_pin]: Les pins de type Bidirectional et Power output sont connectées
+    ; warning
+    @(3100 mils, 1900 mils): Symbol U2 Pin 2 [GND, Bidirectional, Line]
+    @(2400 mils, 5850 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+[pin_to_pin]: Les pins de type Bidirectional et Power output sont connectées
+    ; warning
+    @(3600 mils, 1400 mils): Symbol U2 Pin 5 [OUT, Bidirectional, Line]
+    @(2900 mils, 6450 mils): Symbol #FLG02 Pin 1 [Power output, Line]
+
+***** Feuille /MCU/
+[pin_to_pin]: Les pins de type Unspecified et Power input sont connectées
+    ; warning
+    @(1650 mils, 1250 mils): Symbol SW1 Pin 4 [4, Unspecified, Line]
+    @(2450 mils, 1200 mils): Symbol #PWR029 Pin 1 [Power input, Line]
+[pin_to_pin]: Les pins de type Unspecified et Passive sont connectées
+    ; warning
+    @(1650 mils, 1450 mils): Symbol SW1 Pin 1 [1, Unspecified, Line]
+    @(2800 mils, 2000 mils): Symbol IC3 Pin 100 [VDD_5, Passive, Line]
+[pin_to_pin]: Les pins de type Unspecified et Power input sont connectées
+    ; warning
+    @(2250 mils, 1250 mils): Symbol SW1 Pin 3 [3, Unspecified, Line]
+    @(2450 mils, 1200 mils): Symbol #PWR029 Pin 1 [Power input, Line]
+[pin_to_pin]: Les pins de type Unspecified et Passive sont connectées
+    ; warning
+    @(2250 mils, 1450 mils): Symbol SW1 Pin 2 [2, Unspecified, Line]
+    @(2250 mils, 1900 mils): Symbol R1 Pin 2 [Passive, Line]
+
+***** Feuille /Sensors/
+
+***** Feuille /OSD/
+
+***** Feuille /Blackbox_led/
+
+***** Feuille /rf_rx/
+[pin_to_pin]: Les pins de type Bidirectional et Power output sont connectées
+    ; warning
+    @(1750 mils, 1850 mils): Symbol U1 Pin 2 [GND, Bidirectional, Line]
+    @(2400 mils, 5850 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+[pin_to_pin]: Les pins de type Unspecified et Power input sont connectées
+    ; warning
+    @(3850 mils, 6200 mils): Symbol SW2 Pin 4 [4, Unspecified, Line]
+    @(4450 mils, 6500 mils): Symbol #PWR046 Pin 1 [Power input, Line]
+[pin_to_pin]: Les pins de type Unspecified et Bidirectional sont connectées
+    ; warning
+    @(3850 mils, 6400 mils): Symbol SW2 Pin 1 [1, Unspecified, Line]
+    @(3250 mils, 6400 mils): Symbol U12 Pin  [IO0, Bidirectional, Line]
+[pin_to_pin]: Les pins de type Unspecified et Power input sont connectées
+    ; warning
+    @(4450 mils, 6200 mils): Symbol SW2 Pin 3 [3, Unspecified, Line]
+    @(4450 mils, 6500 mils): Symbol #PWR046 Pin 1 [Power input, Line]
+[pin_to_pin]: Les pins de type Unspecified et Power input sont connectées
+    ; warning
+    @(4450 mils, 6400 mils): Symbol SW2 Pin 2 [2, Unspecified, Line]
+    @(4450 mils, 6500 mils): Symbol #PWR046 Pin 1 [Power input, Line]
+
+***** Feuille /connectors/
+
+** messages ERC: 58  Erreurs 0  Avertissements 58

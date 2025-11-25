@@ -336,7 +336,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -8.89 3.81 0)
 				(length 5.08)
 				(name "1"
@@ -354,7 +354,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -8.89 1.27 0)
 				(length 5.08)
 				(name "2"
@@ -372,7 +372,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -8.89 -1.27 0)
 				(length 5.08)
 				(name "3"
@@ -390,7 +390,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -8.89 -3.81 0)
 				(length 5.08)
 				(name "4"
@@ -408,7 +408,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 8.89 3.81 180)
 				(length 5.08)
 				(name "8"
@@ -426,7 +426,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 8.89 1.27 180)
 				(length 5.08)
 				(name "7"
@@ -444,7 +444,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 8.89 -1.27 180)
 				(length 5.08)
 				(name "6"
@@ -462,7 +462,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 8.89 -3.81 180)
 				(length 5.08)
 				(name "5"
@@ -863,7 +863,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "GND"
@@ -881,7 +881,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "1"
@@ -899,7 +899,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "3"
@@ -917,7 +917,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "GND"

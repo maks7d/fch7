@@ -432,7 +432,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "GND"
@@ -450,7 +450,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "1"
@@ -468,7 +468,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "3"
@@ -486,7 +486,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "GND"
@@ -1218,12 +1218,46 @@
 		(uuid "019df7ea-65bf-4b38-a650-f0c88c0614d0")
 	)
 	(no_connect
+		(at 119.38 53.34)
+		(uuid "197e6cc9-6e93-4f9a-b490-b378837049ad")
+	)
+	(no_connect
 		(at 78.74 53.34)
 		(uuid "42de12cb-b9ff-4e97-8f8b-c20b981b9c53")
 	)
 	(no_connect
 		(at 78.74 50.8)
 		(uuid "a55248be-3cec-4ae3-9999-641f4798b81a")
+	)
+	(no_connect
+		(at 119.38 83.82)
+		(uuid "b05481a6-eda8-4ed8-8e35-148037e4fd9a")
+	)
+	(no_connect
+		(at 78.74 81.28)
+		(uuid "b172c958-9947-4cd3-8538-1494f8820358")
+	)
+	(no_connect
+		(at 119.38 50.8)
+		(uuid "b5d2d3c5-2dbc-499f-80f4-e70d6038c536")
+	)
+	(no_connect
+		(at 119.38 81.28)
+		(uuid "f599d477-636a-401c-882b-229ead96f86c")
+	)
+	(no_connect
+		(at 78.74 83.82)
+		(uuid "fb93fc8e-2955-49ee-9c6a-0f9b127cd8e0")
+	)
+	(wire
+		(pts
+			(xy 57.15 62.23) (xy 69.85 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a02692-7b33-4624-92c3-f85d4ffe5683")
 	)
 	(wire
 		(pts
@@ -1244,16 +1278,6 @@
 			(type default)
 		)
 		(uuid "10109009-2ee0-4110-a23c-d190b70fbc89")
-	)
-	(wire
-		(pts
-			(xy 59.69 62.23) (xy 57.15 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19f9b848-4925-4ad8-bc67-aa4e6def17bc")
 	)
 	(wire
 		(pts
@@ -1317,16 +1341,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 63.5) (xy 60.96 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ee20c00-a239-43a2-ada1-855907258bdc")
-	)
-	(wire
-		(pts
 			(xy 77.47 55.88) (xy 78.74 55.88)
 		)
 		(stroke
@@ -1347,6 +1361,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 73.66) (xy 60.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355116f7-5e5f-410d-9ea9-e73ead52e883")
+	)
+	(wire
+		(pts
 			(xy 74.93 78.74) (xy 78.74 78.74)
 		)
 		(stroke
@@ -1357,23 +1381,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 60.96) (xy 59.69 60.96)
+			(xy 69.85 60.96) (xy 78.74 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "497d40b6-1f22-494b-b9cf-bce93e56ed80")
+		(uuid "48856a1e-150d-4085-807e-2f5de94c9765")
 	)
 	(wire
 		(pts
-			(xy 59.69 60.96) (xy 59.69 62.23)
+			(xy 69.85 62.23) (xy 69.85 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c14831e-2e68-4a5b-a5b8-722e94f3b35c")
+		(uuid "516ec508-9a20-45bd-8d79-877fcfb1f832")
 	)
 	(wire
 		(pts
@@ -1427,6 +1451,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 67.31) (xy 41.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "660dbc07-f921-4869-bf95-40002ee1ac38")
+	)
+	(wire
+		(pts
 			(xy 100.33 43.18) (xy 100.33 45.72)
 		)
 		(stroke
@@ -1457,6 +1491,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 63.5) (xy 78.74 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83dba1d1-d5ad-44aa-bf41-ed4883d56bcd")
+	)
+	(wire
+		(pts
 			(xy 119.38 76.2) (xy 123.19 76.2)
 		)
 		(stroke
@@ -1474,16 +1518,6 @@
 			(type default)
 		)
 		(uuid "8c3714e2-01b1-4fdb-a759-33706d791e68")
-	)
-	(wire
-		(pts
-			(xy 41.91 72.39) (xy 60.96 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93ce4562-580a-4043-b259-cb53a8393b63")
 	)
 	(wire
 		(pts
@@ -1537,6 +1571,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 73.66) (xy 60.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bedc6be5-8b2e-47dc-a88c-bb9e2c368c96")
+	)
+	(wire
+		(pts
 			(xy 63.5 78.74) (xy 67.31 78.74)
 		)
 		(stroke
@@ -1547,16 +1591,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 63.5) (xy 60.96 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c53faa20-c15b-4d56-baa1-838abdb83482")
-	)
-	(wire
-		(pts
 			(xy 128.27 58.42) (xy 135.89 58.42)
 		)
 		(stroke
@@ -1564,16 +1598,6 @@
 			(type default)
 		)
 		(uuid "d057e159-f02e-4c66-8737-0546b07d06c3")
-	)
-	(wire
-		(pts
-			(xy 41.91 72.39) (xy 41.91 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1e34fb4-29c3-4c28-bb99-7ebbf6a50164")
 	)
 	(wire
 		(pts
@@ -1993,10 +2017,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "fch7_fp:CRYSTAL-SMD_4P-L2.0-W1.6-BL"
+		(property "Footprint" "ProLib_pcs_2025-11-25:CRYSTAL-SMD_4P-L2.0-W1.6-BL"
 			(at 50.546 54.356 0)
 			(effects
 				(font
@@ -2005,7 +2028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C18214311.pdf"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/XL7EL89COI-111YLC-27M/19392660.html"
 			(at 50.038 70.612 0)
 			(effects
 				(font
@@ -2032,7 +2055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YXC Crystal Oscillators"
+		(property "Manufacturer" "YXC(扬兴晶振)"
 			(at 49.022 50.546 0)
 			(effects
 				(font
@@ -2182,7 +2205,7 @@
 		(dnp no)
 		(uuid "16137992-d218-40d0-a338-038641f5e4f7")
 		(property "Reference" "R27"
-			(at 122.682 80.264 90)
+			(at 122.428 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)

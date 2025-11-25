@@ -1,4 +1,4 @@
-26797309087315260
+26797309202985225
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106421,19 +106421,19 @@ LGA-16_L3.0-W3.0-P0.50-BL_SQ
 16
 16
 fch7_fp
+LQFP-100_14x14mm_P0.5mm_STM32H743
+LQFP100-1
+Integrated Circuit
+0
+100
+100
+fch7_fp
 QFN40P300X300X95-25M-D
 MPU-6500
 Integrated Circuit
 0
 25
 25
-fch7_fp
-QFP50P1600X1600X160-100M
-LQFP100-1
-Integrated Circuit
-0
-100
-100
 fch7_fp
 RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL
 

@@ -502,7 +502,7 @@
 				)
 			)
 			(property "Value" "HDGC1002WR-S-4P"
-				(at 14.732 1.27 0)
+				(at 20.574 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -519,7 +519,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -529,6 +529,33 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Fréquence" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HDGC1002WR-S-4P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HDGC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -552,7 +579,7 @@
 				)
 			)
 			(symbol "HDGC1002WR-S-4P_1_1_1"
-				(pin input line
+				(pin passive line
 					(at 10.16 -2.54 270)
 					(length 2.54)
 					(name "5"
@@ -570,7 +597,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 10.16 -24.13 90)
 					(length 2.54)
 					(name "6"
@@ -588,7 +615,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -7.62 180)
 					(length 2.54)
 					(name "4"
@@ -606,7 +633,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -11.43 180)
 					(length 2.54)
 					(name "3"
@@ -624,7 +651,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -15.24 180)
 					(length 2.54)
 					(name "2"
@@ -642,7 +669,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -19.05 180)
 					(length 2.54)
 					(name "1"
@@ -668,7 +695,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U16"
-				(at 16.256 -3.048 0)
+				(at 14.224 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -694,7 +721,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -704,6 +731,33 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Fréquence" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HDGC1002WR-S-4P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HDGC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -727,7 +781,7 @@
 				)
 			)
 			(symbol "HDGC1002WR-S-4P_2_1_1"
-				(pin input line
+				(pin passive line
 					(at 10.16 -2.54 270)
 					(length 2.54)
 					(name "5"
@@ -745,7 +799,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 10.16 -24.13 90)
 					(length 2.54)
 					(name "6"
@@ -763,7 +817,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -7.62 180)
 					(length 2.54)
 					(name "4"
@@ -781,7 +835,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -11.43 180)
 					(length 2.54)
 					(name "3"
@@ -799,7 +853,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -15.24 180)
 					(length 2.54)
 					(name "2"
@@ -817,7 +871,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -19.05 180)
 					(length 2.54)
 					(name "1"
@@ -843,7 +897,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U17"
-				(at 14.732 -4.318 0)
+				(at 14.478 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -869,7 +923,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -879,6 +933,33 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Fréquence" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HDGC1002WR-S-4P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HDGC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -902,7 +983,7 @@
 				)
 			)
 			(symbol "HDGC1002WR-S-4P_3_1_1"
-				(pin input line
+				(pin passive line
 					(at 10.16 -2.54 270)
 					(length 2.54)
 					(name "5"
@@ -920,7 +1001,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 10.16 -24.13 90)
 					(length 2.54)
 					(name "6"
@@ -938,7 +1019,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -7.62 180)
 					(length 2.54)
 					(name "4"
@@ -956,7 +1037,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -11.43 180)
 					(length 2.54)
 					(name "3"
@@ -974,7 +1055,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -15.24 180)
 					(length 2.54)
 					(name "2"
@@ -992,7 +1073,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -19.05 180)
 					(length 2.54)
 					(name "1"
@@ -1027,7 +1108,7 @@
 				)
 			)
 			(property "Value" "HDGC1002WR-S-4P"
-				(at 19.558 -25.4 0)
+				(at 23.114 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1044,7 +1125,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1054,6 +1135,33 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Fréquence" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HDGC1002WR-S-4P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HDGC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1077,7 +1185,7 @@
 				)
 			)
 			(symbol "HDGC1002WR-S-4P_4_1_1"
-				(pin input line
+				(pin passive line
 					(at 10.16 -2.54 270)
 					(length 2.54)
 					(name "5"
@@ -1095,7 +1203,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 10.16 -24.13 90)
 					(length 2.54)
 					(name "6"
@@ -1113,7 +1221,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -7.62 180)
 					(length 2.54)
 					(name "4"
@@ -1131,7 +1239,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -11.43 180)
 					(length 2.54)
 					(name "3"
@@ -1149,7 +1257,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -15.24 180)
 					(length 2.54)
 					(name "2"
@@ -1167,7 +1275,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -19.05 180)
 					(length 2.54)
 					(name "1"
@@ -1193,7 +1301,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U19"
-				(at 6.35 -12.0649 0)
+				(at 14.224 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1202,7 +1310,7 @@
 				)
 			)
 			(property "Value" "HDGC1002WR-S-4P"
-				(at 20.32 -23.368 0)
+				(at 20.32 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1219,7 +1327,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1229,6 +1337,33 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Fréquence" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HDGC1002WR-S-4P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HDGC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1252,7 +1387,7 @@
 				)
 			)
 			(symbol "HDGC1002WR-S-4P_5_1_1"
-				(pin input line
+				(pin passive line
 					(at 10.16 -2.54 270)
 					(length 2.54)
 					(name "5"
@@ -1270,7 +1405,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 10.16 -24.13 90)
 					(length 2.54)
 					(name "6"
@@ -1288,7 +1423,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -7.62 180)
 					(length 2.54)
 					(name "4"
@@ -1306,7 +1441,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -11.43 180)
 					(length 2.54)
 					(name "3"
@@ -1324,7 +1459,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -15.24 180)
 					(length 2.54)
 					(name "2"
@@ -1342,7 +1477,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -19.05 180)
 					(length 2.54)
 					(name "1"
@@ -1368,7 +1503,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U20"
-				(at 9.144 -3.81 0)
+				(at 14.224 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1377,7 +1512,7 @@
 				)
 			)
 			(property "Value" "HDGC1002WR-S-4P"
-				(at 22.352 -23.114 0)
+				(at 20.574 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1394,7 +1529,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1404,6 +1539,33 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Fréquence" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HDGC1002WR-S-4P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HDGC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1427,7 +1589,7 @@
 				)
 			)
 			(symbol "HDGC1002WR-S-4P_6_1_1"
-				(pin input line
+				(pin passive line
 					(at 10.16 -2.54 270)
 					(length 2.54)
 					(name "5"
@@ -1445,7 +1607,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 10.16 -24.13 90)
 					(length 2.54)
 					(name "6"
@@ -1463,7 +1625,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -7.62 180)
 					(length 2.54)
 					(name "4"
@@ -1481,7 +1643,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -11.43 180)
 					(length 2.54)
 					(name "3"
@@ -1499,7 +1661,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -15.24 180)
 					(length 2.54)
 					(name "2"
@@ -1517,7 +1679,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -19.05 180)
 					(length 2.54)
 					(name "1"
@@ -1543,7 +1705,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U24"
-				(at 6.35 -12.0649 0)
+				(at 14.478 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1552,7 +1714,7 @@
 				)
 			)
 			(property "Value" "HDGC1002WR-S-6P"
-				(at 0.508 -0.254 0)
+				(at 20.574 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1569,7 +1731,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C3041141.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1579,6 +1741,33 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Fréquence" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HDGC1002WR-S-6P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HDGC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1602,7 +1791,7 @@
 				)
 			)
 			(symbol "HDGC1002WR-S-4P_7_1_1"
-				(pin input line
+				(pin passive line
 					(at 10.16 -2.54 270)
 					(length 2.54)
 					(name "5"
@@ -1620,7 +1809,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 10.16 -24.13 90)
 					(length 2.54)
 					(name "6"
@@ -1638,7 +1827,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -7.62 180)
 					(length 2.54)
 					(name "4"
@@ -1656,7 +1845,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -11.43 180)
 					(length 2.54)
 					(name "3"
@@ -1674,7 +1863,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -15.24 180)
 					(length 2.54)
 					(name "2"
@@ -1692,7 +1881,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -19.05 180)
 					(length 2.54)
 					(name "1"
@@ -2294,7 +2483,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -8.89 3.81 0)
 					(length 5.08)
 					(name "1"
@@ -2312,7 +2501,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -8.89 1.27 0)
 					(length 5.08)
 					(name "2"
@@ -2330,7 +2519,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -8.89 -1.27 0)
 					(length 5.08)
 					(name "3"
@@ -2348,7 +2537,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -8.89 -3.81 0)
 					(length 5.08)
 					(name "4"
@@ -2366,7 +2555,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 8.89 3.81 180)
 					(length 5.08)
 					(name "8"
@@ -2384,7 +2573,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 8.89 1.27 180)
 					(length 5.08)
 					(name "7"
@@ -2402,7 +2591,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 8.89 -1.27 180)
 					(length 5.08)
 					(name "6"
@@ -2420,7 +2609,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 8.89 -3.81 180)
 					(length 5.08)
 					(name "5"
@@ -2455,7 +2644,7 @@
 				)
 			)
 			(property "Value" "HDGC1002WR-S-4P"
-				(at 23.876 -2.032 0)
+				(at 20.828 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2472,7 +2661,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2482,6 +2671,33 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Fréquence" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HDGC1002WR-S-4P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HDGC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2505,7 +2721,7 @@
 				)
 			)
 			(symbol "HDGC1002WR-S-4P_1_1"
-				(pin input line
+				(pin passive line
 					(at 10.16 -2.54 270)
 					(length 2.54)
 					(name "5"
@@ -2523,7 +2739,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 10.16 -24.13 90)
 					(length 2.54)
 					(name "6"
@@ -2541,7 +2757,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -7.62 180)
 					(length 2.54)
 					(name "4"
@@ -2559,7 +2775,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -11.43 180)
 					(length 2.54)
 					(name "3"
@@ -2577,7 +2793,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -15.24 180)
 					(length 2.54)
 					(name "2"
@@ -2595,7 +2811,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -19.05 180)
 					(length 2.54)
 					(name "1"
@@ -7055,6 +7271,138 @@
 		)
 	)
 	(symbol
+		(lib_id "fch7_sym:4D03WGJ0101T5E")
+		(at 175.26 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21fb3756-60a9-4d4a-bd08-ba28e2061043")
+		(property "Reference" "RN2"
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100Ω"
+			(at 176.022 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ProLib_pcs_2025-11-25 (1):RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+			(at 177.292 168.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/4D03WGJ0101T5E/26249.html"
+			(at 175.514 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Number of Resistors: Resistance:100Ω Tolerance:±5% Tolerance:±5% Power(Watts):62.5mW Temperature Coefficient:±200ppm/°C Temperature Coefficient:±200ppm/°C Number of Pins:"
+			(at 174.752 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "4D03WGJ0101T5E"
+			(at 175.768 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 174.752 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25506"
+			(at 175.006 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 184.404 161.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "100Ω ±5%"
+			(at 175.006 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4b76ce2f-df45-4206-af32-90d3e57b6a63")
+		)
+		(pin "5"
+			(uuid "ec44b3b7-f196-416b-9b25-ef47c196ae90")
+		)
+		(pin "2"
+			(uuid "a7ce71c8-1fae-41d8-ad7a-f644931af9fa")
+		)
+		(pin "7"
+			(uuid "0dff6720-1cfa-46ca-af4f-f44645ebc7d2")
+		)
+		(pin "4"
+			(uuid "2ab57585-ebcd-40b6-ad6a-84a3c25cf701")
+		)
+		(pin "8"
+			(uuid "c795d424-397a-4bff-9a56-6965733d16dc")
+		)
+		(pin "1"
+			(uuid "8329efda-3439-4c35-9b6c-451ff835b94d")
+		)
+		(pin "3"
+			(uuid "a74b4aed-e6ca-4d9c-8519-db43f4f2e947")
+		)
+		(instances
+			(project ""
+				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/304e7e23-68f8-4a1f-930d-8ec3265ffbba"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 227.33 81.28 0)
 		(unit 1)
@@ -8187,147 +8535,6 @@
 			(project "fch7"
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/304e7e23-68f8-4a1f-930d-8ec3265ffbba"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fch7_sym:4D03WGJ0101T5E")
-		(at 217.17 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62224722-f7bb-46d1-a18d-056543491ca1")
-		(property "Reference" "RN1"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 217.932 128.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ProLib_pcs_2025-11-25 (1):RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
-			(at 219.202 135.636 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/4D03WGJ0101T5E/26249.html"
-			(at 217.424 112.268 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Number of Resistors: Resistance:100Ω Tolerance:±5% Tolerance:±5% Power(Watts):62.5mW Temperature Coefficient:±200ppm/°C Temperature Coefficient:±200ppm/°C Number of Pins:"
-			(at 216.662 131.318 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "4D03WGJ0101T5E"
-			(at 217.678 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 216.662 107.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C25506"
-			(at 216.916 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 226.314 128.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "100Ω ±5%"
-			(at 216.916 103.632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "4D03WGJ0101T5E"
-			(at 217.17 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4044d08a-39f7-4de0-9132-8057645d83ec")
-		)
-		(pin "5"
-			(uuid "0d9ddabf-eb48-48aa-a7a9-1ba9688971f4")
-		)
-		(pin "1"
-			(uuid "89f98bff-bd54-48b3-869e-1096a3fc2293")
-		)
-		(pin "8"
-			(uuid "49ddc15c-6cb1-455f-932c-cdd9743bee20")
-		)
-		(pin "6"
-			(uuid "ef269fa4-8fe6-4864-9f66-f53ddfd0f566")
-		)
-		(pin "4"
-			(uuid "4728b70c-d91d-4d86-bd78-5c94ef3e918d")
-		)
-		(pin "2"
-			(uuid "be669480-1986-43d4-b62f-31ae644aada7")
-		)
-		(pin "7"
-			(uuid "e03ca799-3764-4639-86c0-5cde2b4fdd2b")
-		)
-		(instances
-			(project ""
-				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/304e7e23-68f8-4a1f-930d-8ec3265ffbba"
-					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -10036,147 +10243,6 @@
 		)
 	)
 	(symbol
-		(lib_id "fch7_sym:4D03WGJ0101T5E")
-		(at 175.26 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae838d84-d94c-4179-a338-658d9f6721a2")
-		(property "Reference" "RN2"
-			(at 175.26 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 176.022 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ProLib_pcs_2025-11-25 (1):RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
-			(at 177.292 168.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/4D03WGJ0101T5E/26249.html"
-			(at 175.514 145.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Number of Resistors: Resistance:100Ω Tolerance:±5% Tolerance:±5% Power(Watts):62.5mW Temperature Coefficient:±200ppm/°C Temperature Coefficient:±200ppm/°C Number of Pins:"
-			(at 174.752 164.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "4D03WGJ0101T5E"
-			(at 175.768 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 174.752 140.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C25506"
-			(at 175.006 133.858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 184.404 161.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "100Ω ±5%"
-			(at 175.006 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "4D03WGJ0101T5E"
-			(at 175.26 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "86f0c664-fd0e-43a6-ba00-d8fb22c73661")
-		)
-		(pin "5"
-			(uuid "722e1887-c1cb-4ec8-a786-d9109f8a68e0")
-		)
-		(pin "1"
-			(uuid "39cc8492-a015-43d2-8bd0-810b5f75bbe4")
-		)
-		(pin "8"
-			(uuid "ec227ab6-8553-4cbc-acb8-39e21cc9f3e2")
-		)
-		(pin "6"
-			(uuid "499b8df4-6897-4bef-8073-22c8b70547e9")
-		)
-		(pin "4"
-			(uuid "47e60709-9a5e-4dff-b14f-635084ab65c9")
-		)
-		(pin "2"
-			(uuid "0c61d5d9-9165-43f8-9d73-7ef2b3ea8311")
-		)
-		(pin "7"
-			(uuid "b926f253-0b1a-40fd-bde2-d91752e89624")
-		)
-		(instances
-			(project "fch7"
-				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/304e7e23-68f8-4a1f-930d-8ec3265ffbba"
-					(reference "RN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 44.45 55.88 0)
 		(unit 1)
@@ -11191,6 +11257,138 @@
 			(project ""
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/304e7e23-68f8-4a1f-930d-8ec3265ffbba"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fch7_sym:4D03WGJ0101T5E")
+		(at 217.17 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eff131d7-3910-46d8-b2b7-8a10baa3a249")
+		(property "Reference" "RN1"
+			(at 217.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100Ω"
+			(at 217.932 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ProLib_pcs_2025-11-25 (1):RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+			(at 219.202 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/4D03WGJ0101T5E/26249.html"
+			(at 217.424 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Number of Resistors: Resistance:100Ω Tolerance:±5% Tolerance:±5% Power(Watts):62.5mW Temperature Coefficient:±200ppm/°C Temperature Coefficient:±200ppm/°C Number of Pins:"
+			(at 216.662 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "4D03WGJ0101T5E"
+			(at 217.678 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 216.662 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25506"
+			(at 216.916 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 226.314 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "100Ω ±5%"
+			(at 216.916 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fbe440bf-819c-4db6-8451-315be6074c12")
+		)
+		(pin "7"
+			(uuid "ffb54a7b-8d5f-411d-abeb-8d1ba37fc379")
+		)
+		(pin "8"
+			(uuid "78266d53-25e4-46d3-8ab3-b99be9d1a28b")
+		)
+		(pin "4"
+			(uuid "78fc2d77-2a4d-4f82-84d3-fc5de11d96c9")
+		)
+		(pin "2"
+			(uuid "4175231a-8c35-413d-9511-7bd2b4c2e8ec")
+		)
+		(pin "6"
+			(uuid "2d111d75-c739-461d-a7c8-e8e7a27272eb")
+		)
+		(pin "3"
+			(uuid "9d6d0fff-c52f-46a7-bf76-93efb87d4893")
+		)
+		(pin "1"
+			(uuid "ea767e4d-07cf-4bbf-b560-9b8cfcd890b7")
+		)
+		(instances
+			(project ""
+				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/304e7e23-68f8-4a1f-930d-8ec3265ffbba"
+					(reference "RN1")
 					(unit 1)
 				)
 			)

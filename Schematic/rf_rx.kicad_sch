@@ -653,6 +653,26 @@
 					)
 				)
 				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ME6217C33M5G_1_0"
+				(pin power_in line
 					(at 0 -10.16 90)
 					(length 5.08)
 					(name "GND"
@@ -670,7 +690,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at 12.7 2.54 180)
 					(length 5.08)
 					(name "OUT"
@@ -681,24 +701,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -850,7 +852,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "4"
@@ -868,7 +870,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "1"
@@ -886,7 +888,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "3"
@@ -904,7 +906,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "2"
@@ -1289,7 +1291,7 @@
 				)
 			)
 			(property "Footprint" "fch7_fp:WIFIM-SMD_ESP-01F-2M"
-				(at 0 0 0)
+				(at -0.508 24.892 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1297,8 +1299,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2764054.pdf"
+				(at -1.524 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1308,6 +1310,33 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Fréquence" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ESP-01F-2M"
+				(at 29.718 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Ai-Thinker"
+				(at 39.37 -7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1402,7 +1431,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 1.27 0)
 					(length 2.54)
 					(name "IO1016"
@@ -1420,7 +1449,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -2.54 0)
 					(length 2.54)
 					(name "IO14"
@@ -1438,7 +1467,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -6.35 0)
 					(length 2.54)
 					(name "IO12"
@@ -1456,7 +1485,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -10.16 0)
 					(length 2.54)
 					(name "IO13"
@@ -1474,7 +1503,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -13.97 0)
 					(length 2.54)
 					(name "IO15"
@@ -1582,7 +1611,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "IO5"
@@ -1600,7 +1629,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "IO4"
@@ -1618,7 +1647,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "IO0"
@@ -1636,7 +1665,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 -13.97 180)
 					(length 2.54)
 					(name "IO2"
@@ -1814,8 +1843,32 @@
 		(uuid "f1814cba-06f4-4455-a72a-6ba1361c8970")
 	)
 	(no_connect
+		(at 82.55 143.51)
+		(uuid "1b8147b2-fd47-4f3f-adc3-0e333bac932e")
+	)
+	(no_connect
+		(at 55.88 147.32)
+		(uuid "37f99cb8-0f8c-41a7-8a7c-55832adcc81a")
+	)
+	(no_connect
 		(at 57.15 39.37)
 		(uuid "440b3856-71de-486f-8e08-53d42fce2291")
+	)
+	(no_connect
+		(at 55.88 143.51)
+		(uuid "5de1b3d4-71df-4cfc-b54c-ffe5ee5ba228")
+	)
+	(no_connect
+		(at 55.88 135.89)
+		(uuid "71ce1e6f-8eae-4821-a891-010b3f02d70e")
+	)
+	(no_connect
+		(at 222.25 60.96)
+		(uuid "7d0b412f-6684-4e27-b205-3ac7cf4a7a50")
+	)
+	(no_connect
+		(at 222.25 64.77)
+		(uuid "bfe11609-efd0-4ab2-9f2e-e0a7eba6ba65")
 	)
 	(wire
 		(pts
@@ -3199,7 +3252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Price" "None"
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -3417,7 +3470,7 @@
 		(dnp no)
 		(uuid "512087c7-7ed2-4beb-a72a-f789e6de13a2")
 		(property "Reference" "D15"
-			(at 38.608 146.304 0)
+			(at 42.672 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3478,7 @@
 			)
 		)
 		(property "Value" "NCD0603R3"
-			(at 44.958 146.304 0)
+			(at 43.942 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,7 +4879,7 @@
 			)
 		)
 		(property "Footprint" "fch7_fp:WIFIM-SMD_ESP-01F-2M"
-			(at 69.85 152.4 0)
+			(at 69.342 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +4888,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2764054.pdf"
-			(at 69.85 152.4 0)
+			(at 68.326 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +4915,7 @@
 			)
 		)
 		(property "MPN" "ESP-01F-2M"
-			(at 69.85 152.4 0)
+			(at 99.568 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +4924,7 @@
 			)
 		)
 		(property "Manufacturer" "Ai-Thinker"
-			(at 69.85 152.4 0)
+			(at 109.22 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1207,7 +1207,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U7"
-				(at 11.43 3.81 0)
+				(at 11.684 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1215,7 +1215,7 @@
 				)
 			)
 			(property "Value" "QMC5883L"
-				(at 11.43 1.27 0)
+				(at 11.43 -0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1231,7 +1231,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C976032.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1241,6 +1241,33 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Fréquence" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "QMC5883L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "QST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1264,7 +1291,7 @@
 				)
 			)
 			(symbol "QMC5883L_1_1"
-				(pin input line
+				(pin bidirectional line
 					(at -1.27 -3.81 0)
 					(length 2.54)
 					(name "SCL"
@@ -1408,7 +1435,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 24.13 -3.81 180)
 					(length 2.54)
 					(name "SDA"
@@ -1560,7 +1587,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U5"
-				(at 8.255 2.54 0)
+				(at 8.128 0.762 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1568,7 +1595,7 @@
 				)
 			)
 			(property "Value" "SPL06-001"
-				(at 8.255 0 0)
+				(at 8.382 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1584,7 +1611,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2684428.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1594,6 +1621,33 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Fréquence" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SPL06-001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Goertek"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1653,7 +1707,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -1.27 -8.89 0)
 					(length 2.54)
 					(name "SDA"
@@ -1671,7 +1725,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -1.27 -11.43 0)
 					(length 2.54)
 					(name "SCK"
@@ -3719,7 +3773,7 @@
 		(dnp no)
 		(uuid "0b50134b-3e0c-42d7-8a3d-d840b3108a0a")
 		(property "Reference" "C32"
-			(at 125.73 120.396 90)
+			(at 122.936 117.856 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,7 +3781,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 122.174 117.856 90)
+			(at 129.286 117.856 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,10 +3865,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "199f95c6-c89d-428e-88ec-58a2cdcc5e05")
 		(property "Reference" "U7"
-			(at 62.23 67.31 0)
+			(at 62.484 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +3875,7 @@
 			)
 		)
 		(property "Value" "QMC5883L"
-			(at 62.23 69.85 0)
+			(at 62.23 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,7 +4069,7 @@
 		(dnp no)
 		(uuid "26e953d0-9926-41dd-ad5f-b35c1caf1492")
 		(property "Reference" "C31"
-			(at 118.872 107.188 0)
+			(at 118.618 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,7 +4077,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 121.666 112.776 0)
+			(at 123.19 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4257,7 @@
 		(dnp no)
 		(uuid "29c9d4ca-2071-4bde-852d-db6ce80283a8")
 		(property "Reference" "C33"
-			(at 151.13 79.756 90)
+			(at 154.178 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4296,10 +4349,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "31aa0150-e12c-4b4c-98c0-7444b6570bcb")
 		(property "Reference" "IC4"
-			(at 232.0133 29.21 0)
+			(at 232.41 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4360,7 @@
 			)
 		)
 		(property "Value" "ICM-42688-P"
-			(at 232.0133 31.75 0)
+			(at 232.41 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +4761,7 @@
 		(dnp no)
 		(uuid "7269ae7b-dee6-46f8-8b58-ef216c04f43a")
 		(property "Reference" "C30"
-			(at 232.41 107.696 90)
+			(at 235.458 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,10 +5202,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "91a396f7-6073-43c9-9b1f-8d71bca6ca71")
 		(property "Reference" "U5"
-			(at 65.405 34.29 0)
+			(at 65.278 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5161,7 +5212,7 @@
 			)
 		)
 		(property "Value" "SPL06-001"
-			(at 65.405 36.83 0)
+			(at 65.532 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5461,10 +5512,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "abf36cd2-9805-401e-885c-f2238c3945b9")
 		(property "Reference" "IC5"
-			(at 146.05 57.0798 0)
+			(at 142.494 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,7 +5522,7 @@
 			)
 		)
 		(property "Value" "MPU-6500"
-			(at 146.05 59.6198 0)
+			(at 145.542 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
