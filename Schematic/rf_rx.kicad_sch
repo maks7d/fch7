@@ -2903,7 +2903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 117.8052 35.56 0)
 			(effects
 				(font
@@ -2912,7 +2912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
 			(at 116.84 31.75 0)
 			(effects
 				(font
@@ -2922,6 +2922,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 116.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fréquence" ""
+			(at 116.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A226MAQNNNE"
+			(at 116.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG"
 			(at 116.84 31.75 0)
 			(effects
 				(font
@@ -3114,7 +3141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C427602.pdf"
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -3172,7 +3199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Price" ""
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -3229,6 +3256,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Fréquence" ""
+			(at 44.45 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ME6217C33M5G"
+			(at 44.45 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MICRONE"
+			(at 44.45 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3293,7 +3347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C30926.pdf"
 			(at 250.19 74.93 0)
 			(effects
 				(font
@@ -3303,6 +3357,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 250.19 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603B104K500NT "
+			(at 250.19 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fréquence" ""
+			(at 250.19 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH"
 			(at 250.19 74.93 0)
 			(effects
 				(font
@@ -3343,7 +3424,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "NCD0603R3"
 			(at 44.958 146.304 0)
 			(effects
 				(font
@@ -3351,7 +3432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "fch7_fp:LED0603-R-RD_RED"
 			(at 41.91 147.32 0)
 			(effects
 				(font
@@ -3360,7 +3441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3151730.pdf"
 			(at 41.91 147.32 0)
 			(effects
 				(font
@@ -3379,6 +3460,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 41.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fréquence" ""
+			(at 41.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCD0603R3"
+			(at 41.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NATIONSTAR"
 			(at 41.91 147.32 0)
 			(effects
 				(font
@@ -3699,6 +3807,24 @@
 				(hide yes)
 			)
 		)
+		(property "Fréquence" ""
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TS24CA"
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "87ec4bbe-79fb-4796-9f1d-9f2031f04e10")
 		)
@@ -3886,7 +4012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5333988.pdf"
 			(at 234.95 57.15 0)
 			(effects
 				(font
@@ -3896,6 +4022,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 234.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fréquence" ""
+			(at 234.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "E28-2G4M27SX"
+			(at 234.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "EBYTE"
 			(at 234.95 57.15 0)
 			(effects
 				(font
@@ -4040,7 +4193,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "NCD0603R3"
 			(at 134.62 32.0674 90)
 			(effects
 				(font
@@ -4049,7 +4202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "fch7_fp:LED0603-R-RD_RED"
 			(at 130.81 29.21 0)
 			(effects
 				(font
@@ -4058,7 +4211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3151730.pdf"
 			(at 130.81 29.21 0)
 			(effects
 				(font
@@ -4078,6 +4231,33 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 130.81 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fréquence" ""
+			(at 130.81 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCD0603R3"
+			(at 130.81 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NATIONSTAR"
+			(at 130.81 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,7 +4316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C23179.pdf"
 			(at 35.56 151.13 0)
 			(effects
 				(font
@@ -4146,6 +4326,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 35.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fréquence" ""
+			(at 35.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF4700T5E"
+			(at 35.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 35.56 151.13 0)
 			(effects
 				(font
@@ -4197,7 +4404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 98.7552 139.7 0)
 			(effects
 				(font
@@ -4206,7 +4413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
 			(at 97.79 135.89 0)
 			(effects
 				(font
@@ -4216,6 +4423,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 97.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fréquence" ""
+			(at 97.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A226MAQNNNE"
+			(at 97.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG"
 			(at 97.79 135.89 0)
 			(effects
 				(font
@@ -4276,7 +4510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C23179.pdf"
 			(at 130.81 40.64 0)
 			(effects
 				(font
@@ -4286,6 +4520,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 130.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fréquence" ""
+			(at 130.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF4700T5E"
+			(at 130.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 130.81 40.64 0)
 			(effects
 				(font
@@ -4479,7 +4740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C30926.pdf"
 			(at 104.14 31.75 0)
 			(effects
 				(font
@@ -4489,6 +4750,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 104.14 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603B104K500NT "
+			(at 104.14 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fréquence" ""
+			(at 104.14 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH"
 			(at 104.14 31.75 0)
 			(effects
 				(font
@@ -4546,7 +4834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2764054.pdf"
 			(at 69.85 152.4 0)
 			(effects
 				(font
@@ -4556,6 +4844,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fréquence" ""
+			(at 69.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESP-01F-2M"
+			(at 69.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Ai-Thinker"
 			(at 69.85 152.4 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-26790252800436093
+26797309087315260
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106379,12 +106379,26 @@ CONN-SMD_HDGC1002WR-S-8P
 10
 10
 fch7_fp
+CRYSTAL-SMD_4P-L2.0-W1.6-BL
+
+
+0
+4
+4
+fch7_fp
 CSNP1GCR01-BOW
 
 
 0
 8
 8
+fch7_fp
+CSTNE8M00G55Z000R0
+CSTNE8M00G55Z000R0-2
+Crystal or Oscillator
+0
+3
+3
 fch7_fp
 IIM42352
 14 Lead LGA (2.5x3x0.91)_1
@@ -106420,6 +106434,13 @@ Integrated Circuit
 0
 100
 100
+fch7_fp
+RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL
+
+
+0
+8
+8
 fch7_fp
 SENSOR-SMD_SPL06-001
 
@@ -106462,6 +106483,13 @@ TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL-EP-2
 0
 29
 29
+fch7_fp
+USB-C-SMD_TYPE-C-6PIN-2MD-073
+
+
+0
+16
+14
 fch7_fp
 WIFIM-SMD_ESP-01F-2M
 
