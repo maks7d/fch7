@@ -488,1667 +488,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HDGC1002WR-S-4P_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U15"
-				(at 15.24 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "HDGC1002WR-S-4P"
-				(at 20.574 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "fch7_fp:SM03B-SRSS-TB(LF)(SN)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Fréquence" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "HDGC1002WR-S-4P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "HDGC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HDGC1002WR-S-4P_1_0_1"
-				(rectangle
-					(start 7.62 -5.08)
-					(end 16.51 -21.59)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-			)
-			(symbol "HDGC1002WR-S-4P_1_1_1"
-				(pin passive line
-					(at 10.16 -2.54 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -24.13 90)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -7.62 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -11.43 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -15.24 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -19.05 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "HDGC1002WR-S-4P_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U16"
-				(at 14.224 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "HDGC1002WR-S-4P"
-				(at 20.574 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "fch7_fp:SM03B-SRSS-TB(LF)(SN)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Fréquence" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "HDGC1002WR-S-4P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "HDGC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HDGC1002WR-S-4P_2_0_1"
-				(rectangle
-					(start 7.62 -5.08)
-					(end 16.51 -21.59)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-			)
-			(symbol "HDGC1002WR-S-4P_2_1_1"
-				(pin passive line
-					(at 10.16 -2.54 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -24.13 90)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -7.62 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -11.43 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -15.24 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -19.05 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "HDGC1002WR-S-4P_3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U17"
-				(at 14.478 -3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "HDGC1002WR-S-4P"
-				(at 19.812 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "fch7_fp:SM03B-SRSS-TB(LF)(SN)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Fréquence" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "HDGC1002WR-S-4P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "HDGC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HDGC1002WR-S-4P_3_0_1"
-				(rectangle
-					(start 7.62 -5.08)
-					(end 16.51 -21.59)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-			)
-			(symbol "HDGC1002WR-S-4P_3_1_1"
-				(pin passive line
-					(at 10.16 -2.54 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -24.13 90)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -7.62 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -11.43 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -15.24 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -19.05 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "HDGC1002WR-S-4P_4"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U18"
-				(at 14.224 -3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "HDGC1002WR-S-4P"
-				(at 23.114 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "fch7_fp:SM03B-SRSS-TB(LF)(SN)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Fréquence" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "HDGC1002WR-S-4P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "HDGC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HDGC1002WR-S-4P_4_0_1"
-				(rectangle
-					(start 7.62 -5.08)
-					(end 16.51 -21.59)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-			)
-			(symbol "HDGC1002WR-S-4P_4_1_1"
-				(pin passive line
-					(at 10.16 -2.54 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -24.13 90)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -7.62 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -11.43 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -15.24 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -19.05 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "HDGC1002WR-S-4P_5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U19"
-				(at 14.224 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "HDGC1002WR-S-4P"
-				(at 20.32 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "fch7_fp:SM03B-SRSS-TB(LF)(SN)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Fréquence" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "HDGC1002WR-S-4P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "HDGC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HDGC1002WR-S-4P_5_0_1"
-				(rectangle
-					(start 7.62 -5.08)
-					(end 16.51 -21.59)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-			)
-			(symbol "HDGC1002WR-S-4P_5_1_1"
-				(pin passive line
-					(at 10.16 -2.54 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -24.13 90)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -7.62 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -11.43 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -15.24 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -19.05 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "HDGC1002WR-S-4P_6"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U20"
-				(at 14.224 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "HDGC1002WR-S-4P"
-				(at 20.574 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "fch7_fp:SM03B-SRSS-TB(LF)(SN)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Fréquence" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "HDGC1002WR-S-4P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "HDGC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HDGC1002WR-S-4P_6_0_1"
-				(rectangle
-					(start 7.62 -5.08)
-					(end 16.51 -21.59)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-			)
-			(symbol "HDGC1002WR-S-4P_6_1_1"
-				(pin passive line
-					(at 10.16 -2.54 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -24.13 90)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -7.62 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -11.43 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -15.24 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -19.05 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "HDGC1002WR-S-4P_7"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U24"
-				(at 14.478 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "HDGC1002WR-S-6P"
-				(at 20.574 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "fch7_fp:CONN-SMD_HDGC1002WR-S-6P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C3041141.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Fréquence" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "HDGC1002WR-S-6P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "HDGC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HDGC1002WR-S-4P_7_0_1"
-				(rectangle
-					(start 7.62 -5.08)
-					(end 16.51 -21.59)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-			)
-			(symbol "HDGC1002WR-S-4P_7_1_1"
-				(pin passive line
-					(at 10.16 -2.54 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -24.13 90)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -7.62 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -11.43 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -15.24 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -19.05 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "HDGC1002WR-S-8P_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U21"
-				(at 1.27 -8.8899 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "HDGC1002WR-S-8P"
-				(at 1.27 -11.4299 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "fch7_fp:CONN-SMD_HDGC1002WR-S-8P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HDGC1002WR-S-8P_1_0_1"
-				(rectangle
-					(start 2.54 0)
-					(end 10.16 -20.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-			)
-			(symbol "HDGC1002WR-S-8P_1_1_1"
-				(pin input line
-					(at 3.81 2.54 270)
-					(length 2.54)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 -22.86 90)
-					(length 2.54)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -1.27 180)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -3.81 180)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -6.35 180)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -8.89 180)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -11.43 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -13.97 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -16.51 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -19.05 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "fch7_sym:4D03WGJ0101T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2634,25 +973,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U14"
-				(at 15.494 -4.064 0)
+			(property "Reference" "U"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Value" "HDGC1002WR-S-4P"
-				(at 20.828 1.016 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Footprint" "fch7_fp:SM03B-SRSS-TB(LF)(SN)"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2661,7 +998,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2679,37 +1016,10 @@
 					(hide yes)
 				)
 			)
-			(property "Fréquence" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "HDGC1002WR-S-4P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "HDGC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "HDGC1002WR-S-4P_0_1"
 				(rectangle
-					(start 7.62 -5.08)
-					(end 16.51 -21.59)
+					(start -3.81 7.62)
+					(end 5.08 -8.89)
 					(stroke
 						(width 0)
 						(type default)
@@ -2722,7 +1032,7 @@
 			)
 			(symbol "HDGC1002WR-S-4P_1_1"
 				(pin passive line
-					(at 10.16 -2.54 270)
+					(at -1.27 10.16 270)
 					(length 2.54)
 					(name "5"
 						(effects
@@ -2731,7 +1041,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2740,7 +1050,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -24.13 90)
+					(at -1.27 -11.43 90)
 					(length 2.54)
 					(name "6"
 						(effects
@@ -2749,7 +1059,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2758,7 +1068,7 @@
 					)
 				)
 				(pin passive line
-					(at 19.05 -7.62 180)
+					(at 7.62 5.08 180)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -2767,7 +1077,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2776,7 +1086,7 @@
 					)
 				)
 				(pin passive line
-					(at 19.05 -11.43 180)
+					(at 7.62 1.27 180)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -2785,7 +1095,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2794,7 +1104,7 @@
 					)
 				)
 				(pin passive line
-					(at 19.05 -15.24 180)
+					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -2803,7 +1113,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2812,7 +1122,7 @@
 					)
 				)
 				(pin passive line
-					(at 19.05 -19.05 180)
+					(at 7.62 -6.35 180)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -2821,7 +1131,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2836,25 +1146,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U23"
-				(at 2.54 -41.9099 0)
+			(property "Reference" "U"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Value" "HDGC1002WR-S-6P"
-				(at 15.494 -30.48 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Footprint" "fch7_fp:CONN-SMD_HDGC1002WR-S-6P"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2883,8 +1191,8 @@
 			)
 			(symbol "HDGC1002WR-S-6P_0_1"
 				(rectangle
-					(start 3.81 -34.29)
-					(end 13.97 -52.07)
+					(start -5.08 8.89)
+					(end 5.08 -8.89)
 					(stroke
 						(width 0)
 						(type default)
@@ -2895,9 +1203,29 @@
 					)
 				)
 			)
+			(symbol "HDGC1002WR-S-6P_1_0"
+				(pin input line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(symbol "HDGC1002WR-S-6P_1_1"
 				(pin input line
-					(at 6.35 -54.61 90)
+					(at -2.54 -11.43 90)
 					(length 2.54)
 					(name "8"
 						(effects
@@ -2906,7 +1234,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2915,7 +1243,7 @@
 					)
 				)
 				(pin input line
-					(at 7.62 -31.75 270)
+					(at -1.27 11.43 270)
 					(length 2.54)
 					(name "7"
 						(effects
@@ -2924,7 +1252,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2933,7 +1261,7 @@
 					)
 				)
 				(pin input line
-					(at 16.51 -36.83 180)
+					(at 7.62 6.35 180)
 					(length 2.54)
 					(name "6"
 						(effects
@@ -2942,7 +1270,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2951,7 +1279,7 @@
 					)
 				)
 				(pin input line
-					(at 16.51 -39.37 180)
+					(at 7.62 3.81 180)
 					(length 2.54)
 					(name "5"
 						(effects
@@ -2960,7 +1288,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2969,7 +1297,7 @@
 					)
 				)
 				(pin input line
-					(at 16.51 -41.91 180)
+					(at 7.62 1.27 180)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -2978,7 +1306,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2987,7 +1315,7 @@
 					)
 				)
 				(pin input line
-					(at 16.51 -44.45 180)
+					(at 7.62 -1.27 180)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -2996,7 +1324,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3005,7 +1333,7 @@
 					)
 				)
 				(pin input line
-					(at 16.51 -46.99 180)
+					(at 7.62 -3.81 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -3014,7 +1342,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3023,7 +1351,7 @@
 					)
 				)
 				(pin input line
-					(at 16.51 -49.53 180)
+					(at 7.62 -6.35 180)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -3032,7 +1360,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3047,25 +1375,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U22"
-				(at 1.27 -8.8899 0)
+			(property "Reference" "U"
+				(at -6.35 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Value" "HDGC1002WR-S-8P"
-				(at 1.27 -11.4299 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Footprint" "fch7_fp:CONN-SMD_HDGC1002WR-S-8P"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3094,8 +1420,8 @@
 			)
 			(symbol "HDGC1002WR-S-8P_0_1"
 				(rectangle
-					(start 2.54 0)
-					(end 10.16 -20.32)
+					(start -3.81 8.89)
+					(end 3.81 -11.43)
 					(stroke
 						(width 0)
 						(type default)
@@ -3108,7 +1434,7 @@
 			)
 			(symbol "HDGC1002WR-S-8P_1_1"
 				(pin input line
-					(at 3.81 2.54 270)
+					(at -2.54 11.43 270)
 					(length 2.54)
 					(name "9"
 						(effects
@@ -3117,7 +1443,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3126,7 +1452,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -22.86 90)
+					(at -2.54 -13.97 90)
 					(length 2.54)
 					(name "10"
 						(effects
@@ -3135,7 +1461,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3144,7 +1470,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -1.27 180)
+					(at 6.35 7.62 180)
 					(length 2.54)
 					(name "8"
 						(effects
@@ -3153,7 +1479,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3162,7 +1488,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -3.81 180)
+					(at 6.35 5.08 180)
 					(length 2.54)
 					(name "7"
 						(effects
@@ -3171,7 +1497,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3180,7 +1506,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -6.35 180)
+					(at 6.35 2.54 180)
 					(length 2.54)
 					(name "6"
 						(effects
@@ -3189,7 +1515,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3198,7 +1524,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -8.89 180)
+					(at 6.35 0 180)
 					(length 2.54)
 					(name "5"
 						(effects
@@ -3207,7 +1533,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3216,7 +1542,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -11.43 180)
+					(at 6.35 -2.54 180)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -3225,7 +1551,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3234,7 +1560,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -13.97 180)
+					(at 6.35 -5.08 180)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -3243,7 +1569,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3252,7 +1578,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -16.51 180)
+					(at 6.35 -7.62 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -3261,7 +1587,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3270,7 +1596,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -19.05 180)
+					(at 6.35 -10.16 180)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -3279,7 +1605,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7070,9 +5396,8 @@
 		)
 	)
 	(symbol
-		(lib_name "HDGC1002WR-S-4P_5")
 		(lib_id "fclib:HDGC1002WR-S-4P")
-		(at 125.73 60.96 0)
+		(at 137.16 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7080,7 +5405,7 @@
 		(dnp no)
 		(uuid "17c390fa-bbe0-47f3-bf3d-9d6f04be5594")
 		(property "Reference" "U19"
-			(at 139.954 65.024 0)
+			(at 139.954 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7089,7 +5414,7 @@
 			)
 		)
 		(property "Value" "HDGC1002WR-S-4P"
-			(at 146.05 60.96 0)
+			(at 155.956 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7098,7 +5423,7 @@
 			)
 		)
 		(property "Footprint" "fch7_fp:SM03B-SRSS-TB(LF)(SN)"
-			(at 125.73 60.96 0)
+			(at 137.16 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7107,7 +5432,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
-			(at 125.73 60.96 0)
+			(at 137.16 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7116,7 +5441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 60.96 0)
+			(at 137.16 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,7 +5450,7 @@
 			)
 		)
 		(property "Fréquence" ""
-			(at 125.73 60.96 0)
+			(at 137.16 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,7 +5459,7 @@
 			)
 		)
 		(property "MPN" "HDGC1002WR-S-4P"
-			(at 125.73 60.96 0)
+			(at 137.16 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,7 +5468,7 @@
 			)
 		)
 		(property "Manufacturer" "HDGC"
-			(at 125.73 60.96 0)
+			(at 137.16 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,22 +5476,22 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "6"
 			(uuid "ce09f7c0-1add-4fac-809a-e7876e596676")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "96ca98f4-5c40-41d8-af97-a22422995822")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "bf693c1e-1b10-4b2a-a3c9-2974be3830f3")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "f5cb845a-1cdc-44bb-9435-5ef722593e95")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "77fc5a9f-e86a-4133-8b21-eb47df497c7b")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "113dda9d-6015-4ecb-9870-c2526cd1aa78")
 		)
 		(instances
@@ -7297,7 +5622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ProLib_pcs_2025-11-25 (1):RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+		(property "Footprint" "fch7_fp:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
 			(at 177.292 168.656 0)
 			(effects
 				(font
@@ -7902,7 +6227,7 @@
 	)
 	(symbol
 		(lib_id "fclib:HDGC1002WR-S-4P")
-		(at 21.59 27.94 0)
+		(at 33.02 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7910,7 +6235,7 @@
 		(dnp no)
 		(uuid "46d5dbd3-f4f0-45b5-b4ce-9b8b672e8bce")
 		(property "Reference" "U14"
-			(at 37.084 32.004 0)
+			(at 36.322 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7919,7 +6244,7 @@
 			)
 		)
 		(property "Value" "HDGC1002WR-S-4P"
-			(at 42.418 26.924 0)
+			(at 51.816 32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7928,7 +6253,7 @@
 			)
 		)
 		(property "Footprint" "fch7_fp:SM03B-SRSS-TB(LF)(SN)"
-			(at 21.59 27.94 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,7 +6262,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
-			(at 21.59 27.94 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7946,7 +6271,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 27.94 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7955,7 +6280,7 @@
 			)
 		)
 		(property "Fréquence" ""
-			(at 21.59 27.94 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7964,7 +6289,7 @@
 			)
 		)
 		(property "MPN" "HDGC1002WR-S-4P"
-			(at 21.59 27.94 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7973,7 +6298,7 @@
 			)
 		)
 		(property "Manufacturer" "HDGC"
-			(at 21.59 27.94 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7981,22 +6306,22 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "5"
 			(uuid "ad1e3909-2438-4421-93c6-71195abd3b27")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "244432fc-b2d0-4976-bfb7-d7db2887a7d4")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "7ef7965b-e75b-4d69-9143-aa22324aac9b")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "f1dee493-4077-4ade-9769-c6d0a76ba6b9")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "5d17f0a0-b8db-4b10-a2cb-580c98be8f88")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "679c66d2-3a13-4b1a-a988-cf64c6888206")
 		)
 		(instances
@@ -8121,7 +6446,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.914 98.298 0)
+			(at 199.136 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,9 +6494,8 @@
 		)
 	)
 	(symbol
-		(lib_name "HDGC1002WR-S-4P_4")
 		(lib_id "fclib:HDGC1002WR-S-4P")
-		(at 123.19 29.21 0)
+		(at 134.62 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8179,7 +6503,7 @@
 		(dnp no)
 		(uuid "57a88263-50f5-408e-ad2f-5dd9add5c59d")
 		(property "Reference" "U18"
-			(at 137.414 32.766 0)
+			(at 137.414 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,7 +6512,7 @@
 			)
 		)
 		(property "Value" "HDGC1002WR-S-4P"
-			(at 146.304 26.416 0)
+			(at 153.416 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8197,7 +6521,7 @@
 			)
 		)
 		(property "Footprint" "fch7_fp:SM03B-SRSS-TB(LF)(SN)"
-			(at 123.19 29.21 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +6530,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
-			(at 123.19 29.21 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,7 +6539,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 29.21 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,7 +6548,7 @@
 			)
 		)
 		(property "Fréquence" ""
-			(at 123.19 29.21 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +6557,7 @@
 			)
 		)
 		(property "MPN" "HDGC1002WR-S-4P"
-			(at 123.19 29.21 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,7 +6566,7 @@
 			)
 		)
 		(property "Manufacturer" "HDGC"
-			(at 123.19 29.21 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8250,22 +6574,22 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "6"
 			(uuid "cba3ffce-4bf2-40b6-909f-104a357038eb")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "edec6d64-dd30-4786-a0a3-e342a43a3c66")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "e6949edb-f3d4-4249-848e-975d41008c1f")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "bb05326b-3062-4ff7-b187-a1617149db06")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "8e8d9578-bba0-437a-aa2d-6f3a95ca4d35")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "46554843-1de0-4ccb-bd15-62d2fe0607e8")
 		)
 		(instances
@@ -8793,16 +7117,15 @@
 	)
 	(symbol
 		(lib_id "fclib:HDGC1002WR-S-8P")
-		(at 194.31 115.57 0)
+		(at 200.66 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7295fc50-f0bd-476d-8551-85e3903ff120")
 		(property "Reference" "U22"
-			(at 195.58 124.4599 0)
+			(at 195.326 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8811,7 +7134,7 @@
 			)
 		)
 		(property "Value" "HDGC1002WR-S-8P"
-			(at 195.58 126.9999 0)
+			(at 196.596 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8820,7 +7143,7 @@
 			)
 		)
 		(property "Footprint" "fch7_fp:CONN-SMD_HDGC1002WR-S-8P"
-			(at 194.31 115.57 0)
+			(at 200.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8829,7 +7152,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C3041142.pdf"
-			(at 194.31 115.57 0)
+			(at 200.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8838,7 +7161,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 115.57 0)
+			(at 200.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8847,7 +7170,7 @@
 			)
 		)
 		(property "Fréquence" ""
-			(at 194.31 115.57 0)
+			(at 200.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8856,7 +7179,7 @@
 			)
 		)
 		(property "MPN" "HDGC1002WR-S-8P"
-			(at 194.31 115.57 0)
+			(at 200.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8865,7 +7188,7 @@
 			)
 		)
 		(property "Manufacturer" "HDGC"
-			(at 194.31 115.57 0)
+			(at 200.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8873,34 +7196,34 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "9"
 			(uuid "ed308a11-97aa-4ead-8ba0-52bf0f016b9e")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "b5be4123-7675-4f77-a917-546ff8dde8ca")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "6eb1f366-e6ce-491a-adae-9f4c3b6a5db9")
 		)
-		(pin ""
+		(pin "10"
 			(uuid "b284f5dd-07a9-47f9-87c0-f283c250b28e")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "62a95e96-1ac4-49bb-bd27-855340dfeb59")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "afc4acce-4d0c-423e-a077-0f68b468fc42")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "133073f4-2359-494e-bc30-3407c42f80bb")
 		)
-		(pin ""
+		(pin "8"
 			(uuid "39418735-9af4-4e2e-8fd0-ea203adaf1ef")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "650df292-9a5b-402d-a8b5-074b8eabf4f5")
 		)
-		(pin ""
+		(pin "7"
 			(uuid "78d9eeeb-947b-4747-ac9f-5dcf832281e7")
 		)
 		(instances
@@ -8978,9 +7301,8 @@
 		)
 	)
 	(symbol
-		(lib_name "HDGC1002WR-S-4P_2")
 		(lib_id "fclib:HDGC1002WR-S-4P")
-		(at 21.59 92.71 0)
+		(at 33.02 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8988,7 +7310,7 @@
 		(dnp no)
 		(uuid "74add2a3-70cb-4a7f-900b-536ce5d01dad")
 		(property "Reference" "U16"
-			(at 35.814 96.52 0)
+			(at 35.814 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8997,7 +7319,7 @@
 			)
 		)
 		(property "Value" "HDGC1002WR-S-4P"
-			(at 42.164 91.44 0)
+			(at 51.562 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9006,7 +7328,7 @@
 			)
 		)
 		(property "Footprint" "fch7_fp:SM03B-SRSS-TB(LF)(SN)"
-			(at 21.59 92.71 0)
+			(at 33.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9015,7 +7337,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
-			(at 21.59 92.71 0)
+			(at 33.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9024,7 +7346,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 92.71 0)
+			(at 33.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9033,7 +7355,7 @@
 			)
 		)
 		(property "Fréquence" ""
-			(at 21.59 92.71 0)
+			(at 33.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9042,7 +7364,7 @@
 			)
 		)
 		(property "MPN" "HDGC1002WR-S-4P"
-			(at 21.59 92.71 0)
+			(at 33.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9051,7 +7373,7 @@
 			)
 		)
 		(property "Manufacturer" "HDGC"
-			(at 21.59 92.71 0)
+			(at 33.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9059,22 +7381,22 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "5"
 			(uuid "ce528312-7ef4-4144-8ad6-9d4bec771f13")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "23315235-9a24-4c0f-b020-feb8c7f69d71")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "ad2104c6-cea6-4619-bee8-75ba093a768d")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "f9177dfe-b254-4d3b-a895-d4d18179c7a9")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "bd730faa-78f7-4184-8cab-052f2ba5c2d8")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "00ceb9e5-5151-403c-89dc-0f5dc2a254b9")
 		)
 		(instances
@@ -9431,9 +7753,8 @@
 		)
 	)
 	(symbol
-		(lib_name "HDGC1002WR-S-4P_3")
 		(lib_id "fclib:HDGC1002WR-S-4P")
-		(at 21.59 125.73 0)
+		(at 33.02 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9441,7 +7762,7 @@
 		(dnp no)
 		(uuid "8416593a-258e-49e7-8e0f-2ee849ab16fb")
 		(property "Reference" "U17"
-			(at 36.068 129.286 0)
+			(at 36.322 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9450,7 +7771,7 @@
 			)
 		)
 		(property "Value" "HDGC1002WR-S-4P"
-			(at 41.402 124.714 0)
+			(at 52.07 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9459,7 +7780,7 @@
 			)
 		)
 		(property "Footprint" "fch7_fp:SM03B-SRSS-TB(LF)(SN)"
-			(at 21.59 125.73 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9468,7 +7789,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
-			(at 21.59 125.73 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9477,7 +7798,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 125.73 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,7 +7807,7 @@
 			)
 		)
 		(property "Fréquence" ""
-			(at 21.59 125.73 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,7 +7816,7 @@
 			)
 		)
 		(property "MPN" "HDGC1002WR-S-4P"
-			(at 21.59 125.73 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9504,7 +7825,7 @@
 			)
 		)
 		(property "Manufacturer" "HDGC"
-			(at 21.59 125.73 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9512,22 +7833,22 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "4"
 			(uuid "19908d04-b6de-4b3e-a4e0-b19621826e62")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "27c46121-8318-443e-a2f1-3984648b63b7")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "41c48845-acd9-46ad-88f1-6f59710dcccb")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "c98c1022-4a43-467f-89e2-3ef5ef083057")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "d21cedc4-9c93-42a6-bbd8-800a54c0ddd8")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "a353464c-660d-4e15-bb89-c6fd5ba3c491")
 		)
 		(instances
@@ -9794,9 +8115,8 @@
 		)
 	)
 	(symbol
-		(lib_name "HDGC1002WR-S-4P_6")
 		(lib_id "fclib:HDGC1002WR-S-4P")
-		(at 123.19 92.71 0)
+		(at 134.62 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9804,7 +8124,7 @@
 		(dnp no)
 		(uuid "91d95c1f-a0c7-4796-a00b-f3c3c51e5c27")
 		(property "Reference" "U20"
-			(at 137.414 96.52 0)
+			(at 137.16 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,7 +8133,7 @@
 			)
 		)
 		(property "Value" "HDGC1002WR-S-4P"
-			(at 143.764 92.71 0)
+			(at 153.162 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9822,7 +8142,7 @@
 			)
 		)
 		(property "Footprint" "fch7_fp:SM03B-SRSS-TB(LF)(SN)"
-			(at 123.19 92.71 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9831,7 +8151,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
-			(at 123.19 92.71 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9840,7 +8160,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 92.71 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9849,7 +8169,7 @@
 			)
 		)
 		(property "Fréquence" ""
-			(at 123.19 92.71 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9858,7 +8178,7 @@
 			)
 		)
 		(property "MPN" "HDGC1002WR-S-4P"
-			(at 123.19 92.71 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9867,7 +8187,7 @@
 			)
 		)
 		(property "Manufacturer" "HDGC"
-			(at 123.19 92.71 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9875,22 +8195,22 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "6"
 			(uuid "7d1c8563-c3cc-4084-8175-5668252bcd04")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "73bfe8d3-b414-4ceb-a281-c4c456e08135")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "03efa8dc-df0b-4104-b4ee-f79f5233d2e3")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "9b96d5cc-f99e-40ab-b76b-5089d22c5e2b")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "a4a19976-a42b-45f7-9c09-d3e9289d6be3")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "8f9b211b-2fc7-4d97-8c7c-0e98ae93ff1e")
 		)
 		(instances
@@ -9903,18 +8223,16 @@
 		)
 	)
 	(symbol
-		(lib_name "HDGC1002WR-S-8P_1")
 		(lib_id "fclib:HDGC1002WR-S-8P")
-		(at 149.86 148.59 0)
+		(at 156.21 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "989534b6-8f1e-4e7a-8614-fc7cdb2da6b8")
 		(property "Reference" "U21"
-			(at 151.13 157.4799 0)
+			(at 150.876 154.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9923,7 +8241,7 @@
 			)
 		)
 		(property "Value" "HDGC1002WR-S-8P"
-			(at 151.13 160.0199 0)
+			(at 151.638 152.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9932,7 +8250,7 @@
 			)
 		)
 		(property "Footprint" "fch7_fp:CONN-SMD_HDGC1002WR-S-8P"
-			(at 149.86 148.59 0)
+			(at 156.21 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9941,7 +8259,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C3041142.pdf"
-			(at 149.86 148.59 0)
+			(at 156.21 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9950,7 +8268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 148.59 0)
+			(at 156.21 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9959,7 +8277,7 @@
 			)
 		)
 		(property "Fréquence" ""
-			(at 149.86 148.59 0)
+			(at 156.21 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9968,7 +8286,7 @@
 			)
 		)
 		(property "MPN" "HDGC1002WR-S-8P"
-			(at 149.86 148.59 0)
+			(at 156.21 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9977,7 +8295,7 @@
 			)
 		)
 		(property "Manufacturer" "HDGC"
-			(at 149.86 148.59 0)
+			(at 156.21 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9985,34 +8303,34 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "3d0be454-0697-4c34-ae4b-e49cfddecc5a")
 		)
-		(pin ""
+		(pin "7"
 			(uuid "f58416e0-9da2-4c05-964d-212fa0d8897d")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "a02e044c-a3dd-4e8d-a24a-818b294b4a09")
 		)
-		(pin ""
+		(pin "8"
 			(uuid "85e3cab6-0f7f-4647-8a0a-115edfcd7f77")
 		)
-		(pin ""
+		(pin "10"
 			(uuid "0bbf9949-c7e2-40b3-8d2d-c21b4eef38c9")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "59b88f40-9564-4d33-96e8-5dbd771211e0")
 		)
-		(pin ""
+		(pin "9"
 			(uuid "3e7b9219-7012-4690-96b0-b5e9a14a4760")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "cfad22d9-bac7-4e23-a7fd-5dec79e841a5")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "968fecc2-4c8d-42ab-830a-964cc381f2ec")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "a182016e-3ac8-4f08-9cb1-9d67091452c3")
 		)
 		(instances
@@ -10025,9 +8343,8 @@
 		)
 	)
 	(symbol
-		(lib_name "HDGC1002WR-S-4P_7")
 		(lib_id "fclib:HDGC1002WR-S-4P")
-		(at 191.77 29.21 0)
+		(at 203.2 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10035,7 +8352,7 @@
 		(dnp no)
 		(uuid "9cc30ce3-4f4b-4cdc-a168-29a150c98b5e")
 		(property "Reference" "U24"
-			(at 206.248 33.02 0)
+			(at 205.994 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10044,7 +8361,7 @@
 			)
 		)
 		(property "Value" "HDGC1002WR-S-6P"
-			(at 212.344 28.194 0)
+			(at 221.742 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10053,7 +8370,7 @@
 			)
 		)
 		(property "Footprint" "fch7_fp:CONN-SMD_HDGC1002WR-S-6P"
-			(at 191.77 29.21 0)
+			(at 203.2 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10062,7 +8379,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C3041141.pdf"
-			(at 191.77 29.21 0)
+			(at 203.2 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10071,7 +8388,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 29.21 0)
+			(at 203.2 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10080,7 +8397,7 @@
 			)
 		)
 		(property "Fréquence" ""
-			(at 191.77 29.21 0)
+			(at 203.2 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10089,7 +8406,7 @@
 			)
 		)
 		(property "MPN" "HDGC1002WR-S-6P"
-			(at 191.77 29.21 0)
+			(at 203.2 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10098,7 +8415,7 @@
 			)
 		)
 		(property "Manufacturer" "HDGC"
-			(at 191.77 29.21 0)
+			(at 203.2 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10106,22 +8423,22 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "4"
 			(uuid "f2f8e8e4-bafb-47bc-9330-c328524b53e6")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "3889ffa6-d770-41fc-b67d-1ecb53157ea3")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "301733ea-6c3c-463b-8c1a-2edec75ba4bb")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "1bf9396b-9f4d-4e88-b420-1968a21e4cbb")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "3f1a465b-3bee-42dd-864d-5e6a961ab33a")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "eb21a598-4205-42b1-aa98-8e3522ab4035")
 		)
 		(instances
@@ -10134,9 +8451,8 @@
 		)
 	)
 	(symbol
-		(lib_name "HDGC1002WR-S-4P_1")
 		(lib_id "fclib:HDGC1002WR-S-4P")
-		(at 21.59 60.96 0)
+		(at 33.02 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10144,7 +8460,7 @@
 		(dnp no)
 		(uuid "a0e7c8b1-0034-42f3-850a-8c424e6fe7c0")
 		(property "Reference" "U15"
-			(at 36.83 64.77 0)
+			(at 35.814 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,7 +8469,7 @@
 			)
 		)
 		(property "Value" "HDGC1002WR-S-4P"
-			(at 42.164 59.944 0)
+			(at 51.562 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +8478,7 @@
 			)
 		)
 		(property "Footprint" "fch7_fp:SM03B-SRSS-TB(LF)(SN)"
-			(at 21.59 60.96 0)
+			(at 33.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +8487,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2936214.pdf"
-			(at 21.59 60.96 0)
+			(at 33.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10180,7 +8496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 60.96 0)
+			(at 33.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10189,7 +8505,7 @@
 			)
 		)
 		(property "Fréquence" ""
-			(at 21.59 60.96 0)
+			(at 33.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,7 +8514,7 @@
 			)
 		)
 		(property "MPN" "HDGC1002WR-S-4P"
-			(at 21.59 60.96 0)
+			(at 33.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10207,7 +8523,7 @@
 			)
 		)
 		(property "Manufacturer" "HDGC"
-			(at 21.59 60.96 0)
+			(at 33.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10215,22 +8531,22 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "4"
 			(uuid "278853c5-cc91-4b6a-a30c-aeb141aea3ef")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "a54811cb-fde2-4c53-9375-90fa4308d15d")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "7b458094-51d8-426a-9ba2-65cf50373560")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "a9fde4ec-0bdf-4c22-b528-feb9297a45a4")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "08193e62-da03-4697-b04b-92e037d23262")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "5c70488d-9b47-44d3-b6c0-d3330b1acb3f")
 		)
 		(instances
@@ -10559,7 +8875,7 @@
 	)
 	(symbol
 		(lib_id "fclib:HDGC1002WR-S-6P")
-		(at 194.31 40.64 0)
+		(at 203.2 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10567,7 +8883,7 @@
 		(dnp no)
 		(uuid "cc2499c6-3f88-4a7c-88b8-d6ce94996e0d")
 		(property "Reference" "U23"
-			(at 205.994 73.66 0)
+			(at 206.248 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10576,7 +8892,7 @@
 			)
 		)
 		(property "Value" "HDGC1002WR-S-6P"
-			(at 214.122 70.104 0)
+			(at 221.996 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10585,7 +8901,7 @@
 			)
 		)
 		(property "Footprint" "fch7_fp:CONN-SMD_HDGC1002WR-S-6P"
-			(at 194.31 40.64 0)
+			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10594,7 +8910,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C3041141.pdf"
-			(at 194.31 40.64 0)
+			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10603,7 +8919,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 40.64 0)
+			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10612,7 +8928,7 @@
 			)
 		)
 		(property "Fréquence" ""
-			(at 194.31 40.64 0)
+			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10621,7 +8937,7 @@
 			)
 		)
 		(property "MPN" "HDGC1002WR-S-6P"
-			(at 194.31 40.64 0)
+			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10630,7 +8946,7 @@
 			)
 		)
 		(property "Manufacturer" "HDGC"
-			(at 194.31 40.64 0)
+			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10638,29 +8954,32 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "5"
 			(uuid "194e61fb-a31b-4d1a-bf2f-fe4088f3bd96")
 		)
 		(pin ""
 			(uuid "442c83c3-813f-42c2-99ab-2eac5c51fb3a")
 		)
-		(pin ""
+		(pin "8"
 			(uuid "e3bdd03a-eb04-484a-a780-d518ce19ffd1")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "39726425-e710-4371-90bd-91ecaeb16e46")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "5ef53ecd-0257-44b5-831b-7a5c328b58d5")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "aca29c44-5435-4b1f-8212-cb3aa2f902ec")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "4c0880e4-ea71-44e7-b3b0-62288186ad1b")
 		)
-		(pin ""
+		(pin "7"
 			(uuid "4ff64cef-97a2-4caf-95bf-422745cafe54")
+		)
+		(pin "1"
+			(uuid "be3870c3-9f31-4b32-9bf3-c22d2a11691e")
 		)
 		(instances
 			(project ""
@@ -11289,7 +9608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ProLib_pcs_2025-11-25 (1):RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+		(property "Footprint" "fch7_fp:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
 			(at 219.202 135.636 0)
 			(effects
 				(font

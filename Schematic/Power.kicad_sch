@@ -4597,7 +4597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ME6217C33M5G:SOT23-5"
+		(property "Footprint" "fch7_fp:SOT23-5"
 			(at 78.74 38.1 0)
 			(effects
 				(font

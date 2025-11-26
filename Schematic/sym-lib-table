@@ -7,5 +7,5 @@
   (lib (name "MPU-6500")(type "KiCad")(uri "C:/Users/maxim/repos/fch7/Hardware/Symbols/fch7_sym/MPU-6500.kicad_sym")(options "")(descr ""))
   (lib (name "fch7_sym")(type "KiCad")(uri "C:/Users/maxim/repos/fch7/Hardware/Symbols/fch7_sym/fch7_sym.kicad_sym")(options "")(descr ""))
   (lib (name "CSTNE8M00G55Z000R0")(type "KiCad")(uri "C:/Users/maxim/repos/fch7/Hardware/Symbols/fch7_sym/CSTNE8M00G55Z000R0.kicad_sym")(options "")(descr ""))
-  (lib (name "fclib")(type "KiCad")(uri "${KIPRJMOD}/fclib.kicad_sym")(options "")(descr ""))
+  (lib (name "fclib")(type "KiCad")(uri "C:/Users/maxim/repos/fch7/fclib.kicad_sym")(options "")(descr ""))
 )
