@@ -3696,6 +3696,10 @@
 		(uuid "3b4090f6-9bb3-4bbd-8684-2c6d68b57c1b")
 	)
 	(no_connect
+		(at 139.7 129.54)
+		(uuid "6666f524-7886-4f16-83a0-dcb417d6c30c")
+	)
+	(no_connect
 		(at 111.76 50.8)
 		(uuid "7d9c6dcb-5d5e-497e-bf4f-287e9efa6951")
 	)
@@ -4750,16 +4754,6 @@
 			(type default)
 		)
 		(uuid "8c96f727-77bd-4575-979b-2a31c5a58c07")
-	)
-	(wire
-		(pts
-			(xy 139.7 129.54) (xy 140.97 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cb3a1b2-b7c2-4306-8527-928bc209c0f0")
 	)
 	(wire
 		(pts
@@ -7408,28 +7402,6 @@
 		(uuid "d90dd4e1-db62-442a-b1c4-630e9b06fd76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.54 39.2878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI2_OSD_CS"
-		(shape input)
-		(at 140.97 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0f084f6-2b06-4106-8261-03b7b663ce97")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.4737 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
