@@ -1,12 +1,9 @@
-Rapport ERC (2025-11-26T14:08:58+0100, Encodage UTF8)
+Rapport ERC (2025-11-28T18:21:04+0100, Encodage UTF8)
 
 ***** Feuille /
 [global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
     ; warning
     @(2450 mils, 2700 mils): Label Global 'EXTi_CS2'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(2450 mils, 2900 mils): Label Global 'LED_1'
 [global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
     ; warning
     @(2450 mils, 3000 mils): Label Global 'PWM_11'
@@ -15,25 +12,13 @@ Rapport ERC (2025-11-26T14:08:58+0100, Encodage UTF8)
     @(2450 mils, 3100 mils): Label Global 'PWM_12'
 [global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
     ; warning
-    @(2450 mils, 3500 mils): Label Global 'SPI1_IMU_CS'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
     @(4300 mils, 1950 mils): Label Global 'EXTI_CS1'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(4500 mils, 1950 mils): Label Global 'SDIO_CMD'
 [global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
     ; warning
     @(4600 mils, 1950 mils): Label Global 'CAN_RX'
 [global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
     ; warning
     @(4700 mils, 1950 mils): Label Global 'CAN_TX'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(4900 mils, 1950 mils): Label Global 'SDIO_D3'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(5000 mils, 1950 mils): Label Global 'SDIO_D2'
 [global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
     ; warning
     @(3500 mils, 5850 mils): Label Global 'RSSI'
@@ -46,30 +31,6 @@ Rapport ERC (2025-11-26T14:08:58+0100, Encodage UTF8)
 [global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
     ; warning
     @(4200 mils, 5850 mils): Label Global 'UART7_CTS'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(2150 mils, 1800 mils): Label Global 'I2C2_SDA'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(2150 mils, 1900 mils): Label Global 'I2C2_SCL'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(5100 mils, 1550 mils): Label Global 'SPI1_IMU1_CS'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(1700 mils, 3950 mils): Label Global 'UART4_TX'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(1700 mils, 4100 mils): Label Global 'UART4_RX'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(5750 mils, 3950 mils): Label Global 'VIDIN'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(8400 mils, 1450 mils): Label Global 'UART8_TX'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(8400 mils, 1600 mils): Label Global 'UART8_RX'
 
 ***** Feuille /Power/
 
@@ -85,4 +46,4 @@ Rapport ERC (2025-11-26T14:08:58+0100, Encodage UTF8)
 
 ***** Feuille /connectors/
 
-** messages ERC: 23  Erreurs 0  Avertissements 23
+** messages ERC: 10  Erreurs 0  Avertissements 10
