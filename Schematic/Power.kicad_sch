@@ -1542,6 +1542,16 @@
 		)
 		(uuid "3f097a85-2483-40b1-b029-508f1806cbcc")
 	)
+	(text "Buck regulator from VBAT(=2S-6S) to 5V or 9V\n "
+		(exclude_from_sim no)
+		(at 140.716 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7adc0a27-8b5c-4351-bccf-fe8628603fea")
+	)
 	(text "VBAT filtering, absorbing and smoothing input voltage from motor pulling"
 		(exclude_from_sim no)
 		(at 65.786 18.796 0)

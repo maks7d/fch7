@@ -1,0 +1,27 @@
+# KiCad temporary files
+*.kicad_prl
+*.lck
+~*.kicad_sch
+~*.kicad_pcb
+
+# Backup files
+*.bak
+*.bck
+*-backups/*.zip
+
+# Cache files
+fp-info-cache
+fp-lib-cache
+
+# Reports (optional - commentez si vous voulez les garder)
+# reports/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class

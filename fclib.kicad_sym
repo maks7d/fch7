@@ -848,7 +848,7 @@
 		(symbol "HDGC1002WR-S-4P_0_1"
 			(rectangle
 				(start -3.81 7.62)
-				(end 5.08 -8.89)
+				(end 3.81 -8.89)
 				(stroke
 					(width 0)
 					(type default)
@@ -897,7 +897,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 5.08 180)
+				(at 6.35 5.08 180)
 				(length 2.54)
 				(name "4"
 					(effects
@@ -915,7 +915,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 1.27 180)
+				(at 6.35 1.27 180)
 				(length 2.54)
 				(name "3"
 					(effects
@@ -933,7 +933,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -2.54 180)
+				(at 6.35 -2.54 180)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -951,7 +951,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -6.35 180)
+				(at 6.35 -6.35 180)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -1021,7 +1021,7 @@
 		(symbol "HDGC1002WR-S-6P_0_1"
 			(rectangle
 				(start -5.08 8.89)
-				(end 5.08 -8.89)
+				(end 2.54 -8.89)
 				(stroke
 					(width 0)
 					(type default)
@@ -1034,7 +1034,7 @@
 		)
 		(symbol "HDGC1002WR-S-6P_1_0"
 			(pin input line
-				(at 7.62 -3.81 180)
+				(at 5.08 -3.81 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1054,6 +1054,24 @@
 		)
 		(symbol "HDGC1002WR-S-6P_1_1"
 			(pin input line
+				(at -2.54 11.43 270)
+				(length 2.54)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at -2.54 -11.43 90)
 				(length 2.54)
 				(name "8"
@@ -1072,25 +1090,7 @@
 				)
 			)
 			(pin input line
-				(at -1.27 11.43 270)
-				(length 2.54)
-				(name "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 6.35 180)
+				(at 5.08 6.35 180)
 				(length 2.54)
 				(name "6"
 					(effects
@@ -1108,7 +1108,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 3.81 180)
+				(at 5.08 3.81 180)
 				(length 2.54)
 				(name "5"
 					(effects
@@ -1126,7 +1126,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 1.27 180)
+				(at 5.08 1.27 180)
 				(length 2.54)
 				(name "4"
 					(effects
@@ -1144,7 +1144,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -1.27 180)
+				(at 5.08 -1.27 180)
 				(length 2.54)
 				(name "3"
 					(effects
@@ -1162,7 +1162,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -3.81 180)
+				(at 5.08 -3.81 180)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -1180,7 +1180,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -6.35 180)
+				(at 5.08 -6.35 180)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -3155,6 +3155,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" ""
@@ -3194,8 +3195,8 @@
 		)
 		(symbol "RF_2.4_0_1"
 			(rectangle
-				(start -10.16 16.51)
-				(end 10.16 -11.43)
+				(start -10.16 10.16)
+				(end 10.16 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -3207,7 +3208,7 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 16.51) (xy -10.16 25.4) (xy 10.16 25.4) (xy 10.16 16.51)
+					(xy -10.16 10.16) (xy -10.16 19.05) (xy 10.16 19.05) (xy 10.16 10.16)
 				)
 				(stroke
 					(width 0)
@@ -3220,9 +3221,9 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 16.51) (xy -6.35 17.78) (xy -8.89 17.78) (xy -8.89 22.86) (xy -6.35 22.86) (xy -6.35 19.05)
-					(xy -3.81 19.05) (xy -3.81 22.86) (xy -1.27 22.86) (xy -1.27 19.05) (xy 1.27 19.05) (xy 1.27 22.86)
-					(xy 3.81 22.86) (xy 3.81 19.05) (xy 6.35 19.05) (xy 6.35 22.86) (xy 7.62 22.86) (xy 7.62 19.05)
+					(xy -5.08 10.16) (xy -6.35 11.43) (xy -8.89 11.43) (xy -8.89 16.51) (xy -6.35 16.51) (xy -6.35 12.7)
+					(xy -3.81 12.7) (xy -3.81 16.51) (xy -1.27 16.51) (xy -1.27 12.7) (xy 1.27 12.7) (xy 1.27 16.51)
+					(xy 3.81 16.51) (xy 3.81 12.7) (xy 6.35 12.7) (xy 6.35 16.51) (xy 7.62 16.51) (xy 7.62 12.7)
 				)
 				(stroke
 					(width 0)
@@ -3235,7 +3236,7 @@
 		)
 		(symbol "RF_2.4_1_1"
 			(pin input line
-				(at -12.7 13.97 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3253,7 +3254,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 10.16 0)
+				(at -12.7 3.81 0)
 				(length 2.54)
 				(name "NRESET"
 					(effects
@@ -3271,7 +3272,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 6.35 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "BUSY"
 					(effects
@@ -3289,7 +3290,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 2.54 0)
+				(at -12.7 -3.81 0)
 				(length 2.54)
 				(name "DIO1"
 					(effects
@@ -3307,7 +3308,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -1.27 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "DIO2"
 					(effects
@@ -3325,7 +3326,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -5.08 0)
+				(at -12.7 -11.43 0)
 				(length 2.54)
 				(name "DIO3"
 					(effects
@@ -3343,7 +3344,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -8.89 0)
+				(at -12.7 -15.24 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3361,7 +3362,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 13.97 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3379,7 +3380,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 10.16 180)
+				(at 12.7 3.81 180)
 				(length 2.54)
 				(name "NSS_CTS"
 					(effects
@@ -3397,7 +3398,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 6.35 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "SCK_RTSN"
 					(effects
@@ -3415,7 +3416,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 2.54 180)
+				(at 12.7 -3.81 180)
 				(length 2.54)
 				(name "MOSI_RX"
 					(effects
@@ -3433,7 +3434,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -1.27 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "MISO_TX"
 					(effects
@@ -3451,7 +3452,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -5.08 180)
+				(at 12.7 -11.43 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3469,7 +3470,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -8.89 180)
+				(at 12.7 -15.24 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -3829,8 +3830,8 @@
 		)
 		(symbol "elrs_rx_0_1"
 			(rectangle
-				(start -11.43 17.78)
-				(end 10.16 -17.78)
+				(start -10.16 17.78)
+				(end 8.89 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -3843,7 +3844,7 @@
 		)
 		(symbol "elrs_rx_1_1"
 			(pin input line
-				(at -13.97 15.24 0)
+				(at -12.7 15.24 0)
 				(length 2.54)
 				(name "ANT"
 					(effects
@@ -3861,7 +3862,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 11.43 0)
+				(at -12.7 11.43 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3879,7 +3880,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 7.62 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "ADC"
 					(effects
@@ -3897,7 +3898,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 3.81 0)
+				(at -12.7 3.81 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -3915,9 +3916,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 0 0)
+				(at -12.7 0 0)
 				(length 2.54)
-				(name "IO1016"
+				(name "IO16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3933,7 +3934,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -3.81 0)
+				(at -12.7 -3.81 0)
 				(length 2.54)
 				(name "IO14"
 					(effects
@@ -3951,7 +3952,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -7.62 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "IO12"
 					(effects
@@ -3969,7 +3970,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -11.43 0)
+				(at -12.7 -11.43 0)
 				(length 2.54)
 				(name "IO13"
 					(effects
@@ -3987,7 +3988,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -15.24 0)
+				(at -12.7 -15.24 0)
 				(length 2.54)
 				(name "IO15"
 					(effects
@@ -4005,7 +4006,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 15.24 180)
+				(at 11.43 15.24 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -4023,7 +4024,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 11.43 180)
+				(at 11.43 11.43 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -4041,7 +4042,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 7.62 180)
+				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "RST"
 					(effects
@@ -4059,7 +4060,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 3.81 180)
+				(at 11.43 3.81 180)
 				(length 2.54)
 				(name "TX"
 					(effects
@@ -4077,7 +4078,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 0 180)
+				(at 11.43 0 180)
 				(length 2.54)
 				(name "RX"
 					(effects
@@ -4095,7 +4096,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -3.81 180)
+				(at 11.43 -3.81 180)
 				(length 2.54)
 				(name "IO5"
 					(effects
@@ -4113,7 +4114,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -7.62 180)
+				(at 11.43 -7.62 180)
 				(length 2.54)
 				(name "IO4"
 					(effects
@@ -4131,7 +4132,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -11.43 180)
+				(at 11.43 -11.43 180)
 				(length 2.54)
 				(name "IO0"
 					(effects
@@ -4149,7 +4150,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -15.24 180)
+				(at 11.43 -15.24 180)
 				(length 2.54)
 				(name "IO2"
 					(effects
