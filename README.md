@@ -2,7 +2,7 @@
 
 ##  Vue d'ensemble
 
-FCH7 est un contrôleur de vol (flight controller) haute performance pour drones quadcopters, conçu avec KiCad. Ce projet vise à créer une solution complète et intégrée pour le contrôle de drones FPV avec des composants modernes et performants.
+FCH7 est un projet visant à développant un contrôleur de vol autour du MCU STM32H743VITx (flight controller) pour drones de 4 à 8 moteurs, conçu avec KiCad.
 
 > ** Statut du projet:** Ce projet est actuellement en cours de développement. Les schématiques sont en phase de conception et le PCB n'est pas encore finalisé.
 
@@ -16,7 +16,7 @@ FCH7 est un contrôleur de vol (flight controller) haute performance pour drones
   - Package LQFP100
 
 ### Capteurs embarqués
-- **ICM42688P** - IMU haute performance (gyroscope + accéléromètre)
+- **ICM42688P** - IMU moderne (gyroscope + accéléromètre)
 - **MPU6500** - IMU secondaire pour redondance
 - **QMC5883L** - Magnétomètre 3 axes pour la boussole
 - **SPL06-001** - Baromètre pour l'altitude
@@ -37,13 +37,7 @@ FCH7 est un contrôleur de vol (flight controller) haute performance pour drones
   - Régulateur **MP9943GQ-z** - Buck converter principal
   - Régulateur **ME6217C33M5G** - LDO 3.3V
   - Support pour batteries LiPo (VBAT)
-  - Rails multiples: VDD_MCU, VDD_RECV, 4V5
-  - Protection et filtrage
-
-### OSD (On-Screen Display)
-- **AT7456E** - Puce OSD pour affichage de télémétrie sur le flux vidéo FPV
-  - Overlay d'informations en temps réel
-  - Compatible avec les standards vidéo analogiques
+  - Rails multiples: VDD_MCU, VDD_RECV, 4V5, VDD_GYRO
 
 ### Stockage et LEDs
 - **Blackbox** - Interface SDIO pour carte microSD
@@ -56,23 +50,83 @@ FCH7 est un contrôleur de vol (flight controller) haute performance pour drones
 Le projet est organisé en modules hiérarchiques distincts:
 
 ```
-fch7/
-├── fch7.kicad_sch          # Schématique principal (root)
-├── MCU.kicad_sch           # Module microcontrôleur (STM32H7)
-├── Power.kicad_sch         # Module gestion d'alimentation
-├── sensors.kicad_sch       # Module capteurs (IMU, magnéto, baro)
-├── rf_rx.kicad_sch         # Module récepteur RF (ExpressLRS)
-├── osd.kicad_sch           # Module OSD vidéo
-├── blackbox_led.kicad_sch  # Module enregistrement et LEDs
-├── connectors.kicad_sch    # Module connecteurs externes
-├── fclib.kicad_sym         # Bibliothèque de symboles personnalisés
-└── fch7.kicad_pcb          # Layout PCB (à venir)
+Structure du dossier
+Le numéro de série du volume est D4CE-14CE
+C:.
+│   .gitignore
+│   fch7.kicad_pcb
+│   fch7.kicad_prl
+│   fch7.kicad_pro
+│   fclib.bak
+│   fclib.kicad_sym
+│   fp-info-cache
+│   fp-lib-table
+│   README.md
+│   sym-lib-table     
+├───Hardware
+│   ├───3D
+│   │       CSTNE8M00G55Z000R0.stp
+│   │       ICM-42688-P.stp
+│   │       ME6217C33M5G.step
+│   │       MP9943AGQ-Z.stp
+│   │       MPU-6500.stp
+│   │       STM32H743VIT6.stp
+│   │
+│   ├───Footprints
+│   │   └───fch7_fp.pretty
+│   │           AP2112K-1.8TRG1.kicad_mod
+│   │           CONN-SMD_HDGC1002WR-S-6P.kicad_mod
+│   │           CONN-SMD_HDGC1002WR-S-8P.kicad_mod
+│   │           CRYSTAL-SMD_4P-L2.0-W1.6-BL.kicad_mod
+│   │           CSNP1GCR01-BOW.kicad_mod
+│   │           CSTNE8M00G55Z000R0.kicad_mod
+│   │           IIM42352.kicad_mod
+│   │           LED0603-R-RD_RED.kicad_mod
+│   │           LGA-16_L3.0-W3.0-P0.50-BL_SQ.kicad_mod
+│   │           LQFP-100_14x14mm_P0.5mm_STM32H743.kicad_mod
+│   │           QFN40P300X300X95-25M-D.kicad_mod
+│   │           RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL.kicad_mod
+│   │           SENSOR-SMD_SPL06-001.kicad_mod
+│   │           SM03B-SRSS-TB(LF)(SN).kicad_mod
+│   │           SolderPad_1x01_SMD_2.2x1.6mm.kicad_mod
+│   │           SON65P300X300X100-8N.kicad_mod
+│   │           SOT23-5.kicad_mod
+│   │           STM32H743VIT6.mod
+│   │           SW-SMD_2P-TS24CA.kicad_mod
+│   │           TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL-EP-2.kicad_mod
+│   │           USB-C-SMD_TYPE-C-6PIN-2MD-073.kicad_mod
+│   │           WIFIM-SMD_ESP-01F-2M.kicad_mod
+│   │           WIRELM-SMD_E28-2G4M27SX.kicad_mod
+│   └───Symbols
+│       └───fch7_sym
+│               CSTNE8M00G55Z000R0.bak
+│               CSTNE8M00G55Z000R0.kicad_sym
+│               fch7_sym.bak
+│               fch7_sym.kicad_sym
+│               ICM-42688-P.kicad_sym
+│               ME6217C33M5G.bak
+│               ME6217C33M5G.kicad_sym
+│               MP9943AGQ-Z.bak
+│               MP9943AGQ-Z.kicad_sym
+│               MPU-6500.kicad_sym
+│               STM32H743VIT6.kicad_sym
+└───Schematic
+        blackbox_led.kicad_sch
+        connectors.kicad_sch
+        ERC.rpt
+        fch7.csv
+        fch7.kicad_sch
+        fp-info-cache
+        MCU.kicad_sch
+        Power.kicad_sch
+        rf_rx.kicad_sch
+        sensors.kicad_sch
+        ~fch7.kicad_sch.lck
 ```
 
 ##  Composants personnalisés
 
 Le projet utilise une bibliothèque de symboles personnalisés (`fclib.kicad_sym`) contenant:
-- AT7456E (OSD)
 - ICM42688P (IMU)
 - MPU6500 (IMU)
 - QMC5883L (Magnétomètre)
@@ -105,9 +159,8 @@ Ce flight controller est conçu pour:
 
 ### Alimentation
 - Entrée: Batteries LiPo (2-6S typique)
-- Rails régulés: 3.3V, 4.5V, VDD_MCU, VDD_RECV
+- Rails régulés: 3.3V, 4.5V, VDD_MCU, VDD_RECV, VDD_GYRO
 - Protection contre les inversions de polarité
-- Filtrage capacitif avancé
 
 ##  Outils requis
 
@@ -115,18 +168,12 @@ Ce flight controller est conçu pour:
 - **KiCad 9.0** ou supérieur - Conception schématique et PCB
 - **Git** - Gestion de version
 
-### Pour le développement firmware (futur)
-- STM32CubeIDE ou PlatformIO
-- Firmware compatible STM32H7 (Betaflight, INAV, ArduPilot, etc.)
-- Programmateur ST-Link V2/V3
-
 ##  Statut du développement
 
 - [x] Schématique du MCU
 - [x] Schématique de l'alimentation
 - [x] Schématique des capteurs
 - [x] Schématique du récepteur RF
-- [x] Schématique OSD
 - [x] Schématique Blackbox/LEDs
 - [x] Schématique des connecteurs
 - [x] Bibliothèque de symboles personnalisés
@@ -139,13 +186,6 @@ Ce flight controller est conçu pour:
 - [ ] Documentation utilisateur
 
 ##  Notes de conception
-
-### Considérations importantes
-- Le STM32H743 offre des performances exceptionnelles pour les algorithmes de vol
-- Le double IMU (ICM42688P + MPU6500) permet une redondance et un filtrage avancé
-- L'intégration du récepteur ExpressLRS réduit le poids et améliore la fiabilité
-- Le baromètre SPL06-001 est particulièrement adapté aux drones
-- L'OSD AT7456E est compatible avec les systèmes vidéo analogiques standard
 
 ### Améliorations futures possibles
 - Support pour capteurs additionnels (distance, optique)
