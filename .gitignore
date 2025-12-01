@@ -7,7 +7,7 @@
 # Backup files
 *.bak
 *.bck
-*-backups/*.zip
+*-backups*/*.zip
 
 # Cache files
 fp-info-cache

@@ -6,25 +6,23 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "Y"
-			(at 21.59 7.62 0)
+		(property "Reference" "Y1"
+			(at 12.7 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Value" "CSTNE8M00G55Z000R0"
-			(at 21.59 5.08 0)
+		(property "Value" "8MHz"
+			(at 12.7 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Footprint" "CSTNE8M00G55Z000R0"
+		(property "Footprint" "fch7_fp:CSTNE8M00G55Z000R0"
 			(at 21.59 -94.92 0)
 			(effects
 				(font
@@ -45,7 +43,7 @@
 			)
 		)
 		(property "Description" "Ceramic Resonator 8MHz 33pF SMD 40 Ohms"
-			(at 7.874 -11.684 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -100,6 +98,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Fréquence" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSTNE8M00G55Z000R0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

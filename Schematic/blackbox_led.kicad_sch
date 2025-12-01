@@ -455,23 +455,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -15.24 8.89 0)
+			(property "Reference" "U10"
+				(at 0.254 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "CSNP1GCR01-BOW"
+				(at 0.254 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "fch7_fp:CSNP1GCR01-BOW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -480,7 +480,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2691593.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -490,6 +490,33 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Fréquence" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CSNP1GCR01-BOW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "CS Semiconductor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2349,9 +2376,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "102fce9f-bd14-4de0-93d6-cc7ad4aeb0c0")
-		(property "Reference" "U10"
-			(at 207.264 85.09 0)
+		(fields_autoplaced yes)
+		(uuid "11ead795-5415-41a9-a362-4b5d6302da71")
+		(property "Reference" "U6"
+			(at 206.375 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2387,7 @@
 			)
 		)
 		(property "Value" "CSNP1GCR01-BOW"
-			(at 207.264 87.63 0)
+			(at 206.375 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,34 +2448,34 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "669cda86-ec40-4ede-bea7-fde1e685552d")
-		)
-		(pin "1"
-			(uuid "860a16fb-0a02-4910-93d7-b62d8fd8ba11")
-		)
-		(pin "2"
-			(uuid "0dc09114-dc34-4d98-88be-64c386941b46")
-		)
 		(pin "4"
-			(uuid "3b9e51d8-5393-4946-b264-4e851b197198")
-		)
-		(pin "7"
-			(uuid "442d5210-7826-4e56-a494-0bd09523cca9")
+			(uuid "43b7ebe8-860b-468b-9f87-0ec166ed8c31")
 		)
 		(pin "3"
-			(uuid "da7f0c9b-575c-42c7-8e46-a75007368fcc")
+			(uuid "865930ab-24fc-4e97-a573-e07bd0491cc8")
 		)
-		(pin "8"
-			(uuid "d2bf4d8c-8b7f-4d75-a5fc-8ecf49ead206")
+		(pin "2"
+			(uuid "acbcde1b-a925-4204-9422-5ee65a5c9564")
 		)
 		(pin "6"
-			(uuid "fd3e8372-256a-451a-a055-7aabf72e2973")
+			(uuid "e8a6a9e3-f8c2-4bfa-ac87-abaa0046742d")
+		)
+		(pin "7"
+			(uuid "672bec96-abf9-44c9-8741-b1b53f122f85")
+		)
+		(pin "1"
+			(uuid "7b3e0e24-dd74-45b9-bfbd-66993097121c")
+		)
+		(pin "8"
+			(uuid "e163d89a-63f6-4c0e-856d-4b7d15145afc")
+		)
+		(pin "5"
+			(uuid "b1313607-6fce-4f48-adbb-408517553474")
 		)
 		(instances
 			(project ""
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/fc7fa8bf-8ca0-46b3-82d5-3a5223b4ca6b"
-					(reference "U10")
+					(reference "U6")
 					(unit 1)
 				)
 			)

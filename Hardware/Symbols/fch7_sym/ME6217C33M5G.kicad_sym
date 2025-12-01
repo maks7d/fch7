@@ -9,26 +9,24 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at -5.08 10.16 0)
+		(property "Reference" "U2"
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "ME6217C33M5G"
-			(at -5.08 7.62 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ME6217C33M5G:SOT23-5"
-			(at 0 13.208 0)
+		(property "Footprint" "fch7_fp:SOT23-5"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37,7 +35,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C427602.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56,7 +54,7 @@
 			)
 		)
 		(property "SHOP" "LCSC"
-			(at 9.398 -11.176 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +64,7 @@
 			)
 		)
 		(property "MF" "Microne"
-			(at -17.526 -14.478 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +84,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at -1.016 10.922 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,7 +94,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0.254 22.86 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106,7 +104,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ME6217C33M5G/Microne/view-part/?ref=snap"
-			(at 0.762 -22.606 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,7 +114,7 @@
 			)
 		)
 		(property "MP" "ME6217C33M5G"
-			(at -0.762 19.558 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126,7 +124,7 @@
 			)
 		)
 		(property "M_PART_NUMBER" "ME6217C33M5G"
-			(at 0.508 25.908 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,7 +134,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 17.78 -20.32 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,7 +144,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ME6217C33M5G/Microne/view-part/?ref=eda"
-			(at -0.254 16.51 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -155,10 +153,37 @@
 				(hide yes)
 			)
 		)
+		(property "Fréquence" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ME6217C33M5G"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MICRONE"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "ME6217C33M5G_0_0"
 			(rectangle
-				(start -7.62 -5.08)
-				(end 7.62 5.08)
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)

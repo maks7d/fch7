@@ -1,4 +1,4 @@
-26800837636608504
+26800838860145340
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106372,6 +106372,13 @@ AP2112K-1.8TRG1
 5
 5
 fch7_fp
+CONN-SMD_4P-P1.00_HDGC_HDGC1002WR-S-4P
+
+
+0
+6
+6
+fch7_fp
 CONN-SMD_HDGC1002WR-S-6P
 
 
@@ -106455,13 +106462,6 @@ SENSOR-SMD_SPL06-001
 0
 8
 8
-fch7_fp
-SM03B-SRSS-TB(LF)(SN)
-
-
-0
-5
-5
 fch7_fp
 SON65P300X300X100-8N
 QFN-8
