@@ -7162,7 +7162,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at -11.43 11.43 0)
 				(length 2.54)
 				(name "VBUS"
@@ -7324,7 +7324,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at -11.43 -11.43 0)
 				(length 2.54)
 				(name "VBUS"

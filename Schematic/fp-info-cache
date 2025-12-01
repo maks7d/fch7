@@ -1,4 +1,4 @@
-26800838860145340
+26802603479743826
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106441,6 +106441,13 @@ Integrated Circuit
 0
 100
 100
+fch7_fp
+MountingHole_quad_30.5x30.5
+
+
+0
+0
+0
 fch7_fp
 QFN40P300X300X95-25M-D
 MPU-6500
