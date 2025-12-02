@@ -5091,7 +5091,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819"
+		(property "Value" "1N5819W"
 			(at 133.604 25.654 0)
 			(effects
 				(font
@@ -5099,7 +5099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "fch7_fp:SOD-123_L2.7-W1.6-LS3.7-RD"
 			(at 133.35 23.495 0)
 			(effects
 				(font
@@ -5108,7 +5108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C963381.pdf"
 			(at 133.35 27.94 0)
 			(effects
 				(font
@@ -5135,7 +5135,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N5819"
+		(property "MPN" "1N5819W"
 			(at 133.35 27.94 0)
 			(effects
 				(font
@@ -5144,7 +5144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "STM"
+		(property "Manufacturer" "JSMSEMI"
 			(at 133.35 27.94 0)
 			(effects
 				(font
@@ -8337,7 +8337,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819"
+		(property "Value" "BAT60B"
 			(at 133.604 35.814 0)
 			(effects
 				(font
@@ -8345,7 +8345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "fch7_fp:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 133.35 33.655 0)
 			(effects
 				(font
@@ -8381,7 +8381,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N5819"
+		(property "MPN" "BAT60B"
 			(at 133.35 38.1 0)
 			(effects
 				(font
@@ -8390,7 +8390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "STM"
+		(property "Manufacturer" "JSCJ"
 			(at 133.35 38.1 0)
 			(effects
 				(font

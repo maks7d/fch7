@@ -1,4 +1,4 @@
-26802603479743826
+26806132895536058
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106469,6 +106469,20 @@ SENSOR-SMD_SPL06-001
 0
 8
 8
+fch7_fp
+SOD-123_L2.7-W1.6-LS3.7-RD
+
+
+0
+2
+2
+fch7_fp
+SOD-323_L1.8-W1.3-LS2.5-RD
+
+
+0
+2
+2
 fch7_fp
 SON65P300X300X100-8N
 QFN-8
