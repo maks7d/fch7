@@ -1866,12 +1866,6 @@
 		(uuid "04887476-a352-4743-89d8-9c9020e42b11")
 	)
 	(junction
-		(at 44.45 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "569f54ec-21fd-472e-a7b8-607b55703238")
-	)
-	(junction
 		(at 111.76 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1888,6 +1882,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71f14e79-a700-40ab-a16b-bc15ad3638ed")
+	)
+	(junction
+		(at 44.45 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bd1a15f-f690-4ed2-8e1c-8f3a100d2693")
 	)
 	(junction
 		(at 213.36 134.62)
@@ -1938,6 +1938,16 @@
 			(type default)
 		)
 		(uuid "0aa7dee3-80cf-4ddf-a878-f3eb19524231")
+	)
+	(wire
+		(pts
+			(xy 44.45 147.32) (xy 44.45 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d14bd95-a23a-4493-b566-526778438e0c")
 	)
 	(wire
 		(pts
@@ -2041,16 +2051,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 137.16) (xy 46.99 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40794afa-0bba-42f7-8213-19f2e941e74a")
-	)
-	(wire
-		(pts
 			(xy 88.9 125.73) (xy 93.98 125.73)
 		)
 		(stroke
@@ -2118,6 +2118,16 @@
 			(type default)
 		)
 		(uuid "4f37b50f-ad19-4c24-a116-bd8ea237e683")
+	)
+	(wire
+		(pts
+			(xy 46.99 137.16) (xy 44.45 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53077a0c-588b-48b6-81ea-1143f69e7e94")
 	)
 	(wire
 		(pts
@@ -2271,16 +2281,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 144.78) (xy 44.45 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c0be9a6-42bc-4ba9-b6dd-b24b78c2598d")
-	)
-	(wire
-		(pts
 			(xy 125.73 46.99) (xy 125.73 48.26)
 		)
 		(stroke
@@ -2428,6 +2428,16 @@
 			(type default)
 		)
 		(uuid "9dfa9f27-f540-4446-930b-44f46eea43d0")
+	)
+	(wire
+		(pts
+			(xy 44.45 137.16) (xy 44.45 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f41823-b14b-41d2-85cb-cd79ca8d4ded")
 	)
 	(wire
 		(pts
@@ -4162,7 +4172,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 140.97 0)
+		(at 44.45 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4170,7 +4180,7 @@
 		(dnp no)
 		(uuid "b36e4790-ab22-48e0-aae7-7cfd887e2ddc")
 		(property "Reference" "R41"
-			(at 44.45 144.78 0)
+			(at 40.386 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +4189,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 40.386 144.526 0)
+			(at 40.386 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4198,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 42.672 140.97 90)
+			(at 42.672 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +4207,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C23179.pdf"
-			(at 44.45 140.97 0)
+			(at 44.45 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +4216,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 44.45 140.97 0)
+			(at 44.45 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,7 +4225,7 @@
 			)
 		)
 		(property "Fréquence" ""
-			(at 44.45 140.97 0)
+			(at 44.45 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +4234,7 @@
 			)
 		)
 		(property "MPN" "0603WAF4700T5E"
-			(at 44.45 140.97 0)
+			(at 44.45 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4233,7 +4243,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 44.45 140.97 0)
+			(at 44.45 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,10 +4371,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bc4b1adc-70e9-4772-8658-0ad14f7a2433")
 		(property "Reference" "SW2"
-			(at 111.76 142.24 0)
+			(at 103.378 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +4381,7 @@
 			)
 		)
 		(property "Value" "TS24CA"
-			(at 111.76 144.78 0)
+			(at 115.824 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,7 +4833,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d962c3a7-463e-454b-90ae-3ace0ba537e4")
 		(property "Reference" "U1"
 			(at 44.45 49.53 0)
