@@ -5766,7 +5766,7 @@
 			)
 		)
 	)
-	(global_label "SDIO_D1"
+	(global_label "SDIO_D0"
 		(shape input)
 		(at 140.97 93.98 0)
 		(fields_autoplaced yes)
