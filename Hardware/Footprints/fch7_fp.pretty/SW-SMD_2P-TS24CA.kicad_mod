@@ -162,10 +162,10 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill yes)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "59fd8ff9-5500-47f0-bb7a-7bcbbdb66e9e")
 	)
 	(fp_poly
@@ -178,10 +178,10 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill yes)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "fda38cf2-74b8-4f8f-b6b3-5f04f38ced60")
 	)
 	(fp_rect

@@ -1,0 +1,5 @@
+(version 1)
+(rule "QFN_pads"
+   (condition "A.Type == 'pad' && A.insideCourtyard('IC5')")
+   (constraint clearance (min 0.03mm))
+)
