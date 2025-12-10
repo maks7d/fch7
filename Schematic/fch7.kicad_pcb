@@ -2747,7 +2747,7 @@
 			(uuid "080ab6af-8402-43ba-8a57-e9df369b28fa")
 		)
 		(embedded_fonts no)
-		(model "MP9943AGQ-Z.stp"
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/MP9943AGQ-Z.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7803,7 +7803,7 @@
 			(uuid "561352ad-c530-48f7-9d55-825982b96b0e")
 		)
 		(embedded_fonts no)
-		(model "ICM-42688-P.stp"
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/ICM-42688-P.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8769,6 +8769,17 @@
 			(uuid "f0f5e13a-b8c4-4552-8279-7c3251558a3e")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/CSNP1GCR01-BOW.step"
+			(offset
+				(xyz -1 1.01 0.85)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -10183,7 +10194,7 @@
 			(uuid "5afba56d-90d5-45ce-80b8-0652250a5de9")
 		)
 		(embedded_fonts no)
-		(model "STM32H743VIT6.stp"
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/STM32H743VIT6.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13458,6 +13469,17 @@
 			(uuid "767471d5-978c-4350-9e51-409ed7364eea")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/ts24ca.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 180 -180)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -17348,6 +17370,17 @@
 			(uuid "8fecda72-fae2-4d5e-ae90-92b5a5a50c64")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/GoertekSPL06-001.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -23248,6 +23281,17 @@
 			(uuid "4bf188cb-33ea-4e88-b50f-0f084c2537d9")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/USB-C_standard.STEP"
+			(offset
+				(xyz 0 -1 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -25466,7 +25510,7 @@
 			(uuid "222c265d-8301-4d62-b54f-82266cddc72c")
 		)
 		(embedded_fonts no)
-		(model "CSTNE8M00G55Z000R0.stp"
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/CSTNE8M00G55Z000R0.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27893,6 +27937,17 @@
 			(uuid "43f09904-4942-42a7-8ccc-4291ab7a96c9")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/ts24ca.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
@@ -32616,6 +32671,17 @@
 			(uuid "473382f3-bf5a-4829-8a21-a5d19a77e40d")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/4D03WGJ0101T5E.step"
+			(offset
+				(xyz -1.68 0.8 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "fch7_fp:SOT23-5"
 		(layer "B.Cu")
@@ -33049,6 +33115,17 @@
 			(uuid "41df2cc1-643b-4fcf-aeee-0d7d21742a8b")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/ME6217C33M5G.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
@@ -34880,7 +34957,7 @@
 			(uuid "752b36e0-3356-4d32-899e-852d5948b8c8")
 		)
 		(embedded_fonts no)
-		(model "MPU-6500.stp"
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/MPU-6500.stp"
 			(offset
 				(xyz 0 0 0.05999999776)
 			)
@@ -35324,6 +35401,17 @@
 			(uuid "e68f80b5-df5c-49a1-93e1-bb41b545d299")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/ME6217C33M5G.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "fch7_fp:SolderPad_1x01_SMD_2.2x1.6mm"
 		(layer "B.Cu")
@@ -38158,6 +38246,17 @@
 			(uuid "c2887d3d-a22a-4d3a-9a40-141ed730e5a6")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/4D03WGJ0101T5E.step"
+			(offset
+				(xyz -1.68 -0.8 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
@@ -38660,7 +38759,7 @@
 		(property "Reference" "IC2"
 			(at 0 0 90)
 			(layer "B.SilkS")
-			(uuid "46f06cb0-1519-446b-a070-56405ad45318")
+			(uuid "70749985-f474-42f1-8db3-4451de37d37a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38673,7 +38772,7 @@
 			(at 0 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "78c813ae-31cf-40b1-bfc0-67c59360e7e3")
+			(uuid "67fc1d45-8cd6-4c56-82a2-5cbe8644448d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38686,7 +38785,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ffa85652-541c-4686-8fbf-80f277ea90a9")
+			(uuid "5484228a-84f7-4d2e-9ca8-65a5544f845a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38699,7 +38798,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b906dea7-7eb1-4728-81a1-db57f3ccc83b")
+			(uuid "f64088b0-17ef-4d87-b915-b74281cd3719")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39008,7 +39107,7 @@
 			(uuid "0b257efc-4e9c-4142-b55c-9a73c8583df9")
 		)
 		(embedded_fonts no)
-		(model "MP9943AGQ-Z.stp"
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/MP9943AGQ-Z.stp"
 			(offset
 				(xyz 0 0 0)
 			)
