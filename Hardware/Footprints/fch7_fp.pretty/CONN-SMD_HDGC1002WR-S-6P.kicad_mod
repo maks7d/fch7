@@ -391,4 +391,15 @@
 		(uuid "e4139664-d39f-411c-86e2-24bc13b05ac9")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/maxim/repos/fch7/Hardware/3D/SM06B-SRSS-TB--3DModel-STEP-269445.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
