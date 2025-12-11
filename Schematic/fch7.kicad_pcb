@@ -19789,6 +19789,17 @@
 			(uuid "482fcb60-c780-48ff-bacc-c7dabd89662b")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/AP2112K-1.8TRG1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Inductor_SMD:L_Sunlord_MWSA0402S"
 		(layer "F.Cu")
@@ -23256,7 +23267,7 @@
 			(net 1 "GND")
 			(pinfunction "SHELL")
 			(pintype "passive")
-			(uuid "8e0e4588-abf9-4468-918b-19b39eddabeb")
+			(uuid "ae164323-7379-4ac0-8787-f2a7b3c030c5")
 		)
 		(pad "14" thru_hole oval
 			(at 4.325 -1.825 270)
@@ -23278,7 +23289,7 @@
 			(net 1 "GND")
 			(pinfunction "SHELL")
 			(pintype "passive")
-			(uuid "4bf188cb-33ea-4e88-b50f-0f084c2537d9")
+			(uuid "35b6f73b-905c-4583-8c3c-621870678532")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/maxim/repos/fch7/Hardware/3D/USB-C_standard.STEP"
@@ -32238,6 +32249,17 @@
 			(uuid "7dd48aa3-dcb6-477c-86b2-b34fb8c928f3")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/ESP-01F.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
 	)
 	(footprint "fch7_fp:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
 		(layer "B.Cu")
@@ -42155,6 +42177,17 @@
 			(uuid "f88fe7a1-0f1c-442d-bde2-ffdfc0e5b03a")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/QMC5883L.step"
+			(offset
+				(xyz 13.5 8.5 0.02)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "fch7_fp:SolderPad_1x01_SMD_2.2x1.6mm"
 		(layer "B.Cu")
@@ -44748,6 +44781,17 @@
 			(uuid "d90090fd-d16b-41e6-afe1-337ad6a03a51")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/maxim/repos/fch7/Hardware/3D/E28-2G4M27SX.step"
+			(offset
+				(xyz -17 -17.9 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 180)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
