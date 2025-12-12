@@ -3740,7 +3740,7 @@
 	)
 	(global_label "UART6_RX"
 		(shape input)
-		(at 41.91 137.16 0)
+		(at 41.91 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3750,7 +3750,7 @@
 		)
 		(uuid "1eaa2292-d91a-4af8-9e3f-1244019ad384")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.2085 137.16 0)
+			(at 54.2085 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +3916,7 @@
 	)
 	(global_label "I2C1_SDA"
 		(shape input)
-		(at 191.77 81.28 0)
+		(at 191.77 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3926,7 +3926,7 @@
 		)
 		(uuid "3e9aa83d-eec2-4495-a694-60f09c9dba59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.5847 81.28 0)
+			(at 203.5847 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +3960,7 @@
 	)
 	(global_label "4V5"
 		(shape input)
-		(at 191.77 77.47 0)
+		(at 191.77 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3970,7 +3970,7 @@
 		)
 		(uuid "48581508-b909-4850-bdde-ab48e9bd4300")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.2628 77.47 0)
+			(at 198.2628 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4554,7 @@
 	)
 	(global_label "UART6_TX"
 		(shape input)
-		(at 41.91 133.35 0)
+		(at 41.91 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4564,7 +4564,7 @@
 		)
 		(uuid "c95e8f83-01e1-4900-a41a-3575b4174be0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.9061 133.35 0)
+			(at 53.9061 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4576,7 @@
 	)
 	(global_label "I2C1_CLK"
 		(shape input)
-		(at 191.77 85.09 0)
+		(at 191.77 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4586,7 +4586,7 @@
 		)
 		(uuid "cd5da9d0-cc99-43b7-b9f1-3d8de313596d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.5847 85.09 0)
+			(at 203.5847 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

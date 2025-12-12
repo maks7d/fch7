@@ -138,7 +138,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.8,
+        "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -488,32 +488,12 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.3,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.25,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
         "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
-        "via_diameter": 0.6,
-        "via_drill": 0.4
+        "via_diameter": 0.6
       },
       {
         "clearance": 0.2,
@@ -521,9 +501,10 @@
         "diff_pair_width": 0.24,
         "name": "USB_DIFF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2
+        "track_width": 0.2,
+        "via_diameter": 0.6
       }
     ],
     "meta": {
@@ -541,12 +522,44 @@
         "pattern": "OTG_FS_D-"
       },
       {
-        "netclass": "GND",
+        "netclass": "POWER",
         "pattern": "GND"
       },
       {
         "netclass": "POWER",
         "pattern": "VDD_MCU"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "VBAT"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "9V_BEC"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "5V_BEC"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "4V5"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "LC_9V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "LC_5V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "5V_USB"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "VCC_ICM"
       }
     ]
   },
