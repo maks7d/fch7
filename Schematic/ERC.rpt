@@ -1,140 +1,73 @@
-Rapport ERC (2025-12-01T18:22:01+0100, Encodage UTF8)
+ERC report (2025-12-13T10:19:37+0100, Encoding UTF8)
 
-***** Feuille /
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'ME6217C33M5G'
+***** Sheet /
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(1750 mils, 2350 mils): Symbole U1 [ME6217C33M5G]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    @(2600 mils, 5150 mils): Global Label 'NRST_RECV'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(3050 mils, 5550 mils): Symbole U13 [elrs_rx]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fch7_sym'
+    @(2450 mils, 2700 mils): Global Label 'EXTi_CS2'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(4400 mils, 5900 mils): Symbole SW2 [TS24CA]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    @(2450 mils, 3000 mils): Global Label 'PWM_11'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(7850 mils, 4700 mils): Symbole U12 [RF_2.4]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'MP9943AGQ-Z'
+    @(2450 mils, 3100 mils): Global Label 'PWM_12'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(2150 mils, 3950 mils): Symbole IC2 [MP9943AGQ-Z]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'ME6217C33M5G'
+    @(4300 mils, 1950 mils): Global Label 'EXTI_CS1'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(6350 mils, 1300 mils): Symbole U2 [ME6217C33M5G]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'MP9943AGQ-Z'
+    @(4600 mils, 1950 mils): Global Label 'CAN_RX'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(6800 mils, 4050 mils): Symbole IC1 [MP9943AGQ-Z]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fch7_sym'
+    @(4700 mils, 1950 mils): Global Label 'CAN_TX'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(9400 mils, 1450 mils): Symbole U3 [AP2112K-1.8TRG1]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
+    @(3500 mils, 5850 mils): Global Label 'RSSI'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(8150 mils, 3800 mils): Symbole U10 [CSNP1GCR01-BOW]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fch7_sym'
+    @(5550 mils, 4400 mils): Global Label 'SW_CAMERA'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(1950 mils, 1350 mils): Symbole SW1 [TS24CA]
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    @(4000 mils, 5850 mils): Global Label 'UART7_TX'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(2450 mils, 2700 mils): Label Global 'EXTi_CS2'
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'STM32H743VIT6'
+    @(4100 mils, 5850 mils): Global Label 'UART7_RTS'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(2500 mils, 2700 mils): Symbole IC3 [STM32H743VIT6]
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    @(4200 mils, 5850 mils): Global Label 'UART7_CTS'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(2450 mils, 3000 mils): Label Global 'PWM_11'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
+    @(5550 mils, 4800 mils): Global Label 'SPI2_MOSI'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(2450 mils, 3100 mils): Label Global 'PWM_12'
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'CSTNE8M00G55Z000R0'
+    @(5550 mils, 4900 mils): Global Label 'SPI2_MISO'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(1500 mils, 3900 mils): Symbole Y1 [CSTNE8M00G55Z000R0]
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(4300 mils, 1950 mils): Label Global 'EXTI_CS1'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(4600 mils, 1950 mils): Label Global 'CAN_RX'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(4700 mils, 1950 mils): Label Global 'CAN_TX'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(3500 mils, 5850 mils): Label Global 'RSSI'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(5550 mils, 4400 mils): Label Global 'SW_CAMERA'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(4000 mils, 5850 mils): Label Global 'UART7_TX'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(4100 mils, 5850 mils): Label Global 'UART7_RTS'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(4200 mils, 5850 mils): Label Global 'UART7_CTS'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(5550 mils, 4800 mils): Label Global 'SPI2_MOSI'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(5550 mils, 4900 mils): Label Global 'SPI2_MISO'
-[global_label_dangling]: Label global connecté à aucun autre élément dans la schématique
-    ; warning
-    @(5550 mils, 5000 mils): Label Global 'SPI2_SCLK'
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'MPU-6500'
-    ; warning
-    @(2600 mils, 3600 mils): Symbole IC5 [MPU-6500]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
-    ; warning
-    @(2250 mils, 6100 mils): Symbole U7 [QMC5883L]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'ICM-42688-P'
-    ; warning
-    @(6650 mils, 3350 mils): Symbole IC4 [ICM-42688-P]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
-    ; warning
-    @(6050 mils, 5950 mils): Symbole U5 [SPL06-001]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
-    ; warning
-    @(1300 mils, 1600 mils): Symbole U14 [HDGC1002WR-S-4P]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
-    ; warning
-    @(1300 mils, 2900 mils): Symbole U15 [HDGC1002WR-S-4P]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
-    ; warning
-    @(1300 mils, 4150 mils): Symbole U16 [HDGC1002WR-S-4P]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
-    ; warning
-    @(1300 mils, 5450 mils): Symbole U17 [HDGC1002WR-S-4P]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
-    ; warning
-    @(1300 mils, 6800 mils): Symbole U24 [HDGC1002WR-S-4P]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
-    ; warning
-    @(7250 mils, 1650 mils): Symbole U23 [HDGC1002WR-S-6P]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
-    ; warning
-    @(7250 mils, 3250 mils): Symbole U19 [HDGC1002WR-S-4P]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
-    ; warning
-    @(9500 mils, 2400 mils): Symbole U21 [HDGC1002WR-S-8P]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fclib'
-    ; warning
-    @(9500 mils, 3750 mils): Symbole U22 [HDGC1002WR-S-8P]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fch7_sym'
-    ; warning
-    @(10150 mils, 2250 mils): Symbole RN2 [4D03WGJ0101T5E]
-[lib_symbol_issues]: La configuration actuelle n'inclut pas la librairie de symboles 'fch7_sym'
-    ; warning
-    @(10150 mils, 3600 mils): Symbole RN1 [4D03WGJ0101T5E]
+    @(5550 mils, 5000 mils): Global Label 'SPI2_SCLK'
 
-***** Feuille /Power/
+***** Sheet /Power/
 
-***** Feuille /MCU/
+***** Sheet /MCU/
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(9600 mils, 5050 mils): Symbol USB1 Pin 2 [VBUS, Bidirectional, Line]
+    @(5000 mils, 1700 mils): Symbol #FLG06 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(9600 mils, 5950 mils): Symbol USB1 Pin 11 [VBUS, Bidirectional, Line]
+    @(5000 mils, 1700 mils): Symbol #FLG06 Pin 1 [Power output, Line]
 
-***** Feuille /Sensors/
+***** Sheet /Sensors/
 
-***** Feuille /Blackbox_led/
+***** Sheet /Blackbox_led/
 
-***** Feuille /rf_rx/
+***** Sheet /rf_rx/
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(2650 mils, 5150 mils): Symbol U12 Pin 2 [NRESET, Input, Line]
 
-***** Feuille /connectors/
+***** Sheet /connectors/
 
-** messages ERC: 41  Erreurs 0  Avertissements 41
+ ** ERC messages: 18  Errors 1  Warnings 17

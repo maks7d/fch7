@@ -3597,7 +3597,7 @@
 				)
 				(uuid "87e8304b-5032-413c-b7f0-b14336a013df")
 			)
-			(table_cell "UART6 ELRS Receiver"
+			(table_cell "UART6 WIFI"
 				(exclude_from_sim no)
 				(at 67.31 71.12 0)
 				(size 27.94 5.08)
