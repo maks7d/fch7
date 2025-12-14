@@ -1,57 +1,54 @@
-# FCH7 - Flight Controller pour Drone Quadcopter
+# FCH7 - Flight Controller for Drone Quadcopter
 
-##  Vue d'ensemble
+##  Overview
 
-FCH7 est un projet visant à développant un contrôleur de vol autour du MCU STM32H743VITx (flight controller) pour drones de 4 à 8 moteurs, conçu avec KiCad.
+FCH7 is a project aimed at developing a flight controller based on the STM32H743VITx MCU for drones with 4 to 8 motors, designed using KiCad.
+The flight controller is in a 30x30mm form factor, with the goal of running it under Betaflight. It is for the moment only designed for DJI HD VTX.
+> ** Project status:** This project is currently under development. The schematics are completed and the PCB is being routed.
 
-> ** Statut du projet:** Ce projet est actuellement en cours de développement. Les schématiques sont en phase de conception et le PCB n'est pas encore finalisé.
+##  Main Features
 
-##  Caractéristiques principales
+### Microcontroller
+- **STM32H743VITx** - ARM Cortex-M7 dual core processor running at 480 MHz
+  - 2048 KB Flash memory
+  - 1024 KB RAM
+  - 82 available GPIOs
+  - LQFP100 package
+  - 
+### Embedded Sensors
+- **ICM42688P** - Modern IMU (gyroscope + accelerometer)
+- **MPU6500** - Secondary IMU for redundancy
+- **QMC5883L** - 3-axis magnetometer for compass
+- **SPL06-001** - Barometer for altitude
 
-### Microcontrôleur
-- **STM32H743VITx** - Processeur ARM Cortex-M7 cadencé à 480 MHz
-  - 2048 KB de mémoire Flash
-  - 1024 KB de RAM
-  - 82 GPIO disponibles
-  - Package LQFP100
+### Connectivity
+- **ExpressLRS (ELRS)** - Integrated 2.4 GHz RF receiver
+  - Dedicated RF_2.4 module
+  - Support for long-range and low-latency link
+- **USB-C** - 16-pin USB 2.0 connector for configuration and updates
+- **HDGC1002WR Connectors** - Multiple connectors for peripherals
+  - GPS (4 pins)
+  - DJI HD VTX (6 pins)
+  - Additional UART ports
 
-### Capteurs embarqués
-- **ICM42688P** - IMU moderne (gyroscope + accéléromètre)
-- **MPU6500** - IMU secondaire pour redondance
-- **QMC5883L** - Magnétomètre 3 axes pour la boussole
-- **SPL06-001** - Baromètre pour l'altitude
-
-### Connectivité
-- **ExpressLRS (ELRS)** - Récepteur RF 2.4 GHz intégré
-  - Module RF_2.4 dédié
-  - Support pour liaison longue portée et faible latence
-- **USB-C** - Connecteur USB 2.0 16 broches pour configuration et mise à jour
-- **Connecteurs HDGC1002WR** - Multiples connecteurs pour périphériques
-  - GPS (4 broches)
-  - Caméra FPV
-  - VTX (émetteur vidéo)
-  - Ports UART additionnels
-
-### Alimentation
-- **Gestion de puissance intelligente**
-  - Régulateur **MP9943GQ-z** - Buck converter principal
-  - Régulateur **ME6217C33M5G** - LDO 3.3V
+### Power Supply
+- **Intelligent power management**
+  - **MP9943GQ-z** regulator - Main buck converter
+  - **ME6217C33M5G** regulator - 3.3V LDO
   - Support pour batteries LiPo (VBAT)
   - Rails multiples: VDD_MCU, VDD_RECV, 4V5, VDD_GYRO
 
-### Stockage et LEDs
-- **Blackbox** - Interface SDIO pour carte microSD
-  - Enregistrement des données de vol pour analyse
-- **LEDs WS2812** (adressables) - Indicateurs visuels programmables
-- **LEDs de statut** - Multiples LEDs pour diagnostic
+### Storage and LEDs
+- **Blackbox** - SDIO interface for microSD card
+  - Flight data logging for analysis
+- **WS2812 LEDs** (addressable) - Programmable visual indicators
+- **Status LEDs** - Multiple LEDs for diagnostics
+##  Project Architecture
 
-##  Architecture du projet
-
-Le projet est organisé en modules hiérarchiques distincts:
+The project is organized into distinct hierarchical modules:
 
 ```
-Structure du dossier
-Le numéro de série du volume est D4CE-14CE
+Folder Structure
 C:.
 │   .gitignore
 │   fch7.kicad_pcb
@@ -124,106 +121,80 @@ C:.
         ~fch7.kicad_sch.lck
 ```
 
-##  Composants personnalisés
+##  Custom Components
 
-Le projet utilise une bibliothèque de symboles personnalisés (`fclib.kicad_sym`) contenant:
+The project uses a custom symbol library (`fclib.kicad_sym`) containing:
 - ICM42688P (IMU)
 - MPU6500 (IMU)
-- QMC5883L (Magnétomètre)
-- SPL06-001 (Baromètre)
-- RF_2.4 et elrs_rx (Modules RF)
+- QMC5883L (Magnetometer)
+- SPL06-001 (Barometer)
+- elrs_rx (RF Modules)
 - MP9943GQ-z (Buck converter)
 - ME6217C33M5G (LDO)
 - Connecteurs HDGC1002WR (4P, 6P, 8P)
 - CSNP1GCR01-BOW
-- WS2812_ (LED adressable)
+- WS2812_ (LEDS)
 
 ##  Applications
 
-Ce flight controller est conçu pour:
-- Drones de course FPV
-- Drones de freestyle
-- Drones longue portée
-- Applications de vol stabilisé et acrobatique
-- Compatibilité avec les firmwares open-source (Betaflight, INAV, etc.)
+This flight controller is designed for:
+- Freestyle drones
+- Long-range drones
+- Stabilized and acrobatic flight applications
+- Compatibility with open-source firmwares (Betaflight)
+- 
+##  Technical Specifications
 
-##  Spécifications techniques
+### Available Interfaces
+- **SPI** - High-speed communication with sensors and OSD
+- **I2C** - Communication with magnetometer and barometer
+- **UART** - Multiple ports for GPS, telemetry, peripherals
+- **SDIO** - SD card interface for blackbox
+- **PWM/DShot** - Motor control (via MCU GPIO)
+- **USB** - Configuration and firmware update
 
-### Interfaces disponibles
-- **SPI** - Communication haute vitesse avec capteurs et OSD
-- **I2C** - Communication avec magnétomètre et baromètre
-- **UART** - Multiples ports pour GPS, télémétrie, périphériques
-- **SDIO** - Interface carte SD pour blackbox
-- **PWM/DShot** - Contrôle moteurs (via GPIO MCU)
-- **USB** - Configuration et mise à jour firmware
+### Power Requirements
+- Input: LiPo Batteries (2-6S typical)
+- Regulated rails: 3.3V, 4.5V, VDD_MCU, VDD_RECV, VDD_GYRO
+- Reverse polarity protection
 
-### Alimentation
-- Entrée: Batteries LiPo (2-6S typique)
-- Rails régulés: 3.3V, 4.5V, VDD_MCU, VDD_RECV, VDD_GYRO
-- Protection contre les inversions de polarité
+##  Required Tools
 
-##  Outils requis
+### Software
+- **KiCad 9.0** or higher - Schematic and PCB design
+- **Git** - Version control
+- 
+##  Development Roadmap
 
-### Logiciels
-- **KiCad 9.0** ou supérieur - Conception schématique et PCB
-- **Git** - Gestion de version
+- [x] MCU schematic
+- [x] Power schematic
+- [x] Sensors schematic
+- [x] RF receiver schematic
+- [x] Blackbox/LEDs schematic
+- [x] Connectors schematic
+- [x] Custom symbol library
+- [x] PCB layout
+- [ ] Track routing
+- [ ] DRC/ERC verification
+- [ ] Gerber file generation
+- [ ] Prototype and testing
+- [ ] Base firmware
+- [ ] User documentation
 
-##  Statut du développement
-
-- [x] Schématique du MCU
-- [x] Schématique de l'alimentation
-- [x] Schématique des capteurs
-- [x] Schématique du récepteur RF
-- [x] Schématique Blackbox/LEDs
-- [x] Schématique des connecteurs
-- [x] Bibliothèque de symboles personnalisés
-- [ ] Layout PCB
-- [ ] Routage des pistes
-- [ ] Vérification DRC/ERC
-- [ ] Génération des fichiers Gerber
-- [ ] Prototype et tests
-- [ ] Firmware de base
-- [ ] Documentation utilisateur
-
-##  Notes de conception
-
-### Améliorations futures possibles
-- Support pour capteurs additionnels (distance, optique)
-- Interface CAN pour périphériques avancés
-- Connecteurs JST-GH standardisés
-- Régulateur BEC pour caméra FPV
-- Support pour moteurs high-KV
+##  Design Notes
 
 ##  Contribution
 
-Ce projet est en développement actif. Les contributions, suggestions et retours sont les bienvenus !
-
-##  Licence
-
-*(À définir - suggéré: Open Source Hardware sous licence CERN-OHL ou similaire)*
-
+This project is under active development. Contributions, suggestions, and feedback are welcome !
 ##  Auteur
 
 Maxim - [maks7d](https://github.com/maks7d)
 
-##  Ressources
-
-### Datasheets
-- [STM32H743VI](https://www.st.com/resource/en/datasheet/stm32h743vi.pdf)
-- [ICM42688P](https://invensense.tdk.com/products/motion-tracking/6-axis/icm-42688-p/) - TDK InvenSense
-- [SPL06-001](https://www.infineon.com/cms/en/product/sensor/pressure-sensors/pressure-sensors-for-iot/spl06-001/) - Infineon
-- [AT7456E](http://www.artosyn.com/) - Artosyn OSD
-
-### Firmwares compatibles
-- [Betaflight](https://github.com/betaflight/betaflight) - Le firmware FPV le plus populaire
-- [INAV](https://github.com/iNavFlight/inav) - Navigation et GPS
-- [ArduPilot](https://ardupilot.org/) - Plateforme complète
-
 ### Communauté
-- [ExpressLRS](https://www.expresslrs.org/) - Documentation du système RC
-- [KiCad Forum](https://forum.kicad.info/) - Support KiCad
+- [ExpressLRS](https://www.expresslrs.org/) - ExpressLRS Documentation
+- [KiCad Forum](https://forum.kicad.info/) - KiCad Support
 
 ---
 
 **Version:** 0.1-alpha  
-**Dernière mise à jour:** Novembre 2025
+**Last Updated:** December 2025
