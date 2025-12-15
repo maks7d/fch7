@@ -3337,12 +3337,6 @@
 		(uuid "940c2756-f95b-4500-9087-4e88a4cc8625")
 	)
 	(junction
-		(at 86.36 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a30466da-b899-4c5f-8fe6-c101c04a9b3f")
-	)
-	(junction
 		(at 220.98 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4286,16 +4280,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 34.29) (xy 86.36 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6365304a-5d0d-44e5-9fd4-a05aed500c5e")
-	)
-	(wire
-		(pts
 			(xy 242.57 135.89) (xy 243.84 135.89)
 		)
 		(stroke
@@ -4533,16 +4517,6 @@
 			(type default)
 		)
 		(uuid "829df324-30cf-4007-a562-843fe420de54")
-	)
-	(wire
-		(pts
-			(xy 82.55 34.29) (xy 86.36 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84c92e07-6a6d-4a69-9d97-e683446ab983")
 	)
 	(wire
 		(pts
@@ -5404,6 +5378,16 @@
 		)
 		(uuid "c9d5b90b-8196-421b-8cd2-899ab4132a95")
 	)
+	(label "BOOT0"
+		(at 67.31 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0971723-84ed-4360-a5de-01a8aa6eede0")
+	)
 	(label "PH1-OSC_OUT"
 		(at 50.8 99.06 0)
 		(effects
@@ -5524,7 +5508,7 @@
 			)
 		)
 	)
-	(global_label "OTG_FS_D-"
+	(global_label "OTG_FS-"
 		(shape input)
 		(at 242.57 140.97 180)
 		(fields_autoplaced yes)
@@ -5536,7 +5520,7 @@
 		)
 		(uuid "0bb3a615-d591-48fb-aac7-f58467280461")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.941 140.97 0)
+			(at 231.1786 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,7 +5706,7 @@
 			)
 		)
 	)
-	(global_label "OTG_FS_D-"
+	(global_label "OTG_FS-"
 		(shape input)
 		(at 242.57 135.89 180)
 		(fields_autoplaced yes)
@@ -5734,7 +5718,7 @@
 		)
 		(uuid "1c2732a1-2483-47db-8e98-82cc1cc95eef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.941 135.89 0)
+			(at 231.1786 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +5926,7 @@
 			)
 		)
 	)
-	(global_label "OTG_FS_D+"
+	(global_label "OTG_FS+"
 		(shape input)
 		(at 242.57 138.43 180)
 		(fields_autoplaced yes)
@@ -5954,7 +5938,7 @@
 		)
 		(uuid "3b23bf8f-4003-454c-8efa-9d047ecae5fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.941 138.43 0)
+			(at 231.1786 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,7 +6498,7 @@
 			)
 		)
 	)
-	(global_label "OTG_FS_D+"
+	(global_label "OTG_FS+"
 		(shape input)
 		(at 242.57 143.51 180)
 		(fields_autoplaced yes)
@@ -6526,7 +6510,7 @@
 		)
 		(uuid "7e09c8dc-e014-4b11-a995-f279d58cc7c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.941 143.51 0)
+			(at 231.1786 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,7 +6542,7 @@
 			)
 		)
 	)
-	(global_label "OTG_FS_D-"
+	(global_label "OTG_FS-"
 		(shape input)
 		(at 140.97 81.28 0)
 		(fields_autoplaced yes)
@@ -6570,7 +6554,7 @@
 		)
 		(uuid "864ea8d0-8f7e-4f5b-a293-cc60aa758fed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.599 81.28 0)
+			(at 152.3614 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7152,7 +7136,7 @@
 			)
 		)
 	)
-	(global_label "OTG_FS_D+"
+	(global_label "OTG_FS+"
 		(shape input)
 		(at 140.97 78.74 0)
 		(fields_autoplaced yes)
@@ -7164,7 +7148,7 @@
 		)
 		(uuid "ca2b3700-10de-4205-a1f0-5a3ac365247d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.599 78.74 0)
+			(at 152.3614 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7324,28 +7308,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BOOT0"
-		(shape input)
-		(at 82.55 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e984d0a5-f509-415f-87e1-28524e36b404")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.4567 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)

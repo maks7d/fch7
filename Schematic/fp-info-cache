@@ -1,4 +1,4 @@
-26806144506826797
+26807910307962219
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106518,6 +106518,13 @@ TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL-EP-2
 0
 29
 29
+fch7_fp
+TestPoint_Pad_D0.8
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
 fch7_fp
 USB-C-SMD_TYPE-C-6PIN-2MD-073
 
