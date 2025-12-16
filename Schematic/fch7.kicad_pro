@@ -541,6 +541,10 @@
       {
         "netclass": "POWER",
         "pattern": "VCC_ICM"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "VDD_RECV"
       }
     ]
   },
