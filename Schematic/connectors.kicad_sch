@@ -3661,7 +3661,7 @@
 		(uuid "0db98af1-8fbb-40a0-a92f-cc1381aad068")
 	)
 	(label "PWM1"
-		(at 250.19 95.25 0)
+		(at 250.19 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3671,7 +3671,7 @@
 		(uuid "460901c9-b9c6-4e49-bb96-954947ce69ff")
 	)
 	(label "PWM4"
-		(at 250.19 87.63 0)
+		(at 250.19 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3701,7 +3701,7 @@
 		(uuid "8f57af9c-64ca-459b-ba86-17a8b5fa940c")
 	)
 	(label "PWM3"
-		(at 250.19 90.17 0)
+		(at 250.19 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3711,7 +3711,7 @@
 		(uuid "a97e8085-0d4f-4b7d-88d0-874c986aa520")
 	)
 	(label "PWM2"
-		(at 250.19 92.71 0)
+		(at 250.19 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
