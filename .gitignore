@@ -13,8 +13,7 @@
 fp-info-cache
 fp-lib-cache
 
-# Reports (optional - commentez si vous voulez les garder)
-# reports/
+# Reports (optional)
 
 # OS files
 .DS_Store
