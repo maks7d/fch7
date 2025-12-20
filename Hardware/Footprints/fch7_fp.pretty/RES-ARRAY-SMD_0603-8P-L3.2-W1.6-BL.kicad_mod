@@ -329,4 +329,15 @@
 		(uuid "d80f0262-06ad-48cb-9bb8-3b06ff56b55a")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/maxim/repos/fch7/Hardware/3D/4D03WGJ0101T5E.step"
+		(offset
+			(xyz -1.7 0.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
