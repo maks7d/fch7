@@ -1220,22 +1220,10 @@
 		(uuid "04887476-a352-4743-89d8-9c9020e42b11")
 	)
 	(junction
-		(at 66.04 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06828567-a2f3-4c7d-9de8-c157089f06f6")
-	)
-	(junction
 		(at 111.76 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "607a5332-6681-4002-adbb-73159e07e001")
-	)
-	(junction
-		(at 66.04 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84ae6b73-0d54-4f5d-8244-d8794e2447ab")
 	)
 	(junction
 		(at 93.98 149.86)
@@ -1309,6 +1297,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 130.81) (xy 67.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177151dc-19e0-4f04-8deb-b879818466fd")
+	)
+	(wire
+		(pts
 			(xy 31.75 57.15) (xy 30.48 57.15)
 		)
 		(stroke
@@ -1336,26 +1334,6 @@
 			(type default)
 		)
 		(uuid "2a8c7b49-f256-4138-b781-8e0ec10c1941")
-	)
-	(wire
-		(pts
-			(xy 57.15 130.81) (xy 66.04 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b7e6d35-80c7-4f8f-bb44-dbe4e8ac7821")
-	)
-	(wire
-		(pts
-			(xy 48.26 130.81) (xy 49.53 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fe18349-237d-42d0-ba6d-5d00ce0ca147")
 	)
 	(polyline
 		(pts
@@ -1409,16 +1387,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 130.81) (xy 66.04 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a3f9afa-4768-4e83-9b61-24e1cf5fcb36")
-	)
-	(wire
-		(pts
 			(xy 113.03 35.56) (xy 111.76 35.56)
 		)
 		(stroke
@@ -1426,16 +1394,6 @@
 			(type default)
 		)
 		(uuid "6dade9ec-c867-42fd-a023-59dfff37b29e")
-	)
-	(wire
-		(pts
-			(xy 66.04 130.81) (xy 67.31 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70e99835-49ed-4c75-aae8-d2393d3a10cf")
 	)
 	(wire
 		(pts
@@ -1559,7 +1517,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 149.86) (xy 66.04 149.86)
+			(xy 64.77 149.86) (xy 67.31 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1596,16 +1554,6 @@
 			(type default)
 		)
 		(uuid "db10e683-e7ef-43f8-93f4-7ae54c15e27f")
-	)
-	(wire
-		(pts
-			(xy 66.04 149.86) (xy 67.31 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb48fd20-488a-4430-b75e-df0ad253927b")
 	)
 	(wire
 		(pts
@@ -1646,16 +1594,6 @@
 			(type default)
 		)
 		(uuid "fd3dad9a-4e9a-402d-9ff7-a4afef6d776e")
-	)
-	(label "NRST_RECV"
-		(at 62.23 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify bottom)
-		)
-		(uuid "d3d98668-2fcd-48d9-8c54-1e5117261184")
 	)
 	(global_label "VDD_RECV"
 		(shape input)
@@ -1767,9 +1705,9 @@
 			)
 		)
 	)
-	(global_label "VDD_RECV"
+	(global_label "NRESET_RECV"
 		(shape input)
-		(at 48.26 130.81 180)
+		(at 66.04 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1777,9 +1715,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d6c3e7e2-f729-493b-aa9d-92fc38679c63")
+		(uuid "c918c24b-ea8f-4d96-aa2c-b501de6d261f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.901 130.81 0)
+			(at 50.234 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,100 +2201,6 @@
 			(project "fch7"
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/c005db94-b190-4389-8874-35307c577c05"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 53.34 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7fe1fa20-7284-45a6-89c9-7aaec875c43b")
-		(property "Reference" "R23"
-			(at 51.054 133.096 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 55.88 132.842 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 53.34 132.588 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C23179.pdf"
-			(at 53.34 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 53.34 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fréquence" ""
-			(at 53.34 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603WAF4700T5E"
-			(at 53.34 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 53.34 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8dd9c36-8a5d-479a-8078-2583c903f78d")
-		)
-		(pin "2"
-			(uuid "be753216-6cae-4793-98e3-192616878e78")
-		)
-		(instances
-			(project "fch7"
-				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/c005db94-b190-4389-8874-35307c577c05"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -2885,7 +2729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SOT23-5"
+		(property "Footprint" "fch7:SOT23-5"
 			(at 44.45 59.69 0)
 			(effects
 				(font
@@ -3089,7 +2933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:WIRELM-SMD_E28-2G4M27SX"
+		(property "Footprint" "fch7:WIRELM-SMD_E28-2G4M27SX"
 			(at 80.01 134.62 0)
 			(effects
 				(font

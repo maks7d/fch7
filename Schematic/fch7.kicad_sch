@@ -117,7 +117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fch7_fp:MountingHole_quad_30.5x30.5"
+		(property "Footprint" "fch7:MountingHole_quad_30.5x30.5"
 			(at 52.07 26.67 0)
 			(effects
 				(font

@@ -1,4 +1,18 @@
-26804387832332402
+26817027186456065
+Audio_Module
+Reverb_BTDR-1H
+Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
+audio belton reverb
+0
+7
+7
+Audio_Module
+Reverb_BTDR-1V
+Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
+audio belton reverb
+0
+7
+7
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -106350,182 +106364,182 @@ Varistor VF
 0
 2
 2
-fch7_fp
+fch7
 AP2112K-1.8TRG1
 
 
 0
 5
 5
-fch7_fp
+fch7
 CONN-SMD_4P-P1.00_HDGC_HDGC1002WR-S-4P
 
 
 0
 6
 6
-fch7_fp
+fch7
 CONN-SMD_HDGC1002WR-S-6P
 
 
 0
 8
 8
-fch7_fp
+fch7
 CONN-SMD_HDGC1002WR-S-8P
 
 
 0
 10
 10
-fch7_fp
+fch7
 CRYSTAL-SMD_4P-L2.0-W1.6-BL
 
 
 0
 4
 4
-fch7_fp
+fch7
 CSNP1GCR01-BOW
 
 
 0
 8
 8
-fch7_fp
+fch7
 CSTNE8M00G55Z000R0
 CSTNE8M00G55Z000R0-2
 Crystal or Oscillator
 0
 3
 3
-fch7_fp
+fch7
 IIM42352
 14 Lead LGA (2.5x3x0.91)_1
 Integrated Circuit
 0
 14
 14
-fch7_fp
+fch7
 LED0603-R-RD_RED
 
 
 0
 2
 2
-fch7_fp
+fch7
 LGA-16_L3.0-W3.0-P0.50-BL_SQ
 
 
 0
 16
 16
-fch7_fp
+fch7
 LQFP-100_14x14mm_P0.5mm_STM32H743
 LQFP100-1
 Integrated Circuit
 0
 100
 100
-fch7_fp
+fch7
 MountingHole_quad_30.5x30.5
 
 
 0
 0
 0
-fch7_fp
+fch7
 QFN40P300X300X95-25M-D
 MPU-6500
 Integrated Circuit
 0
 25
 25
-fch7_fp
+fch7
+QFP50P1600X1600X160-100M
+LQFP100-1
+Integrated Circuit
+0
+100
+100
+fch7
 RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL
 
 
 0
 8
 8
-fch7_fp
+fch7
 SENSOR-SMD_SPL06-001
 
 
 0
 8
 8
-fch7_fp
+fch7
 SOD-123_L2.7-W1.6-LS3.7-RD
 
 
 0
 2
 2
-fch7_fp
+fch7
 SOD-323_L1.8-W1.3-LS2.5-RD
 
 
 0
 2
 2
-fch7_fp
+fch7
 SON65P300X300X100-8N
 QFN-8
 Integrated Circuit
 0
 8
 8
-fch7_fp
+fch7
 SOT23-5
 <b>SOT23-5</b><br>
 
 0
 5
 5
-fch7_fp
+fch7
 SW-SMD_2P-TS24CA
 
 
 0
 4
 4
-fch7_fp
+fch7
 SolderPad_1x01_SMD_2.2x1.6mm
 
 
 0
 1
 1
-fch7_fp
+fch7
 TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL-EP-2
 
 
 0
 29
 29
-fch7_fp
+fch7
 TestPoint_Pad_D0.8
 SMD pad as test Point, diameter 1.0mm
 test point SMD pad
 0
 1
 1
-fch7_fp
+fch7
 USB-C-SMD_TYPE-C-6PIN-2MD-073
 
 
 0
 16
 14
-fch7_fp
-WIFIM-SMD_ESP-01F-2M
-
-
-0
-19
-19
-fch7_fp
+fch7
 WIRELM-SMD_E28-2G4M27SX
 
 

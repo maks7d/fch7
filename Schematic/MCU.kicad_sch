@@ -3419,10 +3419,6 @@
 		(uuid "6666f524-7886-4f16-83a0-dcb417d6c30c")
 	)
 	(no_connect
-		(at 111.76 50.8)
-		(uuid "7d9c6dcb-5d5e-497e-bf4f-287e9efa6951")
-	)
-	(no_connect
 		(at 63.5 81.28)
 		(uuid "855861bc-865f-4f13-a32b-94683b013e92")
 	)
@@ -3667,6 +3663,16 @@
 			(type default)
 		)
 		(uuid "1cb43f9f-7d15-4cc6-9418-46c7bed2f92b")
+	)
+	(wire
+		(pts
+			(xy 111.76 49.53) (xy 111.76 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5b1f1c-5114-4440-8f08-93d7db69d29e")
 	)
 	(wire
 		(pts
@@ -6014,6 +6020,28 @@
 			)
 		)
 	)
+	(global_label "NRESET_RECV"
+		(shape input)
+		(at 111.76 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "441fe877-8df0-4ffb-b97e-90c41304bed9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 33.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM_7"
 		(shape input)
 		(at 140.97 109.22 0)
@@ -7425,7 +7453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:USB-C-SMD_TYPE-C-6PIN-2MD-073"
+		(property "Footprint" "fch7:USB-C-SMD_TYPE-C-6PIN-2MD-073"
 			(at 254 162.56 0)
 			(effects
 				(font
@@ -8680,7 +8708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SW-SMD_2P-TS24CA"
+		(property "Footprint" "fch7:SW-SMD_2P-TS24CA"
 			(at 48.768 27.686 0)
 			(effects
 				(font
@@ -9686,7 +9714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:CSTNE8M00G55Z000R0"
+		(property "Footprint" "fch7:CSTNE8M00G55Z000R0"
 			(at 16.51 4.14 0)
 			(effects
 				(font
@@ -9836,7 +9864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:LQFP-100_14x14mm_P0.5mm_STM32H743"
+		(property "Footprint" "fch7:LQFP-100_14x14mm_P0.5mm_STM32H743"
 			(at 135.89 153.34 0)
 			(effects
 				(font

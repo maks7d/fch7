@@ -1883,16 +1883,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 160.02) (xy 135.89 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fb55a10-9b51-4246-9947-298b63ee949b")
-	)
-	(wire
-		(pts
 			(xy 269.24 53.34) (xy 270.51 53.34)
 		)
 		(stroke
@@ -4237,28 +4227,6 @@
 			)
 		)
 	)
-	(global_label "SW_POWER"
-		(shape input)
-		(at 135.89 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "796a58a4-6dce-4da1-975a-5b2e6c202683")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.9746 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "4V5"
 		(shape input)
 		(at 40.64 107.95 0)
@@ -4901,7 +4869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:TestPoint_Pad_D0.8"
+		(property "Footprint" "fch7:TestPoint_Pad_D0.8"
 			(at 265.43 149.86 0)
 			(effects
 				(font
@@ -4994,7 +4962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fch7_fp:CONN-SMD_4P-P1.00_HDGC_HDGC1002WR-S-4P"
+		(property "Footprint" "fch7:CONN-SMD_4P-P1.00_HDGC_HDGC1002WR-S-4P"
 			(at 33.02 105.41 0)
 			(effects
 				(font
@@ -5100,7 +5068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
 			(at 129.54 111.76 0)
 			(effects
 				(font
@@ -5258,7 +5226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:TestPoint_Pad_D0.8"
+		(property "Footprint" "fch7:TestPoint_Pad_D0.8"
 			(at 237.49 154.94 0)
 			(effects
 				(font
@@ -5351,7 +5319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "fch7_fp:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+		(property "Footprint" "fch7:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
 			(at 263.652 106.426 0)
 			(effects
 				(font
@@ -5482,7 +5450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:TestPoint_Pad_D0.8"
+		(property "Footprint" "fch7:TestPoint_Pad_D0.8"
 			(at 237.49 125.73 0)
 			(effects
 				(font
@@ -5575,7 +5543,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fch7_fp:CONN-SMD_HDGC1002WR-S-6P"
+		(property "Footprint" "fch7:CONN-SMD_HDGC1002WR-S-6P"
 			(at 184.15 41.91 0)
 			(effects
 				(font
@@ -5689,7 +5657,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fch7_fp:CONN-SMD_4P-P1.00_HDGC_HDGC1002WR-S-4P"
+		(property "Footprint" "fch7:CONN-SMD_4P-P1.00_HDGC_HDGC1002WR-S-4P"
 			(at 33.02 73.66 0)
 			(effects
 				(font
@@ -5861,7 +5829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
 			(at 129.54 116.84 0)
 			(effects
 				(font
@@ -5954,7 +5922,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fch7_fp:CONN-SMD_4P-P1.00_HDGC_HDGC1002WR-S-4P"
+		(property "Footprint" "fch7:CONN-SMD_4P-P1.00_HDGC_HDGC1002WR-S-4P"
 			(at 184.15 82.55 0)
 			(effects
 				(font
@@ -6061,7 +6029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:TestPoint_Pad_D0.8"
+		(property "Footprint" "fch7:TestPoint_Pad_D0.8"
 			(at 237.49 135.89 0)
 			(effects
 				(font
@@ -6142,6 +6110,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "PIN2216"
@@ -6152,7 +6121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
 			(at 129.54 165.1 0)
 			(effects
 				(font
@@ -6244,7 +6213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:TestPoint_Pad_D0.8"
+		(property "Footprint" "fch7:TestPoint_Pad_D0.8"
 			(at 265.43 129.54 0)
 			(effects
 				(font
@@ -6337,7 +6306,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fch7_fp:CONN-SMD_4P-P1.00_HDGC_HDGC1002WR-S-4P"
+		(property "Footprint" "fch7:CONN-SMD_4P-P1.00_HDGC_HDGC1002WR-S-4P"
 			(at 33.02 138.43 0)
 			(effects
 				(font
@@ -6539,7 +6508,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fch7_fp:CONN-SMD_4P-P1.00_HDGC_HDGC1002WR-S-4P"
+		(property "Footprint" "fch7:CONN-SMD_4P-P1.00_HDGC_HDGC1002WR-S-4P"
 			(at 33.02 40.64 0)
 			(effects
 				(font
@@ -7043,97 +7012,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 129.54 160.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c87b2e0-b89c-4681-8dfb-ac181e35b7ab")
-		(property "Reference" "J10"
-			(at 129.286 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PIN2216"
-			(at 123.444 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fch7_fp:SolderPad_1x01_SMD_2.2x1.6mm"
-			(at 129.54 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 129.54 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fréquence" ""
-			(at 129.54 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "~"
-			(at 129.54 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "~"
-			(at 129.54 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36b49aa5-2831-4949-9409-1ae033535d1b")
-		)
-		(instances
-			(project "fch7"
-				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/304e7e23-68f8-4a1f-930d-8ec3265ffbba"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 135.89 118.11 0)
 		(unit 1)
@@ -7224,7 +7102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:TestPoint_Pad_D0.8"
+		(property "Footprint" "fch7:TestPoint_Pad_D0.8"
 			(at 237.49 144.78 0)
 			(effects
 				(font
@@ -7315,7 +7193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
 			(at 129.54 139.7 0)
 			(effects
 				(font
@@ -7406,7 +7284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
 			(at 129.54 149.86 0)
 			(effects
 				(font
@@ -7499,7 +7377,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fch7_fp:CONN-SMD_4P-P1.00_HDGC_HDGC1002WR-S-4P"
+		(property "Footprint" "fch7:CONN-SMD_4P-P1.00_HDGC_HDGC1002WR-S-4P"
 			(at 33.02 172.72 0)
 			(effects
 				(font
@@ -7672,7 +7550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "fch7_fp:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+		(property "Footprint" "fch7:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
 			(at 262.382 72.136 0)
 			(effects
 				(font
@@ -7869,7 +7747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:TestPoint_Pad_D0.8"
+		(property "Footprint" "fch7:TestPoint_Pad_D0.8"
 			(at 265.43 139.7 0)
 			(effects
 				(font
@@ -7960,7 +7838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
 			(at 129.54 144.78 0)
 			(effects
 				(font
@@ -8119,7 +7997,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fch7_fp:CONN-SMD_HDGC1002WR-S-8P"
+		(property "Footprint" "fch7:CONN-SMD_HDGC1002WR-S-8P"
 			(at 236.22 60.96 0)
 			(effects
 				(font
@@ -8237,7 +8115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
 			(at 129.54 130.81 0)
 			(effects
 				(font
@@ -8328,7 +8206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
 			(at 129.54 125.73 0)
 			(effects
 				(font
@@ -8419,7 +8297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
 			(at 129.54 170.18 0)
 			(effects
 				(font
@@ -8513,7 +8391,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fch7_fp:CONN-SMD_HDGC1002WR-S-8P"
+		(property "Footprint" "fch7:CONN-SMD_HDGC1002WR-S-8P"
 			(at 241.3 95.25 0)
 			(effects
 				(font
@@ -8857,7 +8735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
 			(at 129.54 106.68 0)
 			(effects
 				(font

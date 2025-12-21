@@ -2414,7 +2414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:CSNP1GCR01-BOW"
+		(property "Footprint" "fch7:CSNP1GCR01-BOW"
 			(at 207.01 96.52 0)
 			(effects
 				(font

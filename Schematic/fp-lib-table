@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "fch7")(type "KiCad")(uri "/Users/macmax/repos/fch7/fch7.pretty")(options "")(descr ""))
+)

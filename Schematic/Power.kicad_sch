@@ -4618,7 +4618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:AP2112K-1.8TRG1"
+		(property "Footprint" "fch7:AP2112K-1.8TRG1"
 			(at 237.998 24.638 0)
 			(effects
 				(font
@@ -5043,7 +5043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SOD-123_L2.7-W1.6-LS3.7-RD"
+		(property "Footprint" "fch7:SOD-123_L2.7-W1.6-LS3.7-RD"
 			(at 133.35 23.495 0)
 			(effects
 				(font
@@ -5138,7 +5138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SON65P300X300X100-8N"
+		(property "Footprint" "fch7:SON65P300X300X100-8N"
 			(at 81.28 195.25 0)
 			(effects
 				(font
@@ -6302,7 +6302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SOT23-5"
+		(property "Footprint" "fch7:SOT23-5"
 			(at 161.29 33.02 0)
 			(effects
 				(font
@@ -7415,7 +7415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SON65P300X300X100-8N"
+		(property "Footprint" "fch7:SON65P300X300X100-8N"
 			(at 199.39 197.79 0)
 			(effects
 				(font
@@ -8289,7 +8289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7_fp:SOD-323_L1.8-W1.3-LS2.5-RD"
+		(property "Footprint" "fch7:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 133.35 33.655 0)
 			(effects
 				(font
