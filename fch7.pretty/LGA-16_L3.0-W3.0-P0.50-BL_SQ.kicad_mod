@@ -526,4 +526,15 @@
 		(uuid "9728b7ae-70b5-4f74-ab4d-75973445ca85")
 	)
 	(embedded_fonts no)
+	(model "/Users/macmax/repos/fch7/Hardware/3D/QMC5883L.step"
+		(offset
+			(xyz 13.5 8.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

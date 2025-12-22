@@ -295,4 +295,15 @@
 		(uuid "55d58e12-e9bb-48fe-bedd-f4898f6545e2")
 	)
 	(embedded_fonts no)
+	(model "/Users/macmax/repos/fch7/Hardware/3D/CDSOD323-T03--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
