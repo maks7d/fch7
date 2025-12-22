@@ -11863,14 +11863,14 @@
 		(layer "F.Cu")
 		(uuid "765bf296-9afe-45d6-ba10-8874bf730d3d")
 		(at 101.8 90.79 -90)
-		(property "Reference" "SW1"
-			(at 0 -3.5525 90)
+		(property "Reference" "BOOT0"
+			(at 3.41 0.1 180)
 			(layer "F.SilkS")
 			(uuid "37227504-c90b-4335-8faa-70eca02c0e6a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.2 0.2)
+					(thickness 0.025)
 				)
 			)
 		)
@@ -14938,14 +14938,14 @@
 		(at 102.9 86.9 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D3"
-			(at 0 -1.43 0)
+		(property "Reference" "LED_0"
+			(at 1.9 0 90)
 			(layer "F.SilkS")
 			(uuid "7e21ffae-9825-4961-9a2d-06a34655e501")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.2 0.2)
+					(thickness 0.025)
 				)
 			)
 		)
@@ -21979,7 +21979,7 @@
 			(net 1 "GND")
 			(pinfunction "SHELL")
 			(pintype "passive")
-			(uuid "8e0e4588-abf9-4468-918b-19b39eddabeb")
+			(uuid "492b3043-a264-4dff-be52-39c23e262b95")
 		)
 		(pad "14" thru_hole oval
 			(at 4.325 -1.825 270)
@@ -22001,7 +22001,7 @@
 			(net 1 "GND")
 			(pinfunction "SHELL")
 			(pintype "passive")
-			(uuid "4bf188cb-33ea-4e88-b50f-0f084c2537d9")
+			(uuid "77b53738-d52c-485d-bd2f-af4c3aab8193")
 		)
 		(embedded_fonts no)
 		(model "/Users/macmax/repos/fch7/Hardware/3D/USB-C_standard.STEP"
