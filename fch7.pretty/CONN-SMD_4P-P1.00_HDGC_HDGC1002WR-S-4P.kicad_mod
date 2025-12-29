@@ -335,7 +335,7 @@
 		(uuid "90261ffc-b921-4509-bf29-29e1db48025a")
 	)
 	(embedded_fonts no)
-	(model "/Users/macmax/repos/fch7/Hardware/3D/SM04B-SRSS-TB--3DModel-STEP-269445.STEP"
+	(model "${FCH7_3DMODEL_DIR}/SM04B-SRSS-TB--3DModel-STEP-269445.STEP"
 		(offset
 			(xyz 0 1.3 -0.3)
 		)

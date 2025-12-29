@@ -545,7 +545,7 @@
 		(uuid "92f35301-069f-408f-bdf1-365cf17bce72")
 	)
 	(embedded_fonts no)
-	(model "/Users/macmax/repos/fch7/Hardware/3D/ts24ca.step"
+	(model "${FCH7_3DMODEL_DIR}/ts24ca.step"
 		(offset
 			(xyz 0 0 0)
 		)

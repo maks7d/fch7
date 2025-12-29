@@ -295,4 +295,15 @@
 		(uuid "4c587fcb-9c3b-4be6-8de3-eefd41836337")
 	)
 	(embedded_fonts no)
+	(model "${FCH7_3DMODEL_DIR}/1N5819W.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

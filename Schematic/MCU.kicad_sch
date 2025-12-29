@@ -7525,6 +7525,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TYPE-C 16PIN 2MD(073)"
+			(at 255.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9861b5a8-a9bc-4279-9fbf-4d41d39eed6f")
 		)
@@ -9940,6 +9949,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STM32H743VIT6"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STM"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

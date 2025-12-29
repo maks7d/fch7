@@ -411,7 +411,7 @@
 		(uuid "40d5bc53-7825-4a62-a9e9-51626e7fb765")
 	)
 	(embedded_fonts no)
-	(model "/Users/macmax/repos/fch7/Hardware/3D/CSNP1GCR01-BOW.step"
+	(model "${FCH7_3DMODEL_DIR}/CSNP1GCR01-BOW.step"
 		(offset
 			(xyz -1 1 1)
 		)

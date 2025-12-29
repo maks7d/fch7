@@ -367,7 +367,7 @@
 		(uuid "b17391a9-ad6f-4cf0-9ae6-8624ced9162f")
 	)
 	(embedded_fonts no)
-	(model "/Users/macmax/repos/fch7/Hardware/3D/AP2112K-1.8TRG1.STEP"
+	(model "${FCH7_3DMODEL_DIR}/AP2112K-1.8TRG1.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

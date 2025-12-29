@@ -196,7 +196,7 @@
 		(uuid "c9ce22dc-e6f8-4d50-89a5-7f6a6366959e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0.01 3.1 0)
 		(layer "F.Fab")
 		(uuid "2aa249cd-f79c-4493-a08f-8eb3bc2a8c8e")
 		(effects
@@ -225,7 +225,7 @@
 		(uuid "a5a5f873-48d0-46ca-ba0e-4b8f183279b2")
 	)
 	(embedded_fonts no)
-	(model "/Users/macmax/repos/fch7/Hardware/3D/CSTNE8M00G55Z000R0.stp"
+	(model "${FCH7_3DMODEL_DIR}/CSTNE8M00G55Z000R0.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -5391,6 +5391,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "4D03WGJ0101T5E"
+			(at 261.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c6e5bf15-c15c-45a5-97e2-d609209ce6c6")
 		)
@@ -7615,6 +7624,15 @@
 		)
 		(property "LCSC Part Name" "100Ω ±5%"
 			(at 260.096 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4D03WGJ0101T5E"
+			(at 260.35 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
