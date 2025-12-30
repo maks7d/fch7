@@ -4779,7 +4779,7 @@
 	)
 	(global_label "UART1_TX"
 		(shape input)
-		(at 40.64 43.18 0)
+		(at 40.64 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4789,7 +4789,7 @@
 		)
 		(uuid "ecaa7147-3149-4510-b720-3940796940ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.6361 43.18 0)
+			(at 52.6361 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,7 +4801,7 @@
 	)
 	(global_label "UART1_RX"
 		(shape input)
-		(at 40.64 46.99 0)
+		(at 40.64 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4811,7 +4811,7 @@
 		)
 		(uuid "f0745ec3-0a99-4911-8415-f204df7ac6b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.9385 46.99 0)
+			(at 52.9385 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,7 +5068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_1.2x1.6mm"
 			(at 129.54 111.76 0)
 			(effects
 				(font
@@ -5838,7 +5838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_1.2x1.6mm"
 			(at 129.54 116.84 0)
 			(effects
 				(font
@@ -6130,7 +6130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_1.2x1.6mm"
 			(at 129.54 165.1 0)
 			(effects
 				(font
@@ -7202,7 +7202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_1.2x1.6mm"
 			(at 129.54 139.7 0)
 			(effects
 				(font
@@ -7293,7 +7293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_1.2x1.6mm"
 			(at 129.54 149.86 0)
 			(effects
 				(font
@@ -7856,7 +7856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_1.2x1.6mm"
 			(at 129.54 144.78 0)
 			(effects
 				(font
@@ -8133,7 +8133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_1.2x1.6mm"
 			(at 129.54 130.81 0)
 			(effects
 				(font
@@ -8224,7 +8224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_1.2x1.6mm"
 			(at 129.54 125.73 0)
 			(effects
 				(font
@@ -8315,7 +8315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_1.2x1.6mm"
 			(at 129.54 170.18 0)
 			(effects
 				(font
@@ -8753,7 +8753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fch7:SolderPad_1x01_SMD_2.2x1.6mm"
+		(property "Footprint" "fch7:SolderPad_1x01_SMD_1.2x1.6mm"
 			(at 129.54 106.68 0)
 			(effects
 				(font
