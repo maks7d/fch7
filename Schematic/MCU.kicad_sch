@@ -3277,6 +3277,12 @@
 		(uuid "338fa0bd-6642-435f-911f-eb3c0373bef5")
 	)
 	(junction
+		(at 88.9 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4890092d-4c00-446e-b19e-d230b1727873")
+	)
+	(junction
 		(at 58.42 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3337,10 +3343,22 @@
 		(uuid "940c2756-f95b-4500-9087-4e88a4cc8625")
 	)
 	(junction
+		(at 102.87 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98b7d4e9-9823-4688-84e5-417cd4e48400")
+	)
+	(junction
 		(at 220.98 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a533c902-beb8-4d68-906f-b6af624f2200")
+	)
+	(junction
+		(at 91.44 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6a375fe-e901-4e76-bce8-47175e1aab16")
 	)
 	(junction
 		(at 127 158.75)
@@ -3383,12 +3401,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edb25c1a-808e-482a-91b6-01307c4c6537")
-	)
-	(junction
-		(at 102.87 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f64398eb-ba9f-4cf9-a5f8-deb5436c7392")
 	)
 	(junction
 		(at 45.72 101.6)
@@ -3573,16 +3585,6 @@
 			(type default)
 		)
 		(uuid "0f5cf74d-7833-48c3-b2e1-a26fca7e8fc1")
-	)
-	(wire
-		(pts
-			(xy 102.87 35.56) (xy 104.14 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10325107-d94c-4ffc-86f2-f5b04e10cbab")
 	)
 	(wire
 		(pts
@@ -3876,6 +3878,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 22.86) (xy 91.44 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346fd9b2-d0c2-41ab-8966-ade55d9d0939")
+	)
+	(wire
+		(pts
 			(xy 71.12 148.59) (xy 71.12 149.86)
 		)
 		(stroke
@@ -4123,6 +4135,16 @@
 			(type default)
 		)
 		(uuid "4f51d79b-239a-4925-977c-992c6d984f8f")
+	)
+	(wire
+		(pts
+			(xy 88.9 19.05) (xy 88.9 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508e8484-d042-4e7c-ad2f-af44f413062b")
 	)
 	(wire
 		(pts
@@ -4456,6 +4478,26 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 22.86) (xy 91.44 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b84cf30-7f8d-43a9-9d10-79a2d33539f2")
+	)
+	(wire
+		(pts
+			(xy 102.87 29.21) (xy 104.14 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c2bf8da-ab55-42a3-98e3-cb893d5efef7")
+	)
+	(wire
+		(pts
 			(xy 124.46 179.07) (xy 121.92 179.07)
 		)
 		(stroke
@@ -4523,6 +4565,16 @@
 			(type default)
 		)
 		(uuid "829df324-30cf-4007-a562-843fe420de54")
+	)
+	(wire
+		(pts
+			(xy 90.17 19.05) (xy 88.9 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8625477a-64bb-4b5f-b297-272cfb568ec9")
 	)
 	(wire
 		(pts
@@ -5910,6 +5962,28 @@
 			)
 		)
 	)
+	(global_label "I2C1_SDA"
+		(shape input)
+		(at 90.17 19.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3365be64-5b8b-452b-b3e9-d3d7c8d5958a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.9847 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NRST"
 		(shape input)
 		(at 31.75 104.14 180)
@@ -6658,6 +6732,28 @@
 			)
 		)
 	)
+	(global_label "I2C1_CLK"
+		(shape input)
+		(at 92.71 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91dc4730-304b-4822-b946-a7111c2e2410")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.5247 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI1_MOSI"
 		(shape input)
 		(at 101.6 49.53 90)
@@ -6902,7 +6998,7 @@
 	)
 	(global_label "VDD_MCU"
 		(shape input)
-		(at 104.14 35.56 0)
+		(at 104.14 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6912,7 +7008,7 @@
 		)
 		(uuid "a9765020-3d89-4ebb-9cf2-0161c8b58095")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.7733 35.56 0)
+			(at 115.7733 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7914,7 +8010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C30926.pdf"
+		(property "Datasheet" ""
 			(at 45.72 107.95 0)
 			(effects
 				(font
@@ -7932,7 +8028,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B104K500NT "
+		(property "MPN" ""
 			(at 45.72 107.95 0)
 			(effects
 				(font
@@ -7950,7 +8046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" ""
 			(at 45.72 107.95 0)
 			(effects
 				(font
@@ -8268,7 +8364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C30926.pdf"
+		(property "Datasheet" ""
 			(at 220.98 34.29 0)
 			(effects
 				(font
@@ -8286,7 +8382,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B104K500NT "
+		(property "MPN" ""
 			(at 220.98 34.29 0)
 			(effects
 				(font
@@ -8304,7 +8400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" ""
 			(at 220.98 34.29 0)
 			(effects
 				(font
@@ -8364,7 +8460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+		(property "Datasheet" ""
 			(at 163.83 73.66 0)
 			(effects
 				(font
@@ -8382,7 +8478,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A225KB8NNNC"
+		(property "MPN" ""
 			(at 163.83 73.66 90)
 			(effects
 				(font
@@ -8391,7 +8487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG"
+		(property "Manufacturer" ""
 			(at 163.83 73.66 90)
 			(effects
 				(font
@@ -8469,7 +8565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C30926.pdf"
+		(property "Datasheet" ""
 			(at 232.41 34.29 0)
 			(effects
 				(font
@@ -8487,7 +8583,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B104K500NT "
+		(property "MPN" ""
 			(at 232.41 34.29 0)
 			(effects
 				(font
@@ -8505,7 +8601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" ""
 			(at 232.41 34.29 0)
 			(effects
 				(font
@@ -8605,7 +8701,7 @@
 		(dnp no)
 		(uuid "45f4e813-84ca-432e-9530-6b33cdef8491")
 		(property "Reference" "R2"
-			(at 93.726 28.194 90)
+			(at 94.234 27.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8699,10 +8795,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "494dafa5-5b8c-4250-8450-5b2ac62b0f2b")
 		(property "Reference" "SW1"
-			(at 49.53 26.67 0)
+			(at 49.53 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8710,7 +8805,7 @@
 			)
 		)
 		(property "Value" "TS24CA"
-			(at 49.53 29.21 0)
+			(at 49.53 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9026,7 +9121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C30926.pdf"
+		(property "Datasheet" ""
 			(at 243.84 34.29 0)
 			(effects
 				(font
@@ -9044,7 +9139,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B104K500NT "
+		(property "MPN" ""
 			(at 243.84 34.29 0)
 			(effects
 				(font
@@ -9062,7 +9157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" ""
 			(at 243.84 34.29 0)
 			(effects
 				(font
@@ -9096,7 +9191,7 @@
 		(dnp no)
 		(uuid "754e6c43-b43c-4ac0-aa05-14d93d5b4467")
 		(property "Reference" "R3"
-			(at 93.726 34.29 90)
+			(at 94.488 33.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9637,7 +9732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C30926.pdf"
+		(property "Datasheet" ""
 			(at 198.12 34.29 0)
 			(effects
 				(font
@@ -9655,7 +9750,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B104K500NT "
+		(property "MPN" ""
 			(at 198.12 34.29 0)
 			(effects
 				(font
@@ -9673,7 +9768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" ""
 			(at 198.12 34.29 0)
 			(effects
 				(font
@@ -10315,7 +10410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C30926.pdf"
+		(property "Datasheet" ""
 			(at 209.55 34.29 0)
 			(effects
 				(font
@@ -10333,7 +10428,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B104K500NT "
+		(property "MPN" ""
 			(at 209.55 34.29 0)
 			(effects
 				(font
@@ -10351,7 +10446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" ""
 			(at 209.55 34.29 0)
 			(effects
 				(font
@@ -10542,7 +10637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+		(property "Datasheet" ""
 			(at 127 152.4 0)
 			(effects
 				(font
@@ -10560,7 +10655,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A225KB8NNNC"
+		(property "MPN" ""
 			(at 127 152.4 0)
 			(effects
 				(font
@@ -10569,7 +10664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG"
+		(property "Manufacturer" ""
 			(at 127 152.4 0)
 			(effects
 				(font

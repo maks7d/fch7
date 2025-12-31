@@ -6,7 +6,7 @@
 	(descr "QFN-8")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 0 0)
+		(at 0.15 -4.38 0)
 		(layer "F.SilkS")
 		(uuid "3e05a29d-e8f7-4240-8244-0abafa45bfb8")
 		(effects
@@ -94,8 +94,8 @@
 		(uuid "2054bb5a-fce4-406c-8db3-838c0f034d18")
 	)
 	(fp_circle
-		(center -1.875 -1.65)
-		(end -1.875 -1.525)
+		(center -1.8 -1.5)
+		(end -1.8 -1.375)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -195,7 +195,7 @@
 		(uuid "c169f2f6-cceb-44e2-87df-19d7c1253f9c")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at -0.05 -2.69 0)
 		(layer "F.Fab")
 		(uuid "3cf8fce9-adf6-4b0b-a768-afbbebe1147b")
 		(effects

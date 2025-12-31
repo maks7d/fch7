@@ -1538,7 +1538,7 @@
 	)
 	(text "LDO regulator for isolated ICM gyro 1.8V power supply"
 		(exclude_from_sim no)
-		(at 239.776 23.876 0)
+		(at 238.76 21.082 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1717,12 +1717,6 @@
 		(uuid "9eec1bf3-d7e9-4de9-9e29-2f0f83cbcd74")
 	)
 	(junction
-		(at 260.35 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4d9d681-1612-4dc7-b12b-a5b61726a223")
-	)
-	(junction
 		(at 177.8 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1745,12 +1739,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba85356a-e765-4feb-88c6-e1cdac4bbdf3")
-	)
-	(junction
-		(at 266.7 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1315833-c86b-4847-a5c5-abb72c6ad1cd")
 	)
 	(junction
 		(at 48.26 31.75)
@@ -2378,16 +2366,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 34.29) (xy 267.97 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e201290-a53f-4241-a6fd-c400af7d036e")
-	)
-	(wire
-		(pts
 			(xy 34.29 102.87) (xy 34.29 104.14)
 		)
 		(stroke
@@ -2518,16 +2496,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 43.18) (xy 266.7 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f00fa79-ef19-4b6f-ad5c-b98a9828b2c3")
-	)
-	(wire
-		(pts
 			(xy 73.66 90.17) (xy 88.9 90.17)
 		)
 		(stroke
@@ -2625,16 +2593,6 @@
 			(type default)
 		)
 		(uuid "6a7a9b11-8b30-4302-a09e-38201c29477a")
-	)
-	(wire
-		(pts
-			(xy 266.7 34.29) (xy 266.7 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ab71a4f-7a12-4fc5-bfbf-46862f6d6476")
 	)
 	(wire
 		(pts
@@ -2838,7 +2796,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 34.29) (xy 266.7 34.29)
+			(xy 260.35 34.29) (xy 267.97 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3315,16 +3273,6 @@
 			(type default)
 		)
 		(uuid "ed4883c5-e9ac-4c1d-a437-6ee9e0d2f0f9")
-	)
-	(wire
-		(pts
-			(xy 266.7 44.45) (xy 260.35 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed775ee4-97a0-41a3-b462-640caad9570d")
 	)
 	(wire
 		(pts
@@ -3975,7 +3923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 254.9652 43.18 0)
 			(effects
 				(font
@@ -4011,7 +3959,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MAQNNNE"
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 254 39.37 0)
 			(effects
 				(font
@@ -4159,7 +4107,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 213.868 41.402 0)
 			(effects
 				(font
@@ -4168,7 +4116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 219.4052 43.18 0)
 			(effects
 				(font
@@ -4204,7 +4152,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MAQNNNE"
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 218.44 39.37 0)
 			(effects
 				(font
@@ -4759,7 +4707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C30926.pdf"
+		(property "Datasheet" ""
 			(at 177.8 40.64 0)
 			(effects
 				(font
@@ -4777,7 +4725,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B104K500NT "
+		(property "MPN" ""
 			(at 177.8 40.64 0)
 			(effects
 				(font
@@ -4795,7 +4743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" ""
 			(at 177.8 40.64 0)
 			(effects
 				(font
@@ -4940,10 +4888,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2dab3fdb-5ec4-4f62-bf88-6cdbffacd1ab")
 		(property "Reference" "R15"
-			(at 190.5 115.57 90)
+			(at 190.5 124.206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,7 +4898,7 @@
 			)
 		)
 		(property "Value" "20"
-			(at 190.5 118.11 90)
+			(at 190.5 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,10 +5327,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "461240ab-9729-4352-8189-0349005c5265")
 		(property "Reference" "R12"
-			(at 72.39 113.03 90)
+			(at 72.39 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5337,7 @@
 			)
 		)
 		(property "Value" "20"
-			(at 72.39 115.57 90)
+			(at 72.39 117.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,10 +5421,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4d6f1483-0ac0-4d53-90f8-94fdcc619b09")
 		(property "Reference" "C21"
-			(at 179.07 114.3 90)
+			(at 179.07 125.222 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +5431,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 179.07 116.84 90)
+			(at 179.07 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C30926.pdf"
+		(property "Datasheet" ""
 			(at 179.07 121.92 0)
 			(effects
 				(font
@@ -5520,7 +5465,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B104K500NT "
+		(property "MPN" ""
 			(at 179.07 121.92 90)
 			(effects
 				(font
@@ -5538,7 +5483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" ""
 			(at 179.07 121.92 90)
 			(effects
 				(font
@@ -5580,8 +5525,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 256.794 41.402 0)
+		(property "Value" "2.2u"
+			(at 256.032 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +5534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 261.3152 43.18 0)
 			(effects
 				(font
@@ -5598,7 +5543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+		(property "Datasheet" ""
 			(at 260.35 39.37 0)
 			(effects
 				(font
@@ -5625,7 +5570,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MAQNNNE"
+		(property "MPN" ""
 			(at 260.35 39.37 0)
 			(effects
 				(font
@@ -5634,7 +5579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG"
+		(property "Manufacturer" ""
 			(at 260.35 39.37 0)
 			(effects
 				(font
@@ -5893,7 +5838,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "67cee116-bbf6-447e-a092-07e37a3084eb")
 		(property "Reference" "#PWR017"
 			(at 224.79 124.46 0)
@@ -5905,7 +5849,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 123.19 0)
+			(at 225.044 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5987,7 +5931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C30926.pdf"
+		(property "Datasheet" ""
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -6005,7 +5949,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B104K500NT "
+		(property "MPN" ""
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -6023,7 +5967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" ""
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -6582,7 +6526,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "87b88aa5-26e7-44b2-aaf4-e547d3ae0e7c")
 		(property "Reference" "#PWR016"
 			(at 205.74 119.38 0)
@@ -6594,7 +6537,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 118.11 0)
+			(at 205.74 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,7 +6619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C30926.pdf"
+		(property "Datasheet" ""
 			(at 152.4 110.49 0)
 			(effects
 				(font
@@ -6694,7 +6637,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B104K500NT "
+		(property "MPN" ""
 			(at 152.4 110.49 90)
 			(effects
 				(font
@@ -6712,7 +6655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" ""
 			(at 152.4 110.49 90)
 			(effects
 				(font
@@ -7676,10 +7619,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b5b5f9f3-bb6a-4d24-961e-868a5c0ee9aa")
 		(property "Reference" "C17"
-			(at 60.96 111.76 90)
+			(at 60.96 122.936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,7 +7629,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 60.96 114.3 90)
+			(at 61.214 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7703,7 +7645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C30926.pdf"
+		(property "Datasheet" ""
 			(at 60.96 119.38 0)
 			(effects
 				(font
@@ -7721,7 +7663,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B104K500NT "
+		(property "MPN" ""
 			(at 60.96 119.38 90)
 			(effects
 				(font
@@ -7739,7 +7681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" ""
 			(at 60.96 119.38 90)
 			(effects
 				(font
@@ -7824,102 +7766,6 @@
 			(project "fch7"
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/436f6237-706d-4072-be43-3abf579550aa"
 					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 266.7 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc66cf11-81ef-4bb7-80a7-644b4b8e1685")
-		(property "Reference" "C44"
-			(at 262.636 37.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 261.874 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 267.6652 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
-			(at 266.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 266.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fréquence" ""
-			(at 266.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A226MAQNNNE"
-			(at 266.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SAMSUNG"
-			(at 266.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b85a04b9-a901-4ccb-960b-6d8bef31e9f9")
-		)
-		(pin "1"
-			(uuid "6bd62a7a-82c8-4899-90a3-a938ee450de0")
-		)
-		(instances
-			(project "fch7"
-				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/436f6237-706d-4072-be43-3abf579550aa"
-					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -8859,7 +8705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C30926.pdf"
+		(property "Datasheet" ""
 			(at 34.29 107.95 0)
 			(effects
 				(font
@@ -8877,7 +8723,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B104K500NT "
+		(property "MPN" ""
 			(at 34.29 107.95 90)
 			(effects
 				(font
@@ -8895,7 +8741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" ""
 			(at 34.29 107.95 90)
 			(effects
 				(font
