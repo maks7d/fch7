@@ -129,38 +129,16 @@
 		(layer "F.SilkS")
 		(uuid "ca5bdc7d-1e90-4ac1-b5a3-8d7f42df88be")
 	)
-	(fp_arc
-		(start -0.7985 1.95)
-		(mid -0.923498 1.82575)
-		(end -0.8 1.7)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "8e8060c8-450c-403a-b0cc-ba086039ed95")
-	)
-	(fp_arc
-		(start -0.7975 1.7)
-		(mid -0.673497 1.8255)
-		(end -0.7985 1.95)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "068095c1-5039-44bb-8e59-c578b4f6777b")
-	)
 	(fp_circle
-		(center -0.8 1.7)
-		(end -0.673 1.7)
+		(center -0.75 0.83)
+		(end -0.72 0.87)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
-		(layer "Dwgs.User")
-		(uuid "d39ee24b-67ef-41e3-b033-89f084ead06a")
+		(layer "F.SilkS")
+		(uuid "d5d3a5c5-0b23-47aa-80c3-fa6b01f36f5c")
 	)
 	(fp_rect
 		(start -1.805433 -1.7755)
@@ -419,7 +397,7 @@
 		(uuid "4ced634f-d568-40e9-8e70-beef107adb1e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0.16 3.81 0)
 		(layer "F.Fab")
 		(uuid "68aae704-b393-4657-8a94-78b37b6350f4")
 		(effects

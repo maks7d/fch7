@@ -170,8 +170,8 @@
 		(uuid "54ead881-2ffa-49ed-aeea-f6d99e97193d")
 	)
 	(fp_circle
-		(center -9.652 -5.842)
-		(end -9.402 -5.842)
+		(center -7.32 -6.44)
+		(end -7.07 -6.44)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -179,17 +179,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "d3906d51-492b-4149-9140-22b6a9811c31")
-	)
-	(fp_circle
-		(center -8.89 -4.826)
-		(end -8.64 -4.826)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "3c8b0e00-cdb2-4b81-af4b-8e42bf70daee")
 	)
 	(fp_poly
 		(pts
