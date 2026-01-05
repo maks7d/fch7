@@ -799,6 +799,16 @@
 		)
 		(uuid "ad30a681-9df7-4dbc-b711-e545d060c9b0")
 	)
+	(text "1Gbit/128MO SDNAND flash memory for blackbox storage"
+		(exclude_from_sim no)
+		(at 220.726 47.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5cf34ae-96fd-4f61-b47e-79e2dfe2efb1")
+	)
 	(junction
 		(at 59.69 134.62)
 		(diameter 0)
@@ -2525,7 +2535,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "158ec548-41d3-4fb9-a144-8561585d3b36")
 		(property "Reference" "#PWR038"
 			(at 90.17 162.56 0)
@@ -2537,7 +2546,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 161.29 0)
+			(at 90.17 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +3548,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 83.82 59.182 90)
+			(at 83.82 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)

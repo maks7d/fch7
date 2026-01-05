@@ -1355,16 +1355,6 @@
 		)
 		(uuid "4b0d3a92-f574-4f74-943c-ae1a6459d9f3")
 	)
-	(polyline
-		(pts
-			(xy 144.78 85.09) (xy 284.48 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f37b50f-ad19-4c24-a116-bd8ea237e683")
-	)
 	(wire
 		(pts
 			(xy 92.71 127) (xy 93.98 127)
@@ -1574,6 +1564,16 @@
 			(type default)
 		)
 		(uuid "f9a23f05-80af-4948-9343-1ff51f2e43f2")
+	)
+	(polyline
+		(pts
+			(xy 144.78 83.82) (xy 144.78 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a4bc2d-d80e-4c8f-95be-fe0a42797fcc")
 	)
 	(wire
 		(pts
@@ -2148,7 +2148,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7dbacfd3-e3bc-430f-887d-2c69ba511ff9")
 		(property "Reference" "#PWR041"
 			(at 44.45 77.47 0)
@@ -2160,7 +2159,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 76.2 0)
+			(at 44.45 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,7 +2213,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "815690d0-107f-44be-bedc-40d31fcde18b")
 		(property "Reference" "#PWR043"
 			(at 111.76 63.5 0)
@@ -2226,7 +2224,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 62.23 0)
+			(at 111.76 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,7 +2547,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cd34d0e5-4f38-447a-a9e6-31018e9c460b")
 		(property "Reference" "#PWR051"
 			(at 93.98 166.37 0)
@@ -2561,7 +2558,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 165.1 0)
+			(at 93.98 164.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)

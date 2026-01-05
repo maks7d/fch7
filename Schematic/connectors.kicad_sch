@@ -2193,7 +2193,7 @@
 	)
 	(polyline
 		(pts
-			(xy 109.22 13.97) (xy 109.22 199.39)
+			(xy 101.6 12.7) (xy 101.6 198.12)
 		)
 		(stroke
 			(width 0)
@@ -3588,7 +3588,7 @@
 				)
 				(uuid "87e8304b-5032-413c-b7f0-b14336a013df")
 			)
-			(table_cell "UART6 WIFI"
+			(table_cell "UART6 RX"
 				(exclude_from_sim no)
 				(at 67.31 71.12 0)
 				(size 27.94 5.08)
@@ -3605,7 +3605,7 @@
 				)
 				(uuid "61da63dc-7b5b-48d0-b964-7e4267bfdc3a")
 			)
-			(table_cell "UART7 ESC for telemetry bi-directional"
+			(table_cell "UART7 ESC feedback for telemetry bi-directional"
 				(exclude_from_sim no)
 				(at 67.31 76.2 0)
 				(size 27.94 5.08)
