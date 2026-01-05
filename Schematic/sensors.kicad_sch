@@ -1932,7 +1932,7 @@
 	)
 	(text "IMU1\n"
 		(exclude_from_sim no)
-		(at 72.898 44.958 0)
+		(at 72.898 47.244 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4010,7 +4010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
 			(at 172.72 152.4 0)
 			(effects
 				(font
@@ -4028,7 +4028,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603X5R1E104K030BB"
 			(at 172.72 152.4 90)
 			(effects
 				(font
@@ -4046,7 +4046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 172.72 152.4 90)
 			(effects
 				(font
@@ -4170,7 +4170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
 			(at 119.38 80.01 0)
 			(effects
 				(font
@@ -4188,7 +4188,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603X5R1E104K030BB"
 			(at 119.38 80.01 90)
 			(effects
 				(font
@@ -4206,7 +4206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 119.38 80.01 90)
 			(effects
 				(font
@@ -4505,7 +4505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
 			(at 111.76 85.09 0)
 			(effects
 				(font
@@ -4523,7 +4523,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603X5R1E104K030BB"
 			(at 111.76 85.09 0)
 			(effects
 				(font
@@ -4541,7 +4541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 111.76 85.09 0)
 			(effects
 				(font
@@ -4694,7 +4694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
 			(at 78.74 54.61 0)
 			(effects
 				(font
@@ -4712,7 +4712,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603X5R1E104K030BB"
 			(at 78.74 54.61 90)
 			(effects
 				(font
@@ -4730,7 +4730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 78.74 54.61 90)
 			(effects
 				(font
@@ -4788,7 +4788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
 			(at 252.73 147.32 0)
 			(effects
 				(font
@@ -4806,7 +4806,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603X5R1E104K030BB"
 			(at 252.73 147.32 90)
 			(effects
 				(font
@@ -4824,7 +4824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 252.73 147.32 90)
 			(effects
 				(font
@@ -5012,7 +5012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yuden.co.jp/productdata/catalog/mlcc02_e.pdf"
 			(at 207.01 116.84 0)
 			(effects
 				(font
@@ -5030,7 +5030,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TMK063B7103KP-F "
 			(at 207.01 116.84 90)
 			(effects
 				(font
@@ -5048,7 +5048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TAIYO YUDEN"
 			(at 207.01 116.84 90)
 			(effects
 				(font
@@ -5106,7 +5106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
 			(at 234.95 147.32 0)
 			(effects
 				(font
@@ -5124,7 +5124,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603X5R1E104K030BB"
 			(at 234.95 147.32 90)
 			(effects
 				(font
@@ -5142,7 +5142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 234.95 147.32 90)
 			(effects
 				(font
@@ -5295,7 +5295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
 			(at 172.72 147.32 0)
 			(effects
 				(font
@@ -5313,7 +5313,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603X5R1E104K030BB"
 			(at 172.72 147.32 90)
 			(effects
 				(font
@@ -5331,7 +5331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 172.72 147.32 90)
 			(effects
 				(font
@@ -5873,10 +5873,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b56b9bf8-ccda-4b6d-a244-84086faf7250")
 		(property "Reference" "IC5"
-			(at 102.87 65.6746 90)
+			(at 90.17 62.484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,7 +5883,7 @@
 			)
 		)
 		(property "Value" "MPU-6500"
-			(at 102.87 68.2146 90)
+			(at 90.424 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +6105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
 			(at 237.49 97.79 0)
 			(effects
 				(font
@@ -6124,7 +6123,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603X5R1E104K030BB"
 			(at 237.49 97.79 90)
 			(effects
 				(font
@@ -6142,7 +6141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 237.49 97.79 90)
 			(effects
 				(font
@@ -6397,7 +6396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 243.84 97.79 0)
 			(effects
 				(font
@@ -6415,7 +6414,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "02016D225MAT2A"
 			(at 243.84 97.79 90)
 			(effects
 				(font
@@ -6433,7 +6432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 243.84 97.79 90)
 			(effects
 				(font
@@ -6491,7 +6490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yuden.co.jp/productdata/catalog/mlcc02_e.pdf"
 			(at 245.11 147.32 0)
 			(effects
 				(font
@@ -6518,7 +6517,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TMK063B7103KP-F "
 			(at 245.11 147.32 90)
 			(effects
 				(font
@@ -6527,7 +6526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TAIYO YUDEN"
 			(at 245.11 147.32 90)
 			(effects
 				(font
@@ -6682,7 +6681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yuden.co.jp/productdata/catalog/mlcc02_e.pdf"
 			(at 262.89 147.32 0)
 			(effects
 				(font
@@ -6709,7 +6708,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TMK063B7103KP-F "
 			(at 262.89 147.32 90)
 			(effects
 				(font
@@ -6718,7 +6717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TAIYO YUDEN"
 			(at 262.89 147.32 90)
 			(effects
 				(font

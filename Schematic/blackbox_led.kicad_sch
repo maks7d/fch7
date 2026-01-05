@@ -3848,7 +3848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
 			(at 229.87 85.09 0)
 			(effects
 				(font
@@ -3866,7 +3866,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603X5R1E104K030BB"
 			(at 229.87 85.09 0)
 			(effects
 				(font
@@ -3884,7 +3884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 229.87 85.09 0)
 			(effects
 				(font
@@ -4712,7 +4712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yuden.co.jp/productdata/catalog/mlcc02_e.pdf"
 			(at 222.25 85.09 0)
 			(effects
 				(font
@@ -4739,7 +4739,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TMK063B7103KP-F "
 			(at 222.25 85.09 0)
 			(effects
 				(font
@@ -4748,7 +4748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TAIYO YUDEN"
 			(at 222.25 85.09 0)
 			(effects
 				(font

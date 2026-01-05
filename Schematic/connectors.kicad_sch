@@ -5310,7 +5310,7 @@
 				)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "100"
 			(at 262.382 99.314 0)
 			(effects
 				(font
@@ -7550,7 +7550,7 @@
 				)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "100"
 			(at 261.112 65.024 0)
 			(effects
 				(font

@@ -1948,7 +1948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
 			(at 93.98 154.94 0)
 			(effects
 				(font
@@ -1966,7 +1966,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603X5R1E104K030BB"
 			(at 93.98 154.94 0)
 			(effects
 				(font
@@ -1984,7 +1984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 93.98 154.94 0)
 			(effects
 				(font
@@ -2641,7 +2641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
 			(at 99.06 45.72 0)
 			(effects
 				(font
@@ -2659,7 +2659,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603X5R1E104K030BB"
 			(at 99.06 45.72 0)
 			(effects
 				(font
@@ -2677,7 +2677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 99.06 45.72 0)
 			(effects
 				(font
