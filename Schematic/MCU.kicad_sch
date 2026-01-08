@@ -268,6 +268,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "fclib:CSTNE8M00G55Z000R0"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2379,253 +2565,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "fclib:TS24CA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW1"
-				(at 0.254 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TS24CA"
-				(at -1.016 -4.572 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "fch7_fp:SW-SMD_2P-TS24CA"
-				(at -0.762 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/TS24CA/372554.html"
-				(at -1.778 9.652 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Circuit:SPST Actuator Style:Rectangular Button Mounting Type:Surface Mount, Right Angle Length:4.55mm Width:1.8mm Switch Height:3.5mm Contact Current:50mA Voltage Rating:12V With Lamp:- Life:-"
-				(at 0.508 -5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "TS24CA"
-				(at -1.016 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "SHOU HAN(首韩)"
-				(at -4.572 15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C393942"
-				(at -1.016 19.304 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at -1.524 24.384 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "4.55*1.8*3.5mm 卧贴 轻触开关"
-				(at -0.762 12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Fréquence" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "TS24CA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TS24CA_0_1"
-				(circle
-					(center -2.2352 -2.7432)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TS24CA_1_0"
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.032) (xy 2.54 -0.508) (xy 2.54 -0.508) (xy 2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "fclib:TYPE-C 16PIN 2MD(073)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3245,12 +3184,6 @@
 		(uuid "11a57f2b-db4a-4e70-b176-86fb4d16cfae")
 	)
 	(junction
-		(at 57.15 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "211e6df3-1bbf-4e99-beca-e52c81f7e94a")
-	)
-	(junction
 		(at 255.27 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3279,12 +3212,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d00cd3c-ad15-478f-910f-76704edb29f2")
-	)
-	(junction
-		(at 58.42 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f64766c-7c03-4b1d-a5c1-abecccb47e84")
 	)
 	(junction
 		(at 62.23 119.38)
@@ -3351,6 +3278,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "940c2756-f95b-4500-9087-4e88a4cc8625")
+	)
+	(junction
+		(at 57.15 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96e7e4af-05fb-40d4-a381-5cdc7013a8be")
 	)
 	(junction
 		(at 102.87 29.21)
@@ -3447,16 +3380,6 @@
 			(type default)
 		)
 		(uuid "0100a653-abda-4816-97c6-f54915e4ec6f")
-	)
-	(wire
-		(pts
-			(xy 62.23 30.48) (xy 62.23 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0350fbc0-420a-4d4b-9f2b-89246e830bf0")
 	)
 	(wire
 		(pts
@@ -3860,16 +3783,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 31.75) (xy 58.42 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35cbc455-54a8-45fc-ba1d-e71202c5282c")
-	)
-	(wire
-		(pts
 			(xy 213.36 86.36) (xy 231.14 86.36)
 		)
 		(stroke
@@ -4017,16 +3930,6 @@
 			(type default)
 		)
 		(uuid "460dcf19-5a21-467f-a716-700f7a17b7bd")
-	)
-	(wire
-		(pts
-			(xy 36.83 29.21) (xy 36.83 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "466b23d9-e0f2-41d6-aab3-e07878f9a31c")
 	)
 	(wire
 		(pts
@@ -4370,16 +4273,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 29.21) (xy 58.42 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "723c6192-0c63-4b7a-bb63-5bbd498a6782")
-	)
-	(wire
-		(pts
 			(xy 93.98 147.32) (xy 93.98 148.59)
 		)
 		(stroke
@@ -4467,16 +4360,6 @@
 			(type default)
 		)
 		(uuid "7c5b1acc-0050-4111-bdce-9dc2ac41a10d")
-	)
-	(wire
-		(pts
-			(xy 62.23 29.21) (xy 58.42 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d0a0d10-0e8a-491f-a95c-1ca1b196382c")
 	)
 	(wire
 		(pts
@@ -4730,6 +4613,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 36.83) (xy 48.26 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1784fbe-0c6d-4416-9bcc-66b507bc9901")
+	)
+	(wire
+		(pts
 			(xy 45.72 101.6) (xy 63.5 101.6)
 		)
 		(stroke
@@ -4737,6 +4630,16 @@
 			(type default)
 		)
 		(uuid "b2022203-c45f-4d48-bf18-4411147d6677")
+	)
+	(wire
+		(pts
+			(xy 55.88 36.83) (xy 57.15 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b204c204-00b5-4cfc-988e-e2a28102b56a")
 	)
 	(wire
 		(pts
@@ -4937,16 +4840,6 @@
 			(type default)
 		)
 		(uuid "d14d85a1-05e4-4bec-baac-45be1213f2e3")
-	)
-	(wire
-		(pts
-			(xy 36.83 31.75) (xy 41.91 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d17ed768-c9c1-4178-87c3-1d8f06146c47")
 	)
 	(wire
 		(pts
@@ -5170,16 +5063,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 36.83) (xy 41.91 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef406a13-50e2-4ae3-9af5-1d7e10f41702")
-	)
-	(wire
-		(pts
 			(xy 129.54 163.83) (xy 127 163.83)
 		)
 		(stroke
@@ -5237,16 +5120,6 @@
 			(type default)
 		)
 		(uuid "f6305ac8-0596-4bfc-a18f-f711294c04f4")
-	)
-	(wire
-		(pts
-			(xy 57.15 31.75) (xy 58.42 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6a6a805-6860-42dd-93de-1f8c42f1d813")
 	)
 	(wire
 		(pts
@@ -6196,7 +6069,7 @@
 	)
 	(global_label "VDD_MCU"
 		(shape input)
-		(at 39.37 36.83 180)
+		(at 46.99 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6206,7 +6079,7 @@
 		)
 		(uuid "593476e7-a253-4b11-854e-f775614423a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.7367 36.83 0)
+			(at 35.3567 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,71 +7435,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2164b955-f6c4-49af-96e9-6fa53f9fb679")
-		(property "Reference" "#PWR029"
-			(at 62.23 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 33.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9c263de-1ae3-487d-8bb9-36c9b5744afe")
-		)
-		(instances
-			(project "fch7"
-				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/0293db95-115d-42d2-990d-f9f4568d02e9"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 57.15 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8601,142 +8409,6 @@
 		)
 	)
 	(symbol
-		(lib_id "fclib:TS24CA")
-		(at 49.53 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "494dafa5-5b8c-4250-8450-5b2ac62b0f2b")
-		(property "Reference" "SW1"
-			(at 49.53 26.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS24CA"
-			(at 49.53 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fch7:SW-SMD_2P-TS24CA"
-			(at 48.768 27.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/TS24CA/372554.html"
-			(at 47.752 24.638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Circuit:SPST Actuator Style:Rectangular Button Mounting Type:Surface Mount, Right Angle Length:4.55mm Width:1.8mm Switch Height:3.5mm Contact Current:50mA Voltage Rating:12V With Lamp:- Life:-"
-			(at 50.038 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "TS24CA"
-			(at 48.514 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 44.958 18.796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C393942"
-			(at 48.514 14.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 48.006 9.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "4.55*1.8*3.5mm 卧贴 轻触开关"
-			(at 48.768 21.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fréquence" ""
-			(at 49.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TS24CA"
-			(at 49.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "d89c8f8c-ccb4-43a0-a7ee-0e952896ba5c")
-		)
-		(pin "3"
-			(uuid "6be8e6df-c9ac-43cf-bcc2-0ea041c146f5")
-		)
-		(pin "2"
-			(uuid "b9c1db63-2ce5-450d-961c-e82a9a8943e4")
-		)
-		(pin "1"
-			(uuid "e1339bdb-4e37-4685-bc82-6d0303782591")
-		)
-		(instances
-			(project ""
-				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/0293db95-115d-42d2-990d-f9f4568d02e9"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 118.11 179.07 90)
 		(unit 1)
@@ -8892,6 +8564,73 @@
 			(project "fch7"
 				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/0293db95-115d-42d2-990d-f9f4568d02e9"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 52.07 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a2e62aa-ab2e-4a52-b6f9-0a1f3ab22ddd")
+		(property "Reference" "JP1"
+			(at 52.07 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 52.07 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 52.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 52.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ca21de6-d69a-4f30-9051-d95989800176")
+		)
+		(pin "1"
+			(uuid "0d8a386f-5dd5-44a2-a570-d9b127b2155f")
+		)
+		(instances
+			(project ""
+				(path "/11716af6-0e6e-444b-b738-3f12da23c1a2/0293db95-115d-42d2-990d-f9f4568d02e9"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
