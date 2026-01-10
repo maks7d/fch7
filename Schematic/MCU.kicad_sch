@@ -3352,6 +3352,10 @@
 		(uuid "3b4090f6-9bb3-4bbd-8684-2c6d68b57c1b")
 	)
 	(no_connect
+		(at 139.7 86.36)
+		(uuid "63b31ac4-6c1b-4d2a-8f0b-a68b0d5022d0")
+	)
+	(no_connect
 		(at 139.7 129.54)
 		(uuid "6666f524-7886-4f16-83a0-dcb417d6c30c")
 	)
@@ -3370,6 +3374,10 @@
 	(no_connect
 		(at 231.14 91.44)
 		(uuid "bac122c9-fab1-4d5c-9add-ab07c4e51ebc")
+	)
+	(no_connect
+		(at 139.7 83.82)
+		(uuid "f20955cf-7ec2-465f-8700-4848eb5d2468")
 	)
 	(wire
 		(pts
@@ -4233,16 +4241,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 83.82) (xy 140.97 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e467596-a847-4953-90f7-c5314a677f1f")
-	)
-	(wire
-		(pts
 			(xy 116.84 49.53) (xy 116.84 50.8)
 		)
 		(stroke
@@ -4560,16 +4558,6 @@
 			(type default)
 		)
 		(uuid "a97fb143-bbdc-4a06-ae45-7b68b5951970")
-	)
-	(wire
-		(pts
-			(xy 139.7 86.36) (xy 140.97 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9a9eaaf-7e69-4e5a-b000-3249448fdf72")
 	)
 	(wire
 		(pts
@@ -5407,28 +5395,6 @@
 			)
 		)
 	)
-	(global_label "UART7_RTS"
-		(shape input)
-		(at 104.14 148.59 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0654b381-83f0-406c-a31b-49e82bc22de4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 161.8561 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UART8_RX"
 		(shape input)
 		(at 78.74 49.53 90)
@@ -5519,22 +5485,22 @@
 	)
 	(global_label "UART1_TX"
 		(shape input)
-		(at 140.97 86.36 0)
+		(at 106.68 148.59 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "154d7fad-b813-4f3c-b572-5a029f803c0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.9661 86.36 0)
+			(at 106.68 160.5861 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5761,22 +5727,22 @@
 	)
 	(global_label "UART1_RX"
 		(shape input)
-		(at 140.97 83.82 0)
+		(at 104.14 148.59 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2a550906-2b3c-455b-9edb-c044be5c87a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.2685 83.82 0)
+			(at 104.14 160.8885 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6036,28 +6002,6 @@
 		(uuid "561b1d42-5753-464b-860b-976b45bb7959")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.6573 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART7_CTS"
-		(shape input)
-		(at 106.68 148.59 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "581d04f8-03e9-480d-b663-6cc9357980f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 161.8561 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,7 +6385,7 @@
 			)
 		)
 	)
-	(global_label "I2C1_CLK"
+	(global_label "I2C1_SCL"
 		(shape input)
 		(at 92.71 22.86 0)
 		(fields_autoplaced yes)
@@ -6453,7 +6397,7 @@
 		)
 		(uuid "91dc4730-304b-4822-b946-a7111c2e2410")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.5247 22.86 0)
+			(at 104.4642 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
