@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -187,7 +187,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -508,10 +509,6 @@
       },
       {
         "netclass": "POWER",
-        "pattern": "VDD_MCU"
-      },
-      {
-        "netclass": "POWER",
         "pattern": "VBAT"
       },
       {
@@ -540,15 +537,11 @@
       },
       {
         "netclass": "POWER",
-        "pattern": "VCC_ICM"
-      },
-      {
-        "netclass": "POWER",
         "pattern": "VDD_RECV"
       },
       {
-        "netclass": "Default",
-        "pattern": ""
+        "netclass": "POWER",
+        "pattern": "5V5_BEC"
       }
     ]
   },
