@@ -351,7 +351,7 @@
 		(uuid "8efc118d-0dd5-4baa-b880-84da16de76ad")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../3D/ICM-42688-P.stp"
+	(model "${KIPRJMOD}/../Hardware/3D/ICM-42688-P.stp"
 		(offset
 			(xyz 0 0 0)
 		)

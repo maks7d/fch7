@@ -776,7 +776,7 @@
 		(uuid "c7955313-c9a0-4134-b2e4-55ae74072227")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../3D/USB-C_standard.STEP"
+	(model "${KIPRJMOD}/../Hardware/3D/USB-C_standard.STEP"
 		(offset
 			(xyz 0 -1 0)
 		)

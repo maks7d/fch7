@@ -437,7 +437,7 @@
 		(uuid "71c510da-746e-4ab5-9c54-d65bc069e3f6")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../3D/GoertekSPL06-001.stp"
+	(model "${KIPRJMOD}/../Hardware/3D/GoertekSPL06-001.stp"
 		(offset
 			(xyz 0 0 0)
 		)

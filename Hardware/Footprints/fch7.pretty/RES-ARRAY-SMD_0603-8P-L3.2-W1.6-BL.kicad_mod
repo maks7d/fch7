@@ -329,7 +329,7 @@
 		(uuid "d80f0262-06ad-48cb-9bb8-3b06ff56b55a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../3D/4D03WGJ0101T5E.step"
+	(model "${KIPRJMOD}/../Hardware/3D/4D03WGJ0101T5E.step"
 		(offset
 			(xyz -1.7 0.8 0)
 		)

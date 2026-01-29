@@ -254,7 +254,7 @@
 		(uuid "32fd0956-f03c-432c-94fe-5ba0a75bfd71")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../3D/MP9943AGQ-Z.stp"
+	(model "${KIPRJMOD}/../Hardware/3D/MP9943AGQ-Z.stp"
 		(offset
 			(xyz 0 0 0)
 		)

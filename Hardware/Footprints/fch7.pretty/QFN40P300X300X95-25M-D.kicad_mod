@@ -316,7 +316,7 @@
 		(uuid "0b19d382-832c-44ab-9574-ba0ae0ad348d")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../3D/MPU-6500.stp"
+	(model "${KIPRJMOD}/../Hardware/3D/MPU-6500.stp"
 		(offset
 			(xyz 0 0 0.05999999776)
 		)
