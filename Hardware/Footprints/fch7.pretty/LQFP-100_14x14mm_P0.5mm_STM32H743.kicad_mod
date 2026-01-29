@@ -806,7 +806,7 @@
 		(uuid "98708302-4904-42ee-89e8-e177f1d6927f")
 	)
 	(embedded_fonts no)
-	(model "${FCH7_3DMODEL_DIR}/STM32H743VIT6.stp"
+	(model "${KIPRJMOD}/../../3D/STM32H743VIT6.stp"
 		(offset
 			(xyz 0 0 0)
 		)

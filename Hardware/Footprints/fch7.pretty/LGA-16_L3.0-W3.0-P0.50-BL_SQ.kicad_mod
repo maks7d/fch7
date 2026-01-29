@@ -504,7 +504,7 @@
 		(uuid "9728b7ae-70b5-4f74-ab4d-75973445ca85")
 	)
 	(embedded_fonts no)
-	(model "${FCH7_3DMODEL_DIR}/QMC5883L.step"
+	(model "${KIPRJMOD}/../../3D/QMC5883L.step"
 		(offset
 			(xyz 13.5 8.5 0)
 		)
