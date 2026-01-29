@@ -484,7 +484,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
-        "via_diameter": 0.3,
+        "via_diameter": 0.35,
         "via_drill": 0.15,
         "wire_width": 6
       },
@@ -517,10 +517,6 @@
       },
       {
         "netclass": "POWER",
-        "pattern": "5V_BEC"
-      },
-      {
-        "netclass": "POWER",
         "pattern": "5V"
       },
       {
@@ -542,6 +538,10 @@
       {
         "netclass": "POWER",
         "pattern": "5V5_BEC"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "FB_5V"
       }
     ]
   },
