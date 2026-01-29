@@ -20612,7 +20612,7 @@
 			(net 1 "GND")
 			(pinfunction "SHELL")
 			(pintype "passive")
-			(uuid "8e0e4588-abf9-4468-918b-19b39eddabeb")
+			(uuid "bacbae5f-6c29-4bc8-a349-d441e5e9ec50")
 		)
 		(pad "14" thru_hole oval
 			(at 4.325 -1.825 270)
@@ -20634,7 +20634,7 @@
 			(net 1 "GND")
 			(pinfunction "SHELL")
 			(pintype "passive")
-			(uuid "4bf188cb-33ea-4e88-b50f-0f084c2537d9")
+			(uuid "c93798de-2e5c-43c2-99af-bb414060081d")
 		)
 		(embedded_fonts no)
 		(model "${FCH7_3DMODEL_DIR}/USB-C_standard.STEP"
@@ -43346,14 +43346,6 @@
 		(uuid "9340c67a-fb31-4969-ae9f-baa2ace710bb")
 	)
 	(segment
-		(start 92.724967 97.175033)
-		(end 92.7 97.2)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 9)
-		(uuid "96b12503-40a9-4ae4-97e4-24b95f924958")
-	)
-	(segment
 		(start 66.690545 98.1)
 		(end 66.193805 98.59674)
 		(width 0.3)
@@ -43384,14 +43376,6 @@
 		(layer "F.Cu")
 		(net 9)
 		(uuid "b1dcf5de-610d-418b-8061-ee474f0111b5")
-	)
-	(segment
-		(start 92.724967 96.2)
-		(end 92.724967 97.175033)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 9)
-		(uuid "b6fdbe73-d924-49b0-9aa9-d6a5a7ea7695")
 	)
 	(segment
 		(start 67.3 81.4)
