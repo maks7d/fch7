@@ -3470,6 +3470,36 @@
 		)
 		(uuid "ffed42e4-8b14-4c18-bdfe-674acade2e0b")
 	)
+	(label "REGOUT"
+		(at 107.95 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f73bf74-af29-4dee-8c46-8aba6f5b47b6")
+	)
+	(label "SETC"
+		(at 66.04 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ab716f4-d2d7-4047-8ea2-78f4c9f50e54")
+	)
+	(label "SETP"
+		(at 41.91 168.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a50cad7-9d77-478b-a383-e7de98825115")
+	)
 	(global_label "SPI1_MISO"
 		(shape input)
 		(at 104.14 78.74 0)

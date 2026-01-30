@@ -1879,6 +1879,36 @@
 		)
 		(uuid "fdb2926c-eb82-4e91-b616-402b85599052")
 	)
+	(label "LED1_R"
+		(at 72.39 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38fb425a-b180-4f60-99dc-e35366ff35fd")
+	)
+	(label "LED0_R"
+		(at 72.39 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "596ad850-339f-451a-b799-1b83a60cd12b")
+	)
+	(label "LED_MCU_R"
+		(at 71.12 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae9fabf5-e5cf-4430-9e66-6b6038f28778")
+	)
 	(global_label "SDIO_D2"
 		(shape input)
 		(at 182.88 91.44 180)
