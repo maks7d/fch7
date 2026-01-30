@@ -145,4 +145,15 @@
 		(uuid "fa5a1fde-b2f9-45ad-bfc4-68cf8ec5ac92")
 	)
 	(embedded_fonts no)
+	(model "${FCH7_3DMODEL_DIR}/CM8V-T1A-32.768KHZ-7PF-20PPM-TB-QC.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
