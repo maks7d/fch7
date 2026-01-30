@@ -1920,7 +1920,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "IMU2\n"
+	(text "IMU2 - ICM42688P\n"
 		(exclude_from_sim no)
 		(at 200.66 24.892 0)
 		(effects
@@ -1930,7 +1930,7 @@
 		)
 		(uuid "21cdd363-c061-4127-a37f-03785e1f8461")
 	)
-	(text "IMU1\n"
+	(text "IMU1 - MPU6500\n"
 		(exclude_from_sim no)
 		(at 72.898 47.244 0)
 		(effects
@@ -1950,7 +1950,7 @@
 		)
 		(uuid "4667beb9-d7ce-4338-9737-68d57f1a3860")
 	)
-	(text "COMPASS\n"
+	(text "Magnetometer\n"
 		(exclude_from_sim no)
 		(at 56.388 129.794 0)
 		(effects

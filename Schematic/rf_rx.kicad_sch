@@ -3062,7 +3062,7 @@
 	)
 	(text "ELRS RX "
 		(exclude_from_sim no)
-		(at 56.388 108.712 0)
+		(at 83.058 102.362 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3151,6 +3151,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd6aa7e4-be1c-48b9-aba8-c79b392d3e95")
+	)
+	(no_connect
+		(at 189.23 67.31)
+		(uuid "1cec9b99-bfb8-4403-8324-096a82fbd410")
+	)
+	(no_connect
+		(at 189.23 69.85)
+		(uuid "3057c6a7-9073-482a-82c7-5998f435e7a5")
 	)
 	(no_connect
 		(at 189.23 102.87)
@@ -3746,16 +3754,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 67.31) (xy 189.23 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a369997c-a9dc-4d35-a05d-d4fcb028ed0c")
-	)
-	(wire
-		(pts
 			(xy 236.22 29.21) (xy 240.03 29.21)
 		)
 		(stroke
@@ -3813,16 +3811,6 @@
 			(type default)
 		)
 		(uuid "ad15501c-42e6-4e64-a19b-f99d9f0e50ed")
-	)
-	(wire
-		(pts
-			(xy 187.96 69.85) (xy 189.23 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad1bd458-e483-4f5d-9596-e32343e4c1cd")
 	)
 	(wire
 		(pts
@@ -4232,50 +4220,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C1_SDA"
-		(shape input)
-		(at 187.96 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "137008fb-0193-49a0-9939-9e261792cedd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.1453 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C1_SCL"
-		(shape input)
-		(at 187.96 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1cd7ff66-a1a9-496d-b8eb-bd8d1b0239f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.2058 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
