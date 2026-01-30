@@ -1,4 +1,4 @@
-27294279224145469
+27296049035949481
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107957,6 +107957,13 @@ fch7
 CSTNE8M00G55Z000R0
 CSTNE8M00G55Z000R0-2
 Crystal or Oscillator
+0
+3
+3
+fch7
+HIROSE_U.FL-R-SMT-1_01_
+
+
 0
 3
 3
