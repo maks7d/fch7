@@ -1556,7 +1556,7 @@
 		)
 		(uuid "1e0ff212-22f6-4696-b524-2f27972cb74c")
 	)
-	(text "LDO regulator 4V5 to 3.3V for MCU power supply"
+	(text "LDO regulator 5V to 3.3V for MCU power supply"
 		(exclude_from_sim no)
 		(at 172.212 16.256 0)
 		(effects

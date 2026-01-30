@@ -393,7 +393,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../Hardware/3D/SM06B-SRSS-TB--3DModel-STEP-269445.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -0.3 0)
 		)
 		(scale
 			(xyz 1 1 1)
