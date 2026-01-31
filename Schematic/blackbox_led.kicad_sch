@@ -1141,7 +1141,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 78.74) (xy 62.23 78.74)
+			(xy 57.15 78.74) (xy 58.42 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1651,7 +1651,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 78.74) (xy 80.01 78.74)
+			(xy 66.04 78.74) (xy 80.01 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1900,7 +1900,7 @@
 		(uuid "596ad850-339f-451a-b799-1b83a60cd12b")
 	)
 	(label "LED_MCU_R"
-		(at 71.12 78.74 0)
+		(at 68.58 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2109,7 +2109,7 @@
 	)
 	(global_label "VDD_MCU"
 		(shape input)
-		(at 60.96 78.74 180)
+		(at 57.15 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2119,7 +2119,7 @@
 		)
 		(uuid "bbbf0597-fa90-4e6a-a2b5-54d53c678012")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.3267 78.74 0)
+			(at 45.5167 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +3459,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 66.04 78.74 180)
+		(at 62.23 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3467,7 +3467,7 @@
 		(dnp no)
 		(uuid "6728cd85-8311-440c-ad38-51b0394be308")
 		(property "Reference" "D5"
-			(at 63.246 77.724 0)
+			(at 59.436 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3475,7 +3475,7 @@
 			)
 		)
 		(property "Value" "NCD0603R3"
-			(at 71.882 75.438 0)
+			(at 68.072 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,7 +3483,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 66.04 78.74 0)
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3492,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C3151730.pdf"
-			(at 66.04 78.74 0)
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,7 +3501,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 66.04 78.74 0)
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +3510,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 66.04 78.74 0)
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3519,7 @@
 			)
 		)
 		(property "Fréquence" ""
-			(at 66.04 78.74 0)
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3528,7 @@
 			)
 		)
 		(property "MPN" "NCD0603R3"
-			(at 66.04 78.74 0)
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +3537,7 @@
 			)
 		)
 		(property "Manufacturer" "NATIONSTAR"
-			(at 66.04 78.74 0)
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
