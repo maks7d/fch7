@@ -28,3 +28,4 @@ __pycache__/
 #gerber files
 *.gbr
 *.gbrjob
+kicad_to_llm.py
