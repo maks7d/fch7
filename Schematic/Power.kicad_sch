@@ -1596,7 +1596,7 @@
 		)
 		(uuid "9c33dd5e-f5b5-45eb-b579-306c866cd6cf")
 	)
-	(text "Voltage divider bridge for buck regulator feedback\n\nV_{out} = V_{fb} * (1+ R_{fb}/R_{gnd})"
+	(text "Voltage divider bridge for buck regulator feedback\n\nV_{out} = V_{fb} * (1+ R_{Vout}/R_{gnd})"
 		(exclude_from_sim no)
 		(at 62.738 141.732 0)
 		(effects
